@@ -1,14 +1,15 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       Personal blog of Dmitrii M. Ostrovskii
+email:       ostrodmit@gmail.com
+author:      Dmitrii M. Ostrovskii
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  - contact.html
+github_username:  ostrodmit
 
 # Google services
 google_verification:
