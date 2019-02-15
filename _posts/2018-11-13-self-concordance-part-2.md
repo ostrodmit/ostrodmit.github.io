@@ -14,7 +14,7 @@ Recall that in the previous post, we have proved the Localization Lemma which st
 guarantees that once the *score* $\Vert\nabla L\_n(\theta_\*) \Vert_{\mathbf{H}^{-1}}^2$ reaches $\Vert\nabla L\_n(\theta_\*) \Vert_{\mathbf{H}^{-1}}^2 \lesssim r^2,$
 one has the desired excess risk bound:
 \\[
-L(\widehat \theta_n) - L(\theta_\*) \lesssim \Vert\widehat \theta_n - \theta_\*\Vert_{\mathbf{H}}^2 \lesssim \Vert\nabla L_n(\theta_\*) \Vert_{\mathbf{H}^{-1}}^2
+L(\widehat \theta_n) - L(\theta_\*) \lesssim \Vert\widehat \theta_n - \theta_\*\Vert_{\mathbf{H}}^2 \lesssim \Vert\nabla L_n(\theta_\*) \Vert_{\mathbf{H}^{-1}}^2.
 \\]
 I will now show how self-concordance allows to obtain such guarantees for $\mathbf{H}\_n(\theta)$.
 
