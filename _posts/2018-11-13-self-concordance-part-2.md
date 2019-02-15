@@ -3,7 +3,7 @@ layout: post
 title:  "Finite-sample analysis of $M$-estimators using self-concordance, Part II"
 author: "Dmitrii M. Ostrovskii"
 date:   2018-11-13
-categories: jekyll update
+categories: 
 ---
 
 This the second of two posts where I present [**our work**](https://arxiv.org/abs/1810.06838) with Francis Bach on the optimal rates for $M$-estimators. 
@@ -21,7 +21,7 @@ L(\widehat \theta_n) - L(\theta_\*) \lesssim \Vert\widehat \theta_n - \theta_\*\
 \\]
 In this post, we will show how self-concordance can be used to prove stability guarantees for $\mathbf{H}\_n(\theta)$.
 
-# **Self-concordance**
+## Self-concordance ##
 
 Recall that $\ell(y,\eta)$ is the loss of predicting a label $y \in \mathcal{Y}$ with $\eta = X^\top \theta \in \mathbb{R}$. We assume that $\ell(y,\eta)$ is convex in its second argument, and introduce
 the following definition: 
@@ -209,7 +209,7 @@ In fact, in the paper we show that in logistic regression with Gaussian design $
 \\]
 Still, $\rho \gg 1$ when $\Vert\theta_\*\Vert_{\boldsymbol{\Sigma}} \gg 1$, and our construction of self-concordant analogues of the Huber and logistic losses remains useful.
 
-# **Near-linear bounds by a covering argument**
+## Near-linear bounds via a covering argument ##
 
 In fact, we can get rid of the extra $O(d)$ factor in the previous bounds for the critical sample size, and obtain the bounds that scale near-linearly in $\max(d, d_{eff})$. 
 In particular, in the case of self-concordant losses the critical sample size in the case of SC losses can be reduced to
@@ -262,37 +262,37 @@ In a nutshell, this argument combines the following ingredients:
 where $\Vert\cdot\Vert$ is the operator norm, and $\mathcal{N}$ is the epsilon-net corresponding to the covering of $\Theta_c(\theta_\*)$.
 This gives the extra $O(\log d)$ factor in \eqref{eq:n-mine-improved} since $\log(|\mathcal{N}|) = O(d \log d)$.
 
-# **Conclusion**
+## Conclusion ##
 We have demonstrated how to obtain fast rates for the excess risk of $M$-estimators in finite-sample regimes. 
 Our analysis can handle $M$-estimators with losses satisfying certain self-concordance-type assumptions that hold in some generalized linear models, notably logistic regression, and in robust estimation.
 These assumptions allow to control the precision of the local quadratic approximations of the empirical risk. 
 
 One topic that remained beyond the scope of this post is the $\ell_1$-regularized estimators in sparse high-dimensional regimes. There, we have not yet established the improved rates that should scale near-linearly with the sparsity of $\theta_\*$. Another possible extension are matrix-parametrized models that arise in covariance matrix estimation and independent component analysis, and application of our techniques to algorithmically efficient procedures such as stochastic approximation.
 
-# **References**
+## References ##
 
-[[1] B. Laurent and P. Massart. Adaptive estimation of a quadratic functional by model selection.](https://projecteuclid.org/euclid.aos/1015957395#info) 
+1. B. Laurent and P. Massart. Adaptive estimation of a quadratic functional by model selection.
 *Ann. Statist.*, 28:5(2000), 1302-1338.
 
-[[2] V. Spokoiny. Parametric estimation. Finite sample theory.](https://projecteuclid.org/euclid.aos/1360332187#info) 
+2. V. Spokoiny. Parametric estimation. Finite sample theory.
 *Ann. Statist.*, 40:6(2012), 2877-2909.
 
-[[3] A. Nemirovski and Yu. Nesterov. Interior-point polynomial algorithms in convex programming.](https://epubs.siam.org/doi/book/10.1137/1.9781611970791?mobileUi=0) 
+3. A. Nemirovski and Yu. Nesterov. Interior-point polynomial algorithms in convex programming.
 *Society for Industrial and Applied Mathematics, Philadelphia, 1994.*
 
-[[4] F. Bach. Self-concordant analysis for logistic regression.](https://projecteuclid.org/euclid.ejs/1271941980) 
-*Electron. J. Stat., 4(2010), 384-414.*
+4. F. Bach. Self-concordant analysis for logistic regression.
+*Electron. J. Stat.*, 4(2010), 384-414.
 
-[[5] R. Vershynin. Introduction to the non-asymptotic analysis of random matrices.](https://arxiv.org/abs/1011.3027) 
+5. R. Vershynin. Introduction to the non-asymptotic analysis of random matrices.
 *Compressed Sensing: Theory and Applications, 210--268*. Cambridge University Press, 2012.
 
-[[6] D. Hsu, S. Kakade, and T. Zhang. Random design analysis of ridge regression.](http://proceedings.mlr.press/v23/hsu12/hsu12.pdf) *COLT, 2012.*
+6. D. Hsu, S. Kakade, and T. Zhang. Random design analysis of ridge regression. *COLT, 2012.*
 
-[[7] P. Bartlett, M. Jordan, and J. McAuliffe. Convexity, classification, and risk bounds.](https://people.eecs.berkeley.edu/~wainwrig/stat241b/bartlettetal.pdf)
+7. P. Bartlett, M. Jordan, and J. McAuliffe. Convexity, classification, and risk bounds.
 *J. Am. Stat. Assoc.*, 101:473(2006), 138--156.
 
-[[8] E. Hazan, T. Koren, and K. Levy. Logistic regression: tight bounds for stochastic and online optimization.](http://proceedings.mlr.press/v35/hazan14a.html)
+8. E. Hazan, T. Koren, and K. Levy. Logistic regression: tight bounds for stochastic and online optimization.
 *COLT, 2014.*
 
-[[9] F. Bach and E. Moulines. Non-strongly-convex smooth stochastic approximation with convergence rate $O(1/n)$.](https://arxiv.org/abs/1306.2119)
+9. F. Bach and E. Moulines. Non-strongly-convex smooth stochastic approximation with convergence rate $O(1/n)$.
 *NIPS, 2013.*
