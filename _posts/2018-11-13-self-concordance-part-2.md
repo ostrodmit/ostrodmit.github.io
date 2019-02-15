@@ -105,12 +105,14 @@ Fortunately, the Huber loss can be well-approximated by some *pseudo-Huber losse
 This fact allows to construct SC losses with derivatives ranging over a given interval, by computing the convex conjugate of the logarithmic barrier of a given subset of $\mathbb{R}$. In particular, taking the log-barrier on $[-1,1]$, we obtain an analogue of Huber's loss, and the log-barrier on $[-1,0]$ results in the analogue of the logistic loss (see the figure below). 
 Note that in the latter case, our loss does not upper bound for the 0-1 loss. However, its negative part grows as a logarithm, and using the calibration theory of [[7]](https://people.eecs.berkeley.edu/~wainwrig/stat241b/bartlettetal.pdf), one can show that the related expected risk still well-approximates the probability of misclassification.
 
+<center>
 <figure>
 <img src="{{site.baseurl}}/figs/robust-for-blog.png" alt="Robust regression loss" width="360"/> <img src="{{site.baseurl}}/figs/class-for-blog.png" alt="Robust classification loss" width="360"/>
 <figcaption>
 Our self-concordant analogues of the Huber and logistic losses.
 </figcaption>
 </figure>
+</center>
 
 ## Integration argument and the basic result ##
 By the Localization Lemma, our task reduces to proving that the empirical Hessian is stable, with high probability, in the Dikin ellipsoid $\Theta_r(\theta_\*)$ with a *constant* radius $r$. 
@@ -236,12 +238,14 @@ For example, in the paper we show that in logistic regression with $X \sim \math
 \\]
 where $K_2$ is the subgaussian constant of $\mathbf{H}(\theta_\*)^{-1/2}\tilde X(\theta_\*)$, and the two assumptions are equivalent.
 
+<center>
 <figure>
 <img src="{{site.baseurl}}/figs/covering-cropped.png" alt="Covering the Dikin ellipsoid" width="600"/>
 <figcaption>
 Covering the unit Dikin ellipsoid with smaller ones.
 </figcaption>
 </figure>
+</center>
 
 Let us briefly explain the main ideas behind the proof of the improved bounds (see the figure above).
 First of all, recall that the extra $d$ factor in the previous bounds appeared because we used self-concordance of the *individual losses*, which only allowed to prove stability of the empirical Hessian in a small Dikin ellipsoid with radius $O(1/\sqrt{d})$.
