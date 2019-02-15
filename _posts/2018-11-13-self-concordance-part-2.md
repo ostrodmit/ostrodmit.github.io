@@ -6,7 +6,7 @@ date:   2018-11-13
 categories: 
 ---
 
-This the second of two posts where I present [**our work**](https://arxiv.org/abs/1810.06838) with Francis Bach on the optimal rates for $M$-estimators. 
+This the second of two posts where I present [**our recent work with Francis Bach**](https://arxiv.org/abs/1810.06838) on the optimal finite-sample rates for $M$-estimators. 
 Recall that in the previous post, we have proved the Localization Lemma which states the following: stability of the empirical risk Hessian $\mathbf{H}\_n(\theta)$ on the Dikin ellipsoid $\Theta_{r}(\theta_\*)$ with radius $r$,
 \\[
 \mathbf{H}\_n(\theta) \asymp \mathbf{H}\_n(\theta_\*), \, \forall \theta \in \Theta\_{r}(\theta_\*),
@@ -16,7 +16,7 @@ one has the desired excess risk bound:
 \\[
 L(\widehat \theta_n) - L(\theta_\*) \lesssim \Vert\widehat \theta_n - \theta_\*\Vert_{\mathbf{H}}^2 \lesssim \Vert\nabla L_n(\theta_\*) \Vert_{\mathbf{H}^{-1}}^2
 \\]
-In this post, we will show how self-concordance allows to prove such stability guarantees for $\mathbf{H}\_n(\theta)$.
+I will now show how self-concordance allows to obtain such guarantees for $\mathbf{H}\_n(\theta)$.
 
 ## Self-concordance ##
 
@@ -117,7 +117,7 @@ On the other hand, self-concordance easily allows to get
 \\[
 r = O\left(\frac{1}{\sqrt{d}}\right)
 \\] 
-using a simple integration technique sketched below. This leads to the sample size bound
+using a simple integration technique sketched below. This leads to the bound
 \\[
 n \gtrsim d \cdot d_{eff},
 \\]
@@ -169,7 +169,6 @@ L(\widehat\theta_n) - L(\theta_\*) \lesssim \Vert\widehat\theta_n - \theta_\*\Ve
 \boxed{
 n \gtrsim \max\left\\{K_2^4 \left( {\color{blue}  d} + \log\left(1/\delta\right)\right), \; {\color{red} d} K_1^2 K_2^2 {\color{blue}{d_{eff}}}\log\left(d/{\delta}\right)\right\\}.
 }
-\tag{SC}
 \end{equation}
 
 We see that the critical sample size grows as the **product** of $d_{eff}$ and $d$, since we can only guarantee that $\mathbf{H}_n(\theta)$ is stable in the small Dikin ellipsoid with $O(1/\sqrt{d})$ radius.
@@ -200,7 +199,7 @@ Note that the only *generic* upper bound available for $\rho$ is
 \\[
 \rho \le \frac{1}{\inf_{\eta} \ell\'\'\_{\eta}(y,\eta)},
 \\]
-where $\eta$ ranges over the set $\left\\{\eta(\theta) = X^{\top} \theta, \;\theta \in \Theta \right\\},$ and $\Theta$ is the set of possible predictors. In particular, in logistic regression with $\Vert X \Vert_2 \le D$ and $\Theta = \{\theta \in \mathbb{R}^d: \Vert\theta\Vert_2 \le R\}$, this gives 
+where $\eta$ ranges over the set $\left\\{\eta(\theta) = X^{\top} \theta, \;\theta \in \Theta \right\\},$ and $\Theta$ is the set of possible predictors. In particular, in logistic regression with $\Vert X \Vert_2 \le D$ and $\Theta = \\{\theta \in \mathbb{R}^d: \Vert\theta\Vert_2 \le R\\}$, this gives 
 \\[
 \rho \lesssim \exp({RD}).
 \\]
@@ -255,7 +254,7 @@ Such bound could have been obtained via an integration argument, should we have 
 However, unlike the individual losses, *the empirical risk is not self-concordant*,  we have to come up with a more subtle argument. 
 In a nutshell, this argument combines the following ingredients:
 
-1. *Self-concordance of expected risk* $L(\theta)$ on $\Theta\_c(\theta_\*)$, with $c = 1/\bar K_2^{3/2}$, which follows from the subgaussian assumption about $\tilde X(\theta)$ and the relation between the moments of a subgaussian vector. This guarantees that for any $\theta \in \Theta\_c(\theta_\*)$ it holds
+1. *Self-concordance of the expected risk* $L(\theta)$ on $\Theta\_c(\theta_\*)$, with $c = 1/\bar K_2^{3/2}$, which follows from the subgaussian assumption about $\tilde X(\theta)$ and the relation between the moments of a subgaussian vector. This guarantees that for any $\theta \in \Theta\_c(\theta_\*)$ it holds
 \\[
 \mathbf{H}(\theta) \asymp \mathbf{H}(\theta_\*).
 \\]
@@ -275,7 +274,7 @@ This gives the extra $O(\log d)$ factor in \eqref{eq:n-mine-improved} since $\lo
 ## Conclusion ##
 We have demonstrated how to obtain fast rates for the excess risk of $M$-estimators in finite-sample regimes. 
 Our analysis can handle $M$-estimators with losses satisfying certain self-concordance-type assumptions that hold in some generalized linear models, notably logistic regression, and in robust estimation.
-These assumptions allow to control the precision of the local quadratic approximations of the empirical risk. 
+These assumptions allow to control the precision of local quadratic approximations for the empirical risk. 
 
 One topic that remained beyond the scope of this post is the $\ell_1$-regularized estimators in sparse high-dimensional regimes. There, we have not yet established the improved rates that should scale near-linearly with the sparsity of $\theta_\*$. Another possible extension are matrix-parametrized models that arise in covariance matrix estimation and independent component analysis, and application of our techniques to algorithmically efficient procedures such as stochastic approximation.
 
