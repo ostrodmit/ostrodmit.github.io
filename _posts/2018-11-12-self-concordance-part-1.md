@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finite-sample analysis of $M$-estimators via self-concordance, Part I"
+title:  "Finite-sample analysis of $M$-estimators via self-concordance, I"
 author: "Dmitrii M. Ostrovskii"
 date:   2018-11-12
 categories: 
