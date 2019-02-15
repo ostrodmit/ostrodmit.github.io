@@ -5,17 +5,17 @@
 
 .site-header a {
   color: $header-color;
-  font-size: $h2;
+  font-size: $h3;
   font-weight: $header-font-weight;
   background-image: none;
 }
 
 .site-header .site-title {
-  font-size: $h3;
+  font-size: $h2;
 }
 
 .site-nav {
-  padding-top: $nav-padding;
+  margin-top: $nav-padding;
 }
 
 .site-header nav a {
@@ -38,7 +38,7 @@
 }
 
 .site-nav a + a {
-  padding-left: $nav-link-padding-x;
+  margin-left: $nav-link-padding-x;
 }
 
 .site-header a:hover,
