@@ -9,7 +9,6 @@ date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  - contact.html
-github_username:  ostrodmit
 
 # Google services
 google_verification:
@@ -48,7 +47,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: ostrodmit
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
