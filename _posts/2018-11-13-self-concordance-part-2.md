@@ -106,13 +106,13 @@ This fact allows to construct SC losses with derivatives ranging over a given in
 Note that in the latter case, our loss does not upper bound for the 0-1 loss. However, its negative part grows as a logarithm, and using the calibration theory of [[7]](https://people.eecs.berkeley.edu/~wainwrig/stat241b/bartlettetal.pdf), one can show that the related expected risk still well-approximates the probability of misclassification.
 
 <figure>
-<img src="/figs/robust-for-blog.png" alt="drawing" width="360"/> <img src="/figs/class-for-blog.png" alt="drawing" width="360"/>
+<img src="{{site.baseurl}}/figs/robust-for-blog.png" alt="Robust regression loss" width="360"/> <img src="{{site.baseurl}}/figs/class-for-blog.png" alt="Robust classification loss" width="360"/>
 <figcaption>
-**Figure.** Our self-concordant analogues of the Huber and logistic losses.
+Our self-concordant analogues of the Huber and logistic losses.
 </figcaption>
 </figure>
 
-## Integration argument and the basic result $$
+## Integration argument and the basic result ##
 By the Localization Lemma, our task reduces to proving that the empirical Hessian is stable, with high probability, in the Dikin ellipsoid $\Theta_r(\theta_\*)$ with a *constant* radius $r$. 
 On the other hand, self-concordance easily allows to get 
 \\[
@@ -236,7 +236,12 @@ For example, in the paper we show that in logistic regression with $X \sim \math
 \\]
 where $K_2$ is the subgaussian constant of $\mathbf{H}(\theta_\*)^{-1/2}\tilde X(\theta_\*)$, and the two assumptions are equivalent.
 
-<img src="/figs/covering-cropped.png" alt="drawing" width="600"/>
+<figure>
+<img src="{{site.baseurl}}/figs/covering-cropped.png" alt="Covering the Dikin ellipsoid" width="600"/>
+<figcaption>
+Covering the unit Dikin ellipsoid with smaller ones.
+</figcaption>
+</figure>
 
 Let us briefly explain the main ideas behind the proof of the improved bounds (see the figure above).
 First of all, recall that the extra $d$ factor in the previous bounds appeared because we used self-concordance of the *individual losses*, which only allowed to prove stability of the empirical Hessian in a small Dikin ellipsoid with radius $O(1/\sqrt{d})$.
