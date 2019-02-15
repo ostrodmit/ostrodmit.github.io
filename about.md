@@ -16,4 +16,4 @@ I work on various aspects of machine learning, statistics, optimization, and sig
 
 The purpose of this blog is to present my research to a broader audience.
 
-[Here](https://ostrodmit.blog/) you could find some posts on the topics I was interested in as a PhD student.
+[Here](https://ostrodmit.blog/) you can find some posts on the topics I was interested in as a PhD student.
