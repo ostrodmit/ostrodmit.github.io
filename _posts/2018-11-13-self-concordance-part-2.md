@@ -6,7 +6,7 @@ date:   2018-11-13
 categories: 
 ---
 
-This the second of two posts where I present [**our recent work with Francis Bach**](https://arxiv.org/abs/1810.06838) on the optimal finite-sample rates for $M$-estimators. 
+This is the second of two posts where I present [**our recent work with Francis Bach**](https://arxiv.org/abs/1810.06838) on the optimal finite-sample rates for $M$-estimators. 
 Recall that in the previous post, we have proved the Localization Lemma which states the following: stability of the empirical risk Hessian $\mathbf{H}\_n(\theta)$ on the Dikin ellipsoid $\Theta_{r}(\theta_\*)$ with radius $r$,
 \\[
 \mathbf{H}\_n(\theta) \asymp \mathbf{H}\_n(\theta_\*), \, \forall \theta \in \Theta\_{r}(\theta_\*),
