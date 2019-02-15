@@ -3,8 +3,8 @@ title:       Look at the Corners!
 email:       ostrodmit@gmail.com
 author:      Dmitrii M. Ostrovskii
 description: "Research blog of Dmitrii M. Ostrovskii"
-baseurl:     ""
-url:         ""
+baseurl:     "/blog"
+url:         "http://github.com/ostrodmit"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
