@@ -4,7 +4,7 @@ email:       ostrodmit@gmail.com
 author:      Dmitrii M. Ostrovskii
 description: "Research blog of Dmitrii M. Ostrovskii"
 baseurl:     "/blog"
-url:         "http://github.com/ostrodmit"
+url:         "http://ostrodmit.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
