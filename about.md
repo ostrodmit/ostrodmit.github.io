@@ -15,4 +15,4 @@ The purpose of this blog is to present my research to a broader audience.
 Currently I am a postdoc at INRIA Paris in the group of [Francis Bach](https://www.di.ens.fr/~fbach/).
 I defended my PhD thesis at the University of Grenoble, supervised by [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html) who is now at the University of Washington.
 
-As an undergraduate, I spent two years at the [Institute for Information Transmission Problems](http://iitp.ru/en/about) working on probabilistic modeling of wireless networks. 
+As an undergraduate, I spent two years at the [Institute for Information Transmission Problems](http://iitp.ru/en/about) in Moscow, working on probabilistic modeling of wireless networks.
