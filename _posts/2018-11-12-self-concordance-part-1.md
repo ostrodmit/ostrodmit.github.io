@@ -104,8 +104,8 @@ L(\widehat\theta_n)  - L(\theta_\*)
 \tag{$\star$}
 \end{equation}
 
-where~$\approx$ hides the $o(1/n)$ factor when~$n \to \infty$. 
-In fact, the analysis leading to \eqref{eq:crb-prob} can be summarized in three steps:
+where $\approx$ hides the $o(1/n)$ factor when $n \to \infty$. 
+The analysis leading to \eqref{eq:crb-prob} can be summarized in three steps:
 
 1. First, one can easily control the squared "natural" norm of the score, $\Vert\nabla L_n(\theta_\*)\Vert_{\mathbf{H}^{-1}}^2$, by the central limit theorem, since it is the average of i.i.d. quantities -- squared norms of the gradients
 \\[

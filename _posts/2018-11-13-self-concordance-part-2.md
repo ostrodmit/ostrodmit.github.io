@@ -174,7 +174,7 @@ n \gtrsim \max\left\\{K_2^4 \left( {\color{blue}  d} + \log\left(1/\delta\right)
 We see that the critical sample size grows as the **product** of $d_{eff}$ and $d$, since we can only guarantee that $\mathbf{H}_n(\theta)$ is stable in the small Dikin ellipsoid with $O(1/\sqrt{d})$ radius.
 In fact, this result can be improved. But before showing how this can be achieved, let me consider the case of PSC losses. 
 
-# **Pseudo self-concordant losses**
+## Pseudo self-concordant losses ##
 
 In the case of PSC losses, a  integration argument -- but this time integrating $\|\ell\'\'\'(y,\eta)\| \le \ell\'\'(y,\eta)$ -- implies that in order to bound the ratio of the second derivatives, we must ensure that
 \\[
