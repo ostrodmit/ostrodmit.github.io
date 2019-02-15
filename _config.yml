@@ -1,8 +1,8 @@
 # Site settings
-title:       Personal blog of Dmitrii M. Ostrovskii
+title:       Look at the Corners!
 email:       ostrodmit@gmail.com
 author:      Dmitrii M. Ostrovskii
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Math blog of Dmitrii Ostrovskii"
 baseurl:     ""
 url:         ""
 date_format: "%b %-d, %Y"
