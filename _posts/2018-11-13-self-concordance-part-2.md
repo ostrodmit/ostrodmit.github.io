@@ -3,9 +3,9 @@ layout: post
 title:  "Finite-sample analysis of $M$-estimators via self-concordance, II"
 author: "Dmitrii M. Ostrovskii"
 date:   2018-11-13
+image: /figs/covering-cropped.png
 categories: 
 ---
-
 This is the second of two posts where I present [**our recent work with Francis Bach**](https://arxiv.org/abs/1810.06838) on the optimal finite-sample rates for $M$-estimators. 
 Recall that in the previous post, we have proved the Localization Lemma which states the following: stability of the empirical risk Hessian $\mathbf{H}\_n(\theta)$ on the Dikin ellipsoid $\Theta_{r}(\theta_\*)$ with radius $r$,
 \\[
