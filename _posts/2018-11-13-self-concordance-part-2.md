@@ -100,7 +100,7 @@ Fortunately, the Huber loss can be well-approximated by some *pseudo-Huber losse
 > The Fenchel conjugate of a self-concordant function $\varphi^*: D \to \mathbb{R}$, where $D \subseteq \mathbb{R}$, is also self-concordant.
 
 This fact allows to construct SC losses with derivatives ranging over a given interval, by computing the convex conjugate of the logarithmic barrier of a given subset of $\mathbb{R}$. In particular, taking the log-barrier on $[-1,1]$, we obtain an analogue of Huber's loss, and the log-barrier on $[-1,0]$ results in the analogue of the logistic loss (see the figure below). 
-Note that in the latter case, our loss does not upper bound for the 0-1 loss. However, its negative part grows as a logarithm, and using the calibration theory of [[7]](https://people.eecs.berkeley.edu/~wainwrig/stat241b/bartlettetal.pdf), one can show that the related expected risk still well-approximates the probability of misclassification.
+Note that in the latter case, our loss does not upper bound for the 0-1 loss. However, its negative part grows as a logarithm, and using the well-known calibration theory from (Bartlett et al., 2006), one can show that the related expected risk still well-approximates the probability of misclassification.
 
 <center>
 <figure>
@@ -203,8 +203,8 @@ where $\eta$ ranges over the set $\left\\{\eta(\theta) = X^{\top} \theta, \;\the
 \\[
 \rho \lesssim \exp({RD}).
 \\]
-Moreover, this bound is achievable on a certain (quite artificial) distribution of $X$ as shown in [[8]](http://proceedings.mlr.press/v35/hazan14a.html).
-However, the *actual* value of $\rho$ depends on the data distribution, and is moderate when this distribution is not chosen adversarially as discussed in [[9]](https://arxiv.org/abs/1306.2119).
+Moreover, this bound is achievable on a certain (quite artificial) distribution of $X$ as shown in (Hazan et al., 2014).
+However, the *actual* value of $\rho$ depends on the data distribution, and is moderate when this distribution is not chosen adversarially as discussed in (Bach and Moulines, 2013).
 In fact, in the paper we show that in logistic regression with Gaussian design $X \sim \mathcal{N}(0, \boldsymbol{\Sigma})$ one has
 \\[
 \rho \lesssim 1+\Vert\theta_\*\Vert_{\boldsymbol{\Sigma}}^3.
