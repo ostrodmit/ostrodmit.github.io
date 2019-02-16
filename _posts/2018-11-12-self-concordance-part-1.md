@@ -92,7 +92,7 @@ irrespectively of the true distribution of the noise, whenever $X$ and $Y$ have 
 
 Returning to the results of the LAN theory, \eqref{eq:lan-fisher} implies that the scaled prediction error $n\Vert \widehat\theta_n-\theta_\*\Vert_{\mathbf{H}}^2$ asymptotically has the generalized chi-square distribution -- namely, it distributed as the square of $\mathcal{N}(0, \mathbf{H}^{-1/2} \mathbf{G} \mathbf{H}^{-1/2})$. 
 Moreover, it can also be obtained that $2n[L(\widehat\theta_n) - L(\theta_\*)]$ has the same asymptotic distribution. 
-Using the standard chi-square deviation bound from [[1]](https://projecteuclid.org/euclid.aos/1015957395#info), we can summarize this result in terms of asymptotic confidence bounds for the excess risk and prediction distance:
+Using the standard chi-square deviation bound from (Laurent and Massart, 2000), we can summarize this result in terms of asymptotic confidence bounds for the excess risk and prediction distance:
 \begin{equation}
 \label{eq:crb-prob}
 \boxed{
@@ -105,7 +105,8 @@ L(\widehat\theta_n)  - L(\theta_\*)
 \end{equation}
 
 where $\approx$ hides the $o(1/n)$ factor when $n \to \infty$. 
-The analysis leading to \eqref{eq:crb-prob} can be summarized in three steps:
+
+The analysis leading to \eqref{eq:crb-prob} can be done in three steps:
 
 1. First, one can easily control the squared "natural" norm of the score, $\Vert\nabla L_n(\theta_\*)\Vert_{\mathbf{H}^{-1}}^2$, by the central limit theorem, since it is the average of i.i.d. quantities -- squared norms of the gradients
 \\[
@@ -159,9 +160,10 @@ This classical fact, whose proof we omit here, can be obtained from the relation
 ## Finite-sample setup: the challenge ##
 When we want to prove a non-asymptotic analogue of \eqref{eq:crb-prob} in the finite-sample setup, the first step of the asymptotic ''recipe'' remains more or less the same: one can simply use Hoeffding's inequality instead of the central limit theorem to control $\Vert \nabla L_n(\theta_\*) \Vert_{\mathbf{H}^{-1}}^2$ under subgaussian assumptions on the loss gradients. 
 Also, the third step relies to a non-statistical argument since the sample size does not figure in it at all, so there are no changes here as well.
-Thus, the challenge is in the second (localization) step: now we must prove that $L_n(\widehat\theta_n) - L_n(\theta_\*)$ is close to its second-order Taylor approximation centered at $\theta_\*$, without taking the limit. As we will see a bit later, this could be reduced to showing that $\mathbf{H}\_n(\theta)$ is near-constant, with high probability, uniformly over the Dikin ellipsoid $\Theta_{c}(\theta_\*)$ with constant radius. Since the same property is known to be  for the non-random Hessian $\mathbf{H}(\theta)$, our task boils down to bounding the uniform deviations of $\mathbf{H}\_n(\theta)$ from $\mathbf{H}(\theta)$ on $\Theta_{c}(\theta\_\*)$. Generally, this task is rather complicated, and requires the advanced theory of empirical processes together with some global assumptions on the whole domain of $\theta$, see, e.g., [[2]](https://projecteuclid.org/euclid.aos/1360332187#info).
+Thus, the challenge is in the second (localization) step: now we must prove that $L_n(\widehat\theta_n) - L_n(\theta_\*)$ is close to its second-order Taylor approximation centered at $\theta_\*$, without taking the limit. As we will see a bit later, this could be reduced to showing that $\mathbf{H}\_n(\theta)$ is near-constant, with high probability, uniformly over the Dikin ellipsoid $\Theta_{c}(\theta_\*)$ with constant radius. Since the same property is known to be  for the non-random Hessian $\mathbf{H}(\theta)$, our task boils down to bounding the uniform deviations of $\mathbf{H}\_n(\theta)$ from $\mathbf{H}(\theta)$ on $\Theta_{c}(\theta\_\*)$. Generally, this task is rather complicated, and requires the advanced theory of empirical processes together with some global assumptions on the whole domain of $\theta$, see, e.g., (Spokoiny, 2012).
 However, in some cases it can be made simpler through the delicate use of **self-concordance**. 
-This concept was introduced in [[3]](https://epubs.siam.org/doi/book/10.1137/1.9781611970791?mobileUi=0) in the context of interior-point methods, and brought to the attention of the statistical learning community in [[4]](https://projecteuclid.org/euclid.ejs/1271941980). 
+This concept was introduced by Nemirovski and Nesterov (1994) in the context of interior-point methods, and brought to the attention of the statistical learning community by Bach (2010). 
+
 Our next goal is to understand the role of this concept in the finite-sample analysis.
 
 ## Simple case: least-squares ##
@@ -172,7 +174,7 @@ Specifically, recalling the definition of calibrated design $\tilde X(\theta)$, 
 \\[
 \mathbf{H} \equiv \mathbb{E}[X X^{\top}], \quad \mathbf{H}\_n \equiv \frac{1}{n}\sum_{i=1}^n X_i X_i^{\top}.
 \\]
-Thus, the analysis is thus reduced to controlling the deviations of a *single* sample covariance matrix -- that of $X$ -- from its expectation. This can be done using the well-known result from [[5]](https://arxiv.org/abs/1011.3027): assuming that the decorrelated design $\mathbf{H}^{-1/2} X$ is $K$-*subgaussian*, that is, for any direction $u \in \mathbb{R}^d$ it holds
+Thus, the analysis is thus reduced to controlling the deviations of a *single* sample covariance matrix -- that of $X$ -- from its expectation. This can be done using the well-known result from (Vershynin, 2012): assuming that the decorrelated design $\mathbf{H}^{-1/2} X$ is $K$-*subgaussian*, that is, for any direction $u \in \mathbb{R}^d$ it holds
 \\[
 \mathbb{E}\left[\exp \left\langle u, \mathbf{H}^{-1/2} X \right\rangle \right] \le \exp(K^2\Vert u\Vert_2^2/2),
 \\]
@@ -184,7 +186,7 @@ n \gtrsim K^4  (d + \log(1/\delta)),
 }
 \\]
 where $a \gtrsim b$ is a shorthand for $b = O(a)$.
-When combined together, this gives the $O(d/n)$ rate in the regime $n = \Omega(d)$. Next we will show how to extend this result, first obtained in [[6]](http://proceedings.mlr.press/v23/hsu12/hsu12.pdf), beyond the case of least squares.
+When combined together, this gives $O(d/n)$ rate in the regime $n = \Omega(d)$. Next we will show how to extend this result, first obtained in (Hsu et al., 2012), beyond the case of least squares.
 
 ## Localization Lemma ##
 
@@ -197,7 +199,7 @@ Also, we assume that the (decorrelated) calibrated design $\mathbf{H}^{-1/2} \ti
 \\[
 n \gtrsim K_2^4 (d + \log(1/\delta)),
 \\] 
-so that we can apply the result of [[5]](https://arxiv.org/abs/1011.3027), and with probability $1-\delta$ identify the empirical and true Hessians at a *single point* $\theta_\*$: $\mathbf{H}\_n \asymp \mathbf{H}$ (recall that we use $\mathbf{H}$ and $\mathbf{H}\_n$, without parentheses, as shorthands for $\mathbf{H}(\theta_\*)$ and $\mathbf{H}\_n(\theta_\*)$).
+so that we can apply the result of (Vershynin, 2014), and with probability $1-\delta$ identify the empirical and true Hessians at a *single point* $\theta_\*$: $\mathbf{H}\_n \asymp \mathbf{H}$ (recall that we use $\mathbf{H}$ and $\mathbf{H}\_n$, without parentheses, as shorthands for $\mathbf{H}(\theta_\*)$ and $\mathbf{H}\_n(\theta_\*)$).
 We then have an auxiliary result called the Localization Lemma.
 
 > **Localization lemma.**
@@ -222,7 +224,8 @@ By definition, $L_n(\widehat\theta_n) \le L_n(\theta_\*)$. Assume that $\widehat
 Note that by convexity of the level sets of $L_n(\theta)$, we still have $L_n(\bar\theta_n) \le L_n(\theta_\*).$
 On the other hand, by the intermediate value theorem, for some $\theta'\_n$ belonging to the segment $[\theta_\*, \bar\theta_n]$, and hence to $\Theta_{r_0}(\theta_\*)$, it holds
 \begin{align}
-0 \ge L\_n(\bar\theta_n) - L\_n(\theta_\*) 
+0 
+&\ge L\_n(\bar\theta_n) - L\_n(\theta_\*) \\\
 &= \left\langle \nabla L\_n(\theta_\*), \bar\theta_n - \theta_\* \right\rangle + \frac{1}{2} \Vert \bar\theta_n - \theta_\*\Vert_{\mathbf{H}\_n(\theta'\_n)}^2 \\\
 &\approx \left\langle \nabla L\_n(\theta_\*), \bar\theta\_n - \theta_\* \right\rangle + \frac{1}{2} \Vert \bar\theta\_n - \theta_\* \Vert_{\mathbf{H}\_n}^2 \\\
 &\approx \left\langle \nabla L\_n(\theta_\*), \bar\theta\_n - \theta_\* \right\rangle + \frac{1}{2} \Vert \bar\theta\_n - \theta_\*\Vert_{\mathbf{H}}^2 \\\
