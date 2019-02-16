@@ -188,9 +188,9 @@ n \gtrsim K^4  (d + \log(1/\delta)),
 where $a \gtrsim b$ is a shorthand for $b = O(a)$.
 When combined together, this gives $O(d/n)$ rate in the regime $n = \Omega(d)$. Next we will show how to extend this result, first obtained in (Hsu et al., 2012), beyond the case of least squares.
 
-## Localization Lemma ##
+## Localization lemma ##
 
-Before we embark to self-concordance, I will demonstrate that the localization of $\widehat\theta_n$ in the Dikin ellipsoid $\Theta\_r(\theta_\*)$ of some radius $r$ is guaranteed if we show the uniform approximation bound 
+Before we embark on self-concordance, I will demonstrate that the localization of $\widehat\theta_n$ in the Dikin ellipsoid $\Theta\_r(\theta_\*)$ of some radius $r$ is guaranteed if we show the uniform approximation bound 
 \\[
 \mathbf{H}\_n(\theta) \asymp \mathbf{H}\_n(\theta_\*), \quad \theta \in \Theta\_r(\theta_\*).
 \\]
