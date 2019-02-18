@@ -18,7 +18,7 @@ a:focus,
 a:active {
   border: 0;
   color: $link-hover-color;
-  text-decoration: none;
+  text-decoration: none!important;
   background-image: linear-gradient(to top,
     rgba(0,0,0,0) 13%,
     rgba($link-hover-color,.8) 13%,
