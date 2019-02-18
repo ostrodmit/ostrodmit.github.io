@@ -10,27 +10,29 @@ permalink: /papers
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
 Dmitrii M. Ostrovskii and Alessandro Rudi.  
 _Submitted, 2019._  
-[[pdf]](https://arxiv.org/pdf/1902.03086.pdf) [[arXiv]](https://arxiv.org/abs/1902.03086) 
+[[pdf]](https://arxiv.org/pdf/1902.03086.pdf) 
+[[arxiv]](https://arxiv.org/abs/1902.03086) 
 
 
 __Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance__  
-U. Marteau-Ferey, D. Ostrovskii, A. Rudi, F. Bach.  
+Ulysse Marteau-Ferey, Dmitrii M. Ostrovskii, Alessandro Rudi, Francis Bach.  
 _Submitted, 2019._  
-[[pdf]](https://arxiv.org/pdf/1902.03046.pdf) [[arXiv]](https://arxiv.org/abs/1902.03046)
+[[pdf]](https://arxiv.org/pdf/1902.03046.pdf) 
+[[arxiv]](https://arxiv.org/abs/1902.03046)
 
-\item
-{Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification}\\
-D. Babichev$^*$, D. Ostrovskii$^*$, F. Bach (equal contribution marked by~$^*$)\\
-\textit{Submitted, 2019}
-\href{https://128.84.21.199/abs/1902.03755}{\texttt{[link]}}
+__Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
+Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach (DB & DMO contributed equally).
+_Submitted, 2019._  
+[[pdf]](https://128.84.21.199/pdf/1902.03755.pdf) 
+[[arxiv]](https://128.84.21.199/abs/1902.03755)
 
-\item 
-Finite-Sample Analysis of M-Estimators Using Self-Concordance\\
-D. Ostrovskii, F. Bach\\ 
-\textit{Submitted, 2018} 
-\href{https://arxiv.org/abs/1810.06838}{\texttt{[link]}}
 
-\item 
+__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
+Dmitrii M. Ostrovskii and F. Bach.  
+_Submitted, 2018._  
+[[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
+[[arxiv]](https://arxiv.org/abs/1810.06838)
+
 Adaptive Denoising of Signals with Shift-Invariant Structure\\
 D. Ostrovskii, Z. Harchaoui, A. Juditsky, A. Nemirovski\\
 \textit{arXiv preprint} 
