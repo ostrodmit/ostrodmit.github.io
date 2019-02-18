@@ -1,14 +1,13 @@
 # Site settings
-title:       Look at the Corners
+title:       Dmitrii M. Ostrovskii
 email:       ostrodmit@gmail.com
 author:      Dmitrii M. Ostrovskii
-description: "Research blog of Dmitrii M. Ostrovskii"
-baseurl:     "/blog"
+description: "Personal website of Dmitrii M. Ostrovskii"
+baseurl:     
 url:         "http://ostrodmit.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
 
 # Google services
 google_verification:
