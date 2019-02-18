@@ -25,13 +25,16 @@ Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach (DB & DMO contributed equal
 _Submitted, 2019._  
 [[pdf]](https://128.84.21.199/pdf/1902.03755.pdf) 
 [[arxiv]](https://128.84.21.199/abs/1902.03755)
+[[code]](https://github.com/flykiller/sublinear-svm)
 
 
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
-Dmitrii M. Ostrovskii and F. Bach.  
+Dmitrii M. Ostrovskii and Francis Bach.  
 _Submitted, 2018._  
 [[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
 [[arxiv]](https://arxiv.org/abs/1810.06838)
+[[slides]] 
+[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/){: .btn}
 
 Adaptive Denoising of Signals with Shift-Invariant Structure\\
 D. Ostrovskii, Z. Harchaoui, A. Juditsky, A. Nemirovski\\
