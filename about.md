@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dmitrii M. Ostrovskii
-permalink: /
+title: About me
+permalink: /about
 ---
 
 My name is [__Dmitrii. M. Ostrovskii__](http://www.dostrovsky.com/). 
