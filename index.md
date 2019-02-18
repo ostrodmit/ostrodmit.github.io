@@ -19,7 +19,7 @@ I work on various theoretical aspects of machine learning, statistics, optimizat
 * adaptivity to the unknown structure and parameters;
 * robustness.
 
-You can find the list of my publications [here](???), as well as on my [Google Scholar profile](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).
+You can find the list of my publications [here](/papers), as well as on my [Google Scholar profile](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).
 
 I also maintain the research blog [__Look at the Corners__](https://ostrodmit.github.io/blog/), feel free to have a look.
 

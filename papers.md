@@ -4,19 +4,19 @@ title: Publications
 permalink: /papers
 ---
 
-### Preprints
+## Preprints ##
 
 
-__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__
-Dmitrii M. Ostrovskii and Alessandro Rudi.
-_Submitted, 2019._
-\href{https://arxiv.org/abs/1902.03086}{\texttt{[link]}}
+__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
+Dmitrii M. Ostrovskii and Alessandro Rudi.  
+_Submitted, 2019._  
+[[pdf]](https://arxiv.org/pdf/1902.03086.pdf) [[arXiv]](https://arxiv.org/abs/1902.03086) 
 
-\item
-{Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance}\\
-U. Marteau-Ferey, D. Ostrovskii, A. Rudi, F. Bach\\
-\textit{Submitted, 2019}
-\href{https://arxiv.org/abs/1902.03046}{\texttt{[link]}}
+
+__Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance__  
+U. Marteau-Ferey, D. Ostrovskii, A. Rudi, F. Bach.  
+_Submitted, 2019._  
+[[pdf]](https://arxiv.org/pdf/1902.03046.pdf) [[arXiv]](https://arxiv.org/abs/1902.03046)
 
 \item
 {Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification}\\
