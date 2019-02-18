@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align = "center">
-<img src="coffee_pic.jpg" alt="Santa Monica" width="50%" align="center" hspace="20">
+<img src="my_pic.jpg" alt="Santa Monica" width="50%" align="center" hspace="20">
 </p>
 
 I am a postdoc at INRIA Paris
@@ -19,7 +19,7 @@ I work on various theoretical aspects of machine learning, statistics, optimizat
 * adaptivity to the unknown structure and parameters;
 * robustness.
 
-You can find the list of my publications [here](???) as well as on my [Google Scholar profile](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).
+You can find the list of my publications [here](???), as well as on my [Google Scholar profile](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).
 
 I also maintain the research blog [__Look at the Corners__](https://ostrodmit.github.io/blog/), feel free to have a look.
 
