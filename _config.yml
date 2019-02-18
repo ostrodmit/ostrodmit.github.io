@@ -7,7 +7,7 @@ baseurl:
 url:         "http://ostrodmit.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
+ - papers.md
 
 # Google services
 google_verification:
