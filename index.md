@@ -23,6 +23,6 @@ I keep updated my list of [__publications__](/papers) and my [__Google Scholar p
 
 You are also welcomed to consult my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
 
-I also maintain the research blog [__Look at the Corners__](https://ostrodmit.github.io/blog/), feel free to have a look.
+I sometimes blog about my research at [__Look at the Corners__](https://ostrodmit.github.io/blog/), feel free to have a look.
 
 [Here](https://ostrodmit.blog/) you can find some older posts on the topics I was interested in during my PhD.
