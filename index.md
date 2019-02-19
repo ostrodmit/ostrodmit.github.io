@@ -11,10 +11,10 @@ in the [group](https://www.di.ens.fr/sierra/) of [Francis Bach](https://www.di.e
 I defended my PhD thesis at the University of Grenoble Alpes, supervised by [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html).
 <br />
   
-## Research ##
+## Research Interests ##
 
 I work on various theoretical aspects of machine learning, statistics, optimization, and signal processing, such as: 
-* statistical optimality and fast rates
+* statistical optimality and fast learning rates
 * efficient algorithms
 * adaptivity to the unknown structure and parameters
 * robustness
