@@ -19,7 +19,9 @@ I work on various theoretical aspects of machine learning, statistics, optimizat
 * adaptivity to the unknown structure and parameters
 * robustness
 
-You can find the list of my publications [here](/papers), as well as on my [Google Scholar profile](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).
+I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).
+
+You are also welcomed to consult my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
 
 I also maintain the research blog [__Look at the Corners__](https://ostrodmit.github.io/blog/), feel free to have a look.
 
