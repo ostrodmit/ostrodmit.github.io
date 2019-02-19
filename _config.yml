@@ -8,6 +8,7 @@ url:         "http://ostrodmit.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - papers.md
+ - talks.md
 
 # Google services
 google_verification:

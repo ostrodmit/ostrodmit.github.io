@@ -76,6 +76,7 @@ Yuri Golubev and Dmitrii M. Ostrovskii.
 _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014.  
 [[pdf]](https://hal.archives-ouvertes.fr/hal-01292413/document)
 [[HAL]](https://hal.archives-ouvertes.fr/hal-01292413)
+[[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
 ## PhD Thesis ##
