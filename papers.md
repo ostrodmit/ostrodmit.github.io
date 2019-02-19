@@ -23,8 +23,8 @@ _Submitted, 2019._
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
 Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach (DB & DMO contributed equally).
 _Submitted, 2019._  
-[[pdf]](https://128.84.21.199/pdf/1902.03755.pdf) 
-[[arxiv]](https://128.84.21.199/abs/1902.03755)
+[[pdf]](https://arxiv.org/pdf/1902.03755.pdf) 
+[[arxiv]](https://arxiv.org/abs/1902.03755)
 [[code]](https://github.com/flykiller/sublinear-svm)
 
 
