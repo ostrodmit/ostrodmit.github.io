@@ -46,7 +46,7 @@ _In preparation, 2018._
 
 ## Conference Papers ##
 
-__Efficient Algorithms for Adaptive Signal Recovery__  
+__Efficient First-Order Algorithms for Adaptive Signal Denoising__  
 Dmitrii M. Ostrovskii and Zaid Harchaoui.  
 _ICML 2018._  
 [[pdf]](https://arxiv.org/pdf/1803.11262.pdf)
