@@ -21,8 +21,6 @@ I work on various theoretical aspects of machine learning, statistics, optimizat
 
 ## Links ##
 
-I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en).  
-You are also welcomed to consult my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
+I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). You are also welcomed to consult my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
 
-I sometimes [__blog__](https://ostrodmit.github.io/blog/) about my research, feel free to have a look.  
-[Here](https://ostrodmit.blog/) you can find some older posts on the topics I was interested in during my PhD.
+I sometimes [__blog__](https://ostrodmit.github.io/blog/) about my research, feel free to have a look. [Here](https://ostrodmit.blog/) you can find some older posts on the topics I was interested in during my PhD.
