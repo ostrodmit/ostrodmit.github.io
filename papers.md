@@ -7,19 +7,6 @@ permalink: /papers
 ## Preprints ## 
 
 
-__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
-Dmitrii M. Ostrovskii and Alessandro Rudi.  
-_Accepted at COLT 2019._  
-[[pdf]](https://arxiv.org/pdf/1902.03086.pdf) 
-[[arxiv]](https://arxiv.org/abs/1902.03086) 
-
-
-__Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance__  
-Ulysse Marteau-Ferey, Dmitrii M. Ostrovskii, Alessandro Rudi, Francis Bach.  
-_Accepted at COLT 2019._  
-[[pdf]](https://arxiv.org/pdf/1902.03046.pdf) 
-[[arxiv]](https://arxiv.org/abs/1902.03046)
-
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
 Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach (DB & DMO contributed equally).
 _Submitted, 2019._  
