@@ -33,6 +33,21 @@ _In preparation, 2018._
 
 ## Conference Papers ##
 
+
+__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
+Dmitrii M. Ostrovskii and Alessandro Rudi.  
+_COLT 2019, accepted._  
+[[pdf]](https://arxiv.org/pdf/1902.03086.pdf) 
+[[arxiv]](https://arxiv.org/abs/1902.03086) 
+
+
+__Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance__  
+Ulysse Marteau-Ferey, Dmitrii M. Ostrovskii, Alessandro Rudi, Francis Bach.  
+_COLT 2019, accepted._    
+[[pdf]](https://arxiv.org/pdf/1902.03046.pdf) 
+[[arxiv]](https://arxiv.org/abs/1902.03046)
+
+
 __Efficient First-Order Algorithms for Adaptive Signal Denoising__  
 Dmitrii M. Ostrovskii and Zaid Harchaoui.  
 _ICML 2018._  
