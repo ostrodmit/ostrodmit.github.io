@@ -30,7 +30,7 @@ __Adaptive Signal Recovery by Convex Optimization__
 SIERRA Team seminar, Inria, Paris  
 
 11/2017   
-``Journée des Doctorants'', University of Grenoble Alpes  
+University of Grenoble Alpes  
 __Adaptive Signal Denoising by Convex Optimization__  
 [[slides]](assets/slides/ostrovskii-jdd-2017.pdf)
     
