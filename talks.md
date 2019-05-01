@@ -6,7 +6,7 @@ permalink: /talks
 
 ## Talks ##
 
-04/2019 
+04/2019  
 Toyota Technological Institute at Chicago  
 __On Algorithmic Efficiency and Statistical Optimality in Empirical Risk Minimization__  
 [[slides]](/assets/slides/TTIC-talk-2019.pdf)
