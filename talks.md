@@ -6,6 +6,11 @@ permalink: /talks
 
 ## Talks ##
 
+04/2019 
+Toyota Technological Institute at Chicago
+__On Algorithmic Efficiency and Statistical Optimality in Empirical Risk Minimization__
+[[slides]](/assets/slides/TTIC-talk-2019.pdf)
+
 09/2018  
 CWI-INRIA Workshop, Paris  
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
@@ -15,7 +20,6 @@ __Finite-Sample Analysis of M-Estimators Using Self-Concordance__
 ICML 2018, Stockholm  
 __Efficient First-order Algorithms for Adaptive Signal Denoising__  
 [[slides]](assets/slides/algorec-icml18_back.pdf)
-
  
 04/2018  
 Peter Grünwald's group seminar, CWI, Amsterdam  
@@ -24,7 +28,6 @@ __Adaptive Signal Recovery by Convex Optimization__
  
 02/2018   
 SIERRA Team seminar, Inria, Paris  
-
 
 11/2017   
 ``Journée des Doctorants'', University of Grenoble Alpes  
@@ -42,7 +45,6 @@ Mengdi Wang's group seminar, Princeton
 
 02/2017  
 Sham Kakade's group seminar, University of Washington, Seattle  
-
 
 12/2016   
 NIPS 2016, Barcelona (poster)  
