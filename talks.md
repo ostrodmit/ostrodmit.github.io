@@ -20,6 +20,7 @@ __Finite-Sample Analysis of M-Estimators Using Self-Concordance__
 ICML 2018, Stockholm  
 __Efficient First-order Algorithms for Adaptive Signal Denoising__  
 [[slides]](assets/slides/algorec-icml18_back.pdf)
+[[video]](assets/videos/icml18-AlgoRec.mp4)
  
 04/2018  
 Peter Grünwald's group seminar, CWI, Amsterdam  
