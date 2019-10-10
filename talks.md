@@ -8,17 +8,17 @@ permalink: /talks
 
 
 09/2019
-University of Southern California
-__On Fast Rates in Empirical Risk Minimization Beyond Least-Squares
-[[slides]](assets/slides/USC-Epstein-seminar.pdf)
+University of Southern California, Epstein Seminar  
+__On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__  
+[[slides]](assets/slides/USC-Epstein-seminar.pdf)  
 
 
 
-06/2019
-COLT 2019
-__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__
-[[slides]](/assets/slides/colt19-heavy-covariance.pdf)
-[[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)
+06/2019  
+COLT 2019, Phoenix  
+__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
+[[slides]](/assets/slides/colt19-heavy-covariance.pdf)  
+[[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)  
 
 04/2019  
 Toyota Technological Institute at Chicago  
