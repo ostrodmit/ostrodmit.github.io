@@ -39,6 +39,7 @@ Dmitrii M. Ostrovskii and Alessandro Rudi.
 _COLT 2019, accepted._  
 [[pdf]](https://arxiv.org/pdf/1902.03086.pdf) 
 [[arxiv]](https://arxiv.org/abs/1902.03086) 
+[[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)
 
 
 __Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance__  
@@ -46,6 +47,7 @@ Ulysse Marteau-Ferey, Dmitrii M. Ostrovskii, Alessandro Rudi, Francis Bach.
 _COLT 2019, accepted._    
 [[pdf]](https://arxiv.org/pdf/1902.03046.pdf) 
 [[arxiv]](https://arxiv.org/abs/1902.03046)
+[[video]](https://www.youtube.com/watch?v=e4TOyguMWnw)
 
 
 __Efficient First-Order Algorithms for Adaptive Signal Denoising__  
@@ -55,6 +57,7 @@ _ICML 2018._
 [[arxiv]](https://arxiv.org/abs/1803.11262)
 [[slides]](assets/slides/algorec-icml18_back.pdf)
 [[code]](https://github.com/ostrodmit/AlgoRec)
+[[video]](https://www.youtube.com/watch?v=ObTNWzgemOs&t=6360s)
 
 
 __Structure-Blind Signal Recovery__  

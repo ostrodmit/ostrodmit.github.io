@@ -6,6 +6,20 @@ permalink: /talks
 
 ## Talks ##
 
+
+09/2019
+University of Southern California
+__On Fast Rates in Empirical Risk Minimization Beyond Least-Squares
+[[slides]](assets/slides/USC-Epstein-seminar.pdf)
+
+
+
+06/2019
+COLT 2019
+__Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__
+[[slides]](/assets/slides/colt19-heavy-covariance.pdf)
+[[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)
+
 04/2019  
 Toyota Technological Institute at Chicago  
 __On Algorithmic Efficiency and Statistical Optimality in Empirical Risk Minimization__  
@@ -20,7 +34,7 @@ __Finite-Sample Analysis of M-Estimators Using Self-Concordance__
 ICML 2018, Stockholm  
 __Efficient First-order Algorithms for Adaptive Signal Denoising__  
 [[slides]](assets/slides/algorec-icml18_back.pdf)
-[[video]](assets/videos/icml18-AlgoRec.mp4)
+[[video]](https://www.youtube.com/watch?v=ObTNWzgemOs&t=6360s)
  
 04/2018  
 Peter Grünwald's group seminar, CWI, Amsterdam  
