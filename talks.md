@@ -17,8 +17,9 @@ __On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__
 06/2019  
 COLT 2019, Phoenix  
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
-[[slides]](/assets/slides/colt19-heavy-covariance.pdf)  
+[[slides]](/assets/slides/colt19-heavy-covariance.pdf) 
 [[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)  
+
 
 04/2019  
 Toyota Technological Institute at Chicago  
@@ -33,7 +34,7 @@ __Finite-Sample Analysis of M-Estimators Using Self-Concordance__
 07/2018  
 ICML 2018, Stockholm  
 __Efficient First-order Algorithms for Adaptive Signal Denoising__  
-[[slides]](assets/slides/algorec-icml18_back.pdf)
+[[slides]](assets/slides/algorec-icml18_back.pdf) 
 [[video]](https://www.youtube.com/watch?v=ObTNWzgemOs&t=6360s)
  
 04/2018  
