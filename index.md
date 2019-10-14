@@ -10,7 +10,7 @@ layout: default
 
 I am currently a postdoc at __USC (Viterbi School)__ hosted by [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
 Before that, I was on a one-year postdoc at __Inria Paris__ with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
-I did PhD at the University of Grenoble, supervised by [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
+I did PhD at the University of Grenoble under [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
   
 ## Research Interests ##
