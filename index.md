@@ -6,9 +6,9 @@ layout: default
 <img src="my_pic.jpg" alt="Santa Monica" width="50%" align="center" hspace="20">
 </p>
 
-I am currently a postdoc at University of Southern California, Viterbi School, hosted by [Meisam Razaviyayn](https://sites.usc.edu/razaviyayn/research/).   
-Before that, I was on a 1.5-year postdoc at Inria Paris working with [Francis Bach](https://www.di.ens.fr/~fbach/).  
-I defended my PhD thesis at the University of Grenoble Alpes, supervised by [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html).
+## About ##
+
+I am currently a postdoc at #USC (Viterbi School)# hosted by [Meisam Razaviyayn](https://sites.usc.edu/razaviyayn/research/). Before that, I was on a 1.5-year postdoc at Inria Paris working with [Francis Bach](https://www.di.ens.fr/~fbach/). I defended my PhD thesis at the University of Grenoble Alpes, supervised by [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html).
 <br />
   
 ## Research Interests ##
