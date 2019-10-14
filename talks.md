@@ -10,7 +10,7 @@ permalink: /talks
 09/2019  
 University of Southern California, Epstein Seminar  
 __On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__  
-[[slides]](assets/slides/USC-Epstein-seminar.pdf)  
+[[slides]](assets/slides/USC-Epstein-seminar-handout.pdf)  
 
 
 
