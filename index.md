@@ -18,7 +18,7 @@ I did PhD at the University of Grenoble under [__Anatoli Juditsky__](https://ljk
 I work on various theoretical aspects of machine learning, statistics, optimization, and signal processing, such as: 
 * statistical optimality and fast learning rates
 * efficient algorithms
-* adaptivity to the unknown structure and parameters
+* adaptation to unknown structure and parameters
 * robustness
 
 ## Links ##
