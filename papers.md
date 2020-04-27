@@ -7,11 +7,19 @@ permalink: /papers
 ## Preprints ## 
 
 
+<<<<<<< HEAD
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
 _Submitted, 2020_  
-[[pdf]](https://arxiv.org/pdf/2002.07919v2.pdf) 
-[[arxiv]](https://arxiv.org/abs/2002.07919v2)  
+[[pdf]](https://arxiv.org/pdf/2002.07919.pdf) 
+[[arxiv]](https://arxiv.org/abs/2002.07919)  
+=======
+__Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__
+Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn
+_Submitted, 2020_
+[[pdf]](https://arxiv.org/pdf/2002.07919.pdf) 
+[[arxiv]](https://arxiv.org/abs/2002.07919)
+>>>>>>> parent of 3d9d93c... Update papers.md
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
