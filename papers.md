@@ -11,7 +11,7 @@ __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Mi
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
 _Submitted, 2020_  
 [[pdf]](https://arxiv.org/pdf/2002.07919v2.pdf) 
-[[arxiv]](https://arxiv.org/abs/2002.07919v2)  
+[[arxiv]](https://arxiv.org/abs/2002.07919)  
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
