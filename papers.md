@@ -5,7 +5,7 @@ permalink: /papers
 ---
 
 <p align = "center">
-<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">
+<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
 Courtesy of Victoria Marquez Feldman
 </p>
 
