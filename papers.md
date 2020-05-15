@@ -19,7 +19,7 @@ _Submitted, 2020_
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
-Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach (DB & DMO contributed equally)
+Dmitry Babichev*, Dmitrii M. Ostrovskii*, Francis Bach  
 _Submitted, 2019_  
 [[pdf]](https://arxiv.org/pdf/1902.03755.pdf) 
 [[arxiv]](https://arxiv.org/abs/1902.03755)
