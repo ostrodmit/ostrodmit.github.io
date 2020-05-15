@@ -4,6 +4,13 @@ title: Talks
 permalink: /talks
 ---
 
+<p align = "center">
+<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
+</p>  
+<p align = "center">
+Courtesy of Victoria Marquez Feldman
+</p>  
+
 ## Talks ##
 
 
