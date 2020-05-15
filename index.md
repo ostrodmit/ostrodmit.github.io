@@ -3,12 +3,12 @@ layout: default
 ---
 
 <p align = "center">
-<img src="my_pic.jpg" alt="Santa Monica" width="50%" align="center" hspace="20">
+<img src="my_pic.jpg" alt="Getty museum" width="50%" align="center" hspace="20">
 </p>
 
 ## About ##
 
-I am currently a postdoc at __USC (Viterbi School)__ hosted by [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
+I am currently a postdoc at __University of Southern California__ hosted by [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
 Before that, I was on a one-year postdoc at __Inria Paris__ with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
 I did PhD at the University of Grenoble under [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
