@@ -4,6 +4,10 @@ title: Publications
 permalink: /papers
 ---
 
+<p align = "center">
+<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="50%" align="center" hspace="20">
+</p>
+
 ## Preprints ## 
 
 
