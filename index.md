@@ -9,7 +9,7 @@ layout: default
 ## About ##
 
 I am a postdoc at __University of Southern California__ hosted by [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
-In 2018, I was on a postdoc at __Inria Paris__ with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
+In 2018 and the first half of 2019, I was on a postdoc at __Inria Paris__ with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
 I did PhD at the University of Grenoble under [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
   
