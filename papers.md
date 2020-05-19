@@ -11,7 +11,7 @@ permalink: /papers
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
 _Submitted, 2020_  
-[[pdf]](https://arxiv.org/pdf/2002.07919v2.pdf) 
+[[pdf]](https://arxiv.org/pdf/2002.07919.pdf) 
 [[arxiv]](https://arxiv.org/abs/2002.07919)  
 
 
