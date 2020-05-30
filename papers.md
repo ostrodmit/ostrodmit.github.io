@@ -136,7 +136,7 @@ _Automation and Remote Control_, vol. 74, no. 9, pp. 1460-1473, 2013
 [[pdf]](https://link.springer.com/content/pdf/10.1134%2FS0005117913090038.pdf)
   
 
-__Analytical Study of the Quality of Links Established by the Neighborhood Discovery Protocol__
+__Analytical Study of the Quality of Links Established by the Neighborhood Discovery Protocol__  
 Andrey Lyakhov, Dmitrii M. Ostrovskii, Evgeny Khorov  
-_Journal of Communications Technology and Electronics_, vol. 57, no. 12, pp. 1314-1321, 2012  
+_Journal of Comm. Technology and Electronics_, vol. 57, no. 12, pp. 1314-1321, 2012  
 [[pdf]](https://link.springer.com/content/pdf/10.1134%2FS1064226912120030.pdf)
