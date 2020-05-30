@@ -23,5 +23,5 @@ I work on various aspects of machine learning, statistics, optimization, and sig
 
 ## Links ##
 
-I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). You are also welcomed to consult my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
+I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). Feel free to check my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
 I occasionally [__blog__](https://ostrodmit.github.io/blog/) about research.
