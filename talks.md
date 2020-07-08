@@ -4,12 +4,6 @@ title: Talks
 permalink: /talks
 ---
 
-<p align = "center">
-<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
-</p>  
-<p align = "center">
-&copy; Victoria Marquez Feldman
-</p>  
 
 ## Talks ##
 
@@ -90,3 +84,10 @@ StatLearn 2015, Grenoble
 56th Annual MIPT Conference, Moscow  
 __Concentration Inequality for the Exponential Weighting Method__ (in Russian)  
 [[slides]](assets/slides/mipt2014-MSc-slides.pdf)
+
+<p align = "center">
+<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
+</p>  
+<p align = "center">
+&copy; Victoria Marquez Feldman
+</p>  
