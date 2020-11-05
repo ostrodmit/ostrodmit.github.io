@@ -45,7 +45,7 @@ _In preparation, 2018_
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
 Dmitrii M. Ostrovskii and Alessandro Rudi  
 _COLT 2019_  
-[[pdf]](https://arxiv.org/pdf/1902.03086.pdf) 
+[[pdf]](http://proceedings.mlr.press/v99/ostrovskii19a/ostrovskii19a.pdf) 
 [[arxiv]](https://arxiv.org/abs/1902.03086) 
 [[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)
 
