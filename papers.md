@@ -29,6 +29,7 @@ _Submitted, 2018_
 [[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
 [[arxiv]](https://arxiv.org/abs/1810.06838)
 [[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
+[[code]](https://github.com/ostrodmit/self-concordant)
 [[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)
 
 
