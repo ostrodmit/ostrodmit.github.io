@@ -23,16 +23,6 @@ _Submitted, 2019_
 [[code]](https://github.com/flykiller/sublinear-svm)
 
 
-__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
-Dmitrii M. Ostrovskii and Francis Bach  
-_Submitted, 2018_  
-[[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
-[[arxiv]](https://arxiv.org/abs/1810.06838)
-[[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
-[[code]](https://github.com/ostrodmit/self-concordant)
-[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)
-
-
 __Adaptive Denoising of Signals with Shift-Invariant Structure__  
 Dmitrii M. Ostrovskii, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski  
 _In preparation, 2018_  
@@ -83,7 +73,19 @@ _COLT 2015_
 [[pdf]](https://hal.inria.fr/hal-01250215/document)
 [[HAL]](https://hal.inria.fr/hal-01250215/)
 
-## Journal Paper ##
+
+## Journal Papers ##
+
+
+__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
+Dmitrii M. Ostrovskii and Francis Bach  
+_Electronic Journal of Statistics, to appear_  
+[[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
+[[arxiv]](https://arxiv.org/abs/1810.06838)
+[[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
+[[code]](https://github.com/ostrodmit/self-concordant)
+[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)
+
 
 __Concentration Inequalities for the Exponential Weighting Method__  
 Yuri Golubev and Dmitrii M. Ostrovskii  
