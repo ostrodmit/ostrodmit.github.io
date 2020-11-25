@@ -30,6 +30,27 @@ _In preparation, 2018_
 [[arxiv]](https://arxiv.org/abs/1806.04028)
 
 
+## Journal Papers ##
+
+
+__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
+Dmitrii M. Ostrovskii and Francis Bach  
+_Electronic Journal of Statistics, to appear_  
+[[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
+[[arxiv]](https://arxiv.org/abs/1810.06838)
+[[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
+[[code]](https://github.com/ostrodmit/self-concordant)
+[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)
+
+
+__Concentration Inequalities for the Exponential Weighting Method__  
+Yuri Golubev and Dmitrii M. Ostrovskii  
+_Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014  
+[[pdf]](https://hal.archives-ouvertes.fr/hal-01292413/document)
+[[HAL]](https://hal.archives-ouvertes.fr/hal-01292413)
+[[slides]](assets/slides/mipt2014-MSc-slides.pdf)
+
+
 ## Conference Papers ##
 
 
@@ -73,26 +94,6 @@ _COLT 2015_
 [[pdf]](https://hal.inria.fr/hal-01250215/document)
 [[HAL]](https://hal.inria.fr/hal-01250215/)
 
-
-## Journal Papers ##
-
-
-__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
-Dmitrii M. Ostrovskii and Francis Bach  
-_Electronic Journal of Statistics, to appear_  
-[[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
-[[arxiv]](https://arxiv.org/abs/1810.06838)
-[[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
-[[code]](https://github.com/ostrodmit/self-concordant)
-[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)
-
-
-__Concentration Inequalities for the Exponential Weighting Method__  
-Yuri Golubev and Dmitrii M. Ostrovskii  
-_Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014  
-[[pdf]](https://hal.archives-ouvertes.fr/hal-01292413/document)
-[[HAL]](https://hal.archives-ouvertes.fr/hal-01292413)
-[[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
 ## PhD Thesis ##
