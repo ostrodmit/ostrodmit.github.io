@@ -3,7 +3,6 @@ layout: page
 title: Publications
 permalink: /papers
 ---
-
 _Asterisk (\*) marks equal contribution_
 
 
