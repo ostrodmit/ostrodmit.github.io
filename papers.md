@@ -4,7 +4,7 @@ title: Publications
 permalink: /papers
 ---
 
-Asterisk (\*) marks equal contribution.
+_Asterisk (\*) marks equal contribution_
 
 
 ## Preprints ##  
