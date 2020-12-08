@@ -4,12 +4,14 @@ title: Publications
 permalink: /papers
 ---
 
+Asterisk (\*) marks equal contribution.
 
-## Preprints ## 
+
+## Preprints ##  
 
 
 __Near-Optimal Model Discrimination with Non-Disclosure__  
-Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
+Dmitrii M. Ostrovskii,\* Mohamed Ndaoud,\* Adel Javanmard, Meisam Razaviyayn  
 _Submitted, 2020_  
 [[pdf]](https://arxiv.org/pdf/2012.02901.pdf) 
 [[arxiv]](https://arxiv.org/abs/2012.02901) 
@@ -24,7 +26,7 @@ _Submitted, 2020_
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
-Dmitry Babichev\*, Dmitrii M. Ostrovskii\*, Francis Bach  
+Dmitry Babichev,\* Dmitrii M. Ostrovskii,\* Francis Bach  
 _Submitted, 2019_  
 [[pdf]](https://arxiv.org/pdf/1902.03755.pdf) 
 [[arxiv]](https://arxiv.org/abs/1902.03755)
@@ -38,7 +40,7 @@ _In preparation, 2018_
 [[arxiv]](https://arxiv.org/abs/1806.04028)
 
 
-## Journal Papers ##
+## Journal Papers ##  
 
 
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
@@ -59,7 +61,7 @@ _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014
 [[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
-## Conference Papers ##
+## Conference Papers ##  
 
 
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
@@ -103,7 +105,8 @@ _COLT 2015_
 [[HAL]](https://hal.inria.fr/hal-01250215/)
 
 
-## PhD Thesis ##
+## PhD Thesis ##  
+
 
 __Adaptive Signal Recovery by Convex Optimization__  
 Université Grenoble Alpes, 2018  
@@ -113,7 +116,8 @@ Université Grenoble Alpes, 2018
 [[software]](https://github.com/ostrodmit/AdaFilter)
 
 
-## MSc Thesis ##
+## MSc Thesis ##  
+
 
 __Concentration Inequalities for the Exponential Weighting Method__  
 Moscow Institute of Physics and Technology, 2014 (in Russian)  
@@ -121,14 +125,17 @@ Adviser: Yuri Golubev
 [[pdf]](assets/theses/my-MSc-thesis.pdf)
 
 
-## BSc Thesis ##
+## BSc Thesis ##  
+
 
 __Analytical Study of NHDP Link Management Protocol__  
 Moscow Institute of Physics and Technology, 2012 (in Russian)  
 Adviser: Andrey Lyakhov  
 [[pdf]](assets/theses/my-BSc-thesis.pdf)
 
-## Wireless Networks ##
+
+## Wireless Networks ##  
+
 
 __Dynamic Resource Allocation for MCCA-Based Streaming in Wi-Fi Mesh Networks__  
 Evgeny Khorov, Artem Krasilov, Andrey Lyakhov, Dmitrii M. Ostrovskii  
