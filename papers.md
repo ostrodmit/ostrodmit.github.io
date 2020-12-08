@@ -8,6 +8,14 @@ permalink: /papers
 ## Preprints ## 
 
 
+__Near-Optimal Model Discrimination with Non-Disclosure__  
+Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
+_Submitted, 2020_  
+[[pdf]](https://arxiv.org/pdf/2012.02901.pdf) 
+[[arxiv]](https://arxiv.org/abs/2012.02901) 
+[[code]](https://github.com/ostrodmit/testing-without-recovery)  
+
+
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
 _Submitted, 2020_  
@@ -93,7 +101,6 @@ Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii
 _COLT 2015_  
 [[pdf]](https://hal.inria.fr/hal-01250215/document)
 [[HAL]](https://hal.inria.fr/hal-01250215/)
-
 
 
 ## PhD Thesis ##
