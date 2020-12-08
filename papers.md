@@ -12,7 +12,7 @@ Asterisk (\*) marks equal contribution.
 
 __Near-Optimal Model Discrimination with Non-Disclosure__  
 Dmitrii M. Ostrovskii,\* Mohamed Ndaoud,\* Adel Javanmard, Meisam Razaviyayn  
-_Submitted, 2020_  
+_ArXiv:2012.02901, 2020_  
 [[pdf]](https://arxiv.org/pdf/2012.02901.pdf) 
 [[arxiv]](https://arxiv.org/abs/2012.02901) 
 [[code]](https://github.com/ostrodmit/testing-without-recovery)  
