@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align = "center">
-<img src="my_pic.jpg" alt="Getty museum" width="50%" align="center" hspace="20">
+<img src="my_pic.jpg" alt="Getty museum" width="40%" align="center" hspace="20">
 </p>
 
 ## About ##
