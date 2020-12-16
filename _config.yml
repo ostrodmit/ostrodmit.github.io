@@ -1,9 +1,9 @@
 # Site settings
 title:       Dmitrii M. Ostrovskii
-email:       dostrovs@usc.edu
+email:       ostrodmit@gmail.com
 author:      Dmitrii M. Ostrovskii
 description: "Personal website of Dmitrii M. Ostrovskii"
-baseurl:     
+baseurl:
 url:         "http://ostrodmit.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
@@ -38,7 +38,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: 
+disqus_shortname:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
