@@ -44,8 +44,8 @@ _arXiv, 2018_
 
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
 Dmitrii M. Ostrovskii and Francis Bach  
-_Electronic Journal of Statistics, to appear_  
-[[pdf]](https://arxiv.org/pdf/1810.06838.pdf)
+_Electronic Journal of Statistics 2021, Vol. 15, No. 1, 326-391_  
+[[journal]](https://projecteuclid.org/download/pdfview_1/euclid.ejs/1609902192)
 [[arxiv]](https://arxiv.org/abs/1810.06838)
 [[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
 [[code]](https://github.com/ostrodmit/self-concordant)
