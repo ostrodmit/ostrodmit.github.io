@@ -34,9 +34,9 @@ Dmitrii M. Ostrovskii, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski
 
 
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
-Dmitrii M. Ostrovskii and Francis Bach  
+Dmitrii M. Ostrovskii, Francis Bach  
 _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021  
-[[paper]](https://projecteuclid.org/download/pdfview_1/euclid.ejs/1609902192)
+[[paper]](https://projecteuclid.org/1609902192)
 [[arXiv]](https://arxiv.org/abs/1810.06838)
 [[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
 [[code]](https://github.com/ostrodmit/self-concordant)
@@ -44,7 +44,7 @@ _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021
 
 
 __Concentration Inequalities for the Exponential Weighting Method__  
-Yuri Golubev and Dmitrii M. Ostrovskii  
+Yuri Golubev, Dmitrii M. Ostrovskii  
 _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014  
 [[paper]](https://link.springer.com/article/10.3103/S1066530714010025)
 [[eprint]](https://hal.archives-ouvertes.fr/hal-01292413)
@@ -56,7 +56,7 @@ _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014
 
 
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
-Dmitrii M. Ostrovskii and Alessandro Rudi  
+Dmitrii M. Ostrovskii, Alessandro Rudi  
 _COLT 2019_  
 [[paper]](http://proceedings.mlr.press/v99/ostrovskii19a.html) 
 [[arXiv]](https://arxiv.org/abs/1902.03086) 
@@ -72,7 +72,7 @@ _COLT 2019_
 
 
 __Efficient First-Order Algorithms for Adaptive Signal Denoising__  
-Dmitrii M. Ostrovskii and Zaid Harchaoui  
+Dmitrii M. Ostrovskii, Zaid Harchaoui  
 _ICML 2018_  
 [[paper]](http://proceedings.mlr.press/v80/ostrovskii18a.html)
 [[arXiv]](https://arxiv.org/abs/1803.11262)
@@ -113,8 +113,7 @@ Université Grenoble Alpes, 2018
 
 
 __Concentration Inequalities for the Exponential Weighting Method__  
-Moscow Institute of Physics and Technology, 2014 (in Russian)  
-Adviser: Yuri Golubev  
+Moscow Institute of Physics and Technology, 2014 (in Russian)    
 [[pdf]](assets/theses/my-MSc-thesis.pdf)
 
 
@@ -123,7 +122,6 @@ Adviser: Yuri Golubev
 
 __Analytical Study of NHDP Link Management Protocol__  
 Moscow Institute of Physics and Technology, 2012 (in Russian)  
-Adviser: Andrey Lyakhov  
 [[pdf]](assets/theses/my-BSc-thesis.pdf)
 
 
