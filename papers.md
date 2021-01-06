@@ -66,7 +66,7 @@ _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
 Dmitrii M. Ostrovskii and Alessandro Rudi  
 _COLT 2019_  
-[[pdf]](http://proceedings.mlr.press/v99/ostrovskii19a/ostrovskii19a.pdf) 
+[[paper]](http://proceedings.mlr.press/v99/ostrovskii19a.html) 
 [[arxiv]](https://arxiv.org/abs/1902.03086) 
 [[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)
 
@@ -74,7 +74,7 @@ _COLT 2019_
 __Beyond Least-Squares: Fast Rates for Regularized Empirical Risk Minimization through Self-Concordance__  
 Ulysse Marteau-Ferey, Dmitrii M. Ostrovskii, Alessandro Rudi, Francis Bach  
 _COLT 2019_    
-[[pdf]](https://arxiv.org/pdf/1902.03046.pdf) 
+[[paper]](http://proceedings.mlr.press/v99/marteau-ferey19a.html) 
 [[arxiv]](https://arxiv.org/abs/1902.03046)
 [[video]](https://www.youtube.com/watch?v=e4TOyguMWnw)
 
@@ -82,7 +82,7 @@ _COLT 2019_
 __Efficient First-Order Algorithms for Adaptive Signal Denoising__  
 Dmitrii M. Ostrovskii and Zaid Harchaoui  
 _ICML 2018_  
-[[pdf]](https://arxiv.org/pdf/1803.11262.pdf)
+[[paper]](http://proceedings.mlr.press/v80/ostrovskii18a.html)
 [[arxiv]](https://arxiv.org/abs/1803.11262)
 [[slides]](assets/slides/algorec-icml18_back.pdf)
 [[code]](https://github.com/ostrodmit/AlgoRec)
@@ -92,7 +92,7 @@ _ICML 2018_
 __Structure-Blind Signal Recovery__  
 Dmitrii M. Ostrovsky, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski  
 _NIPS 2016_  
-[[pdf]](https://arxiv.org/pdf/1607.05712.pdf)
+[[paper]](https://proceedings.neurips.cc/paper/2016/hash/2f4fe03d77724a7217006e5d16728874-Abstract.html)
 [[arxiv]](https://arxiv.org/abs/1607.05712)
 [[code]](https://github.com/ostrodmit/L2Rec)
 
@@ -100,7 +100,8 @@ _NIPS 2016_
 __Adaptive Recovery of Signals by Convex Optimization__  
 Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii  
 _COLT 2015_  
-[[pdf]](https://hal.inria.fr/hal-01250215/document)
+[[paper]](http://proceedings.mlr.press/v40/Harchaoui15.html)  
+[[eprint]](https://hal.inria.fr/hal-01250215/document)
 [[HAL]](https://hal.inria.fr/hal-01250215/)
 
 
@@ -110,7 +111,7 @@ _COLT 2015_
 __Adaptive Signal Recovery by Convex Optimization__  
 Université Grenoble Alpes, 2018  
 [[pdf]](assets/theses/my-PhD-thesis.pdf)
-[[HAL]](https://hal.archives-ouvertes.fr/tel-01767206/)
+[[eprint]](https://hal.archives-ouvertes.fr/tel-01767206/)
 [[slides]](assets/slides/ostrovskii-sierra-handout.pdf)
 [[software]](https://github.com/ostrodmit/AdaFilter)
 
