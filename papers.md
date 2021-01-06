@@ -11,27 +11,23 @@ _Asterisk (\*) marks equal contribution_
 
 __Near-Optimal Model Discrimination with Non-Disclosure__  
 Dmitrii M. Ostrovskii\*, Mohamed Ndaoud\*, Adel Javanmard, Meisam Razaviyayn  
-_arXiv_, 2020   
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
 [[code]](https://github.com/ostrodmit/testing-without-recovery)  
 
 
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
-_arXiv_, 2020  
 [[arXiv]](https://arxiv.org/abs/2002.07919)  
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
 Dmitry Babichev\*, Dmitrii M. Ostrovskii\*, Francis Bach  
-_arXiv_, 2019  
 [[arXiv]](https://arxiv.org/abs/1902.03755)
 [[code]](https://github.com/flykiller/sublinear-svm)
 
 
 __Adaptive Denoising of Signals with Shift-Invariant Structure__  
 Dmitrii M. Ostrovskii, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski  
-_arXiv_, 2018  
 [[arXiv]](https://arxiv.org/abs/1806.04028)
 
 
