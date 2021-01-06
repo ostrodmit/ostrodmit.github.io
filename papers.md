@@ -9,6 +9,7 @@ _Asterisk (\*) marks equal contribution_
 ## Preprints ##  
 
 
+
 __Near-Optimal Model Discrimination with Non-Disclosure__  
 Dmitrii M. Ostrovskii\*, Mohamed Ndaoud\*, Adel Javanmard, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
@@ -34,6 +35,7 @@ Dmitrii M. Ostrovskii, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski
 ## Journal Papers ##  
 
 
+
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
 Dmitrii M. Ostrovskii and Francis Bach  
 _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021  
@@ -53,6 +55,7 @@ _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014
 
 
 ## Conference Papers ##  
+
 
 
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
@@ -99,6 +102,7 @@ _COLT 2015_
 ## PhD Thesis ##  
 
 
+
 __Adaptive Signal Recovery by Convex Optimization__  
 Université Grenoble Alpes, 2018  
 [[pdf]](assets/theses/my-PhD-thesis.pdf)
@@ -108,6 +112,7 @@ Université Grenoble Alpes, 2018
 
 
 ## MSc Thesis ##  
+
 
 
 __Concentration Inequalities for the Exponential Weighting Method__  
@@ -126,6 +131,7 @@ Adviser: Andrey Lyakhov
 
 
 ## Wireless Networks ##  
+
 
 
 __Dynamic Resource Allocation for MCCA-Based Streaming in Wi-Fi Mesh Networks__  
