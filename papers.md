@@ -3,15 +3,12 @@ layout: page
 title: Publications
 permalink: /papers
 ---
-_Asterisk (\*) marks equal contribution_
-
-
 ## Preprints ##  
 
 
 
 __Near-Optimal Model Discrimination with Non-Disclosure__  
-Dmitrii M. Ostrovskii\*, Mohamed Ndaoud\*, Adel Javanmard, Meisam Razaviyayn  
+Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
 [[code]](https://github.com/ostrodmit/testing-without-recovery)  
 
@@ -22,7 +19,7 @@ Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
-Dmitry Babichev\*, Dmitrii M. Ostrovskii\*, Francis Bach  
+Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach  
 [[arXiv]](https://arxiv.org/abs/1902.03755)
 [[code]](https://github.com/flykiller/sublinear-svm)
 
