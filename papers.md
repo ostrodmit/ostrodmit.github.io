@@ -36,7 +36,7 @@ Dmitrii M. Ostrovskii, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
 Dmitrii M. Ostrovskii, Francis Bach  
 _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021  
-[[paper]](https://projecteuclid.org/1609902192)
+[[paper]](https://doi.org/10.1214/20-EJS1780)
 [[arXiv]](https://arxiv.org/abs/1810.06838)
 [[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
 [[code]](https://github.com/ostrodmit/self-concordant)
