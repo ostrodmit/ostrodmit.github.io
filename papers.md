@@ -45,7 +45,7 @@ _arXiv, 2018_
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
 Dmitrii M. Ostrovskii and Francis Bach  
 _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021  
-[[journal]](https://projecteuclid.org/download/pdfview_1/euclid.ejs/1609902192)
+[[paper]](https://projecteuclid.org/download/pdfview_1/euclid.ejs/1609902192)
 [[arxiv]](https://arxiv.org/abs/1810.06838)
 [[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
 [[code]](https://github.com/ostrodmit/self-concordant)
@@ -55,8 +55,8 @@ _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021
 __Concentration Inequalities for the Exponential Weighting Method__  
 Yuri Golubev and Dmitrii M. Ostrovskii  
 _Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014  
-[[pdf]](https://hal.archives-ouvertes.fr/hal-01292413/document)
-[[HAL]](https://hal.archives-ouvertes.fr/hal-01292413)
+[[paper]](https://link.springer.com/article/10.3103/S1066530714010025)
+[[eprint]](https://hal.archives-ouvertes.fr/hal-01292413)
 [[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
