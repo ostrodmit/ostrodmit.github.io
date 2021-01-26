@@ -3,24 +3,31 @@ layout: default
 ---
 
 <p align = "center">
-<img src="PhotoGrandCanyon-cropped.jpg" alt="Santa Monica" width="100%" align="center" hspace="20">
+<img src="my_pic.jpg" alt="Getty museum" width="50%" align="center" hspace="20">
 </p>
 
-I am a postdoc at Inria Paris
-in the [group](https://www.di.ens.fr/sierra/) of [Francis Bach](https://www.di.ens.fr/~fbach/).
-I defended my PhD thesis at the University of Grenoble Alpes, supervised by [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html).
+## About ##
+
+I am a postdoc at the __University of Southern California__ with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
+In 2018 and the first half of 2019, I was on a postdoc at __Inria Paris__ with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
+I did PhD at the University of Grenoble under [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
   
-## Research Interests ##
+## Research ##
 
-I work on various theoretical aspects of machine learning, statistics, optimization, and signal processing, such as: 
+I work on various aspects of machine learning, statistics, optimization, and signal processing, such as: 
 * statistical optimality and fast learning rates
-* efficient algorithms
-* adaptivity to the unknown structure and parameters
-* robustness
+* efficient algorithms and algorithmic lower bounds
+* adaptation to unknown structure and parameters
+* robust statistics
 
 ## Links ##
 
+<<<<<<< HEAD
 I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). You are also welcomed to consult my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
 
 I sometimes [__blog__](https://ostrodmit.github.io/blog/) about my research, feel free to have a look. [Here](https://ostrodmit.blog/) you can find some older posts on the topics I was interested in during my PhD.
+=======
+I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). Feel free to check my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
+I occasionally [__blog__](https://ostrodmit.github.io/blog/) about research.
+>>>>>>> 56b44884e7b33f9511d9801df7a89ccb04f3834c
