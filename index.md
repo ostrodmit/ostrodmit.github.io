@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align = "center">
-<img src="photoGrandCanyon-cropped.jpg" alt="Getty museum" width="100%" align="center" hspace="20">
+<img src="photoGrandCanyon-cropped.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
 
 ## About ##
