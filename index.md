@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align = "center">
-<img src="my_pic.jpg" alt="Santa Monica" width="50%" align="center" hspace="20">
+<img src="PhotoGrandCanyon-cropped.jpg" alt="Santa Monica" width="100%" align="center" hspace="20">
 </p>
 
 I am a postdoc at Inria Paris
