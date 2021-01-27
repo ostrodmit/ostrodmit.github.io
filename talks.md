@@ -12,6 +12,12 @@ permalink: /talks
 
 
 09/2019: University of Southern California, Epstein Seminar  
+__Near-Optimal Model Discrimination__  
+[[slides]](assets/slides/slides-NewtonTesting.pdf)  
+
+
+
+09/2019: University of Southern California, Epstein Seminar  
 __On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__  
 [[slides]](assets/slides/USC-Epstein-seminar-handout.pdf)  
 
