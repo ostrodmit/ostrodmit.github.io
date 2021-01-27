@@ -11,7 +11,7 @@ permalink: /talks
 ## Talks ##
 
 
-09/2019: University of Southern California, Epstein Seminar  
+01/2021: Weierstrass Institute, Berlin  
 __Near-Optimal Model Discrimination__  
 [[slides]](assets/slides/slides-NewtonTesting.pdf)  
 
