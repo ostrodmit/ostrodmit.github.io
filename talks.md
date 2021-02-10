@@ -11,6 +11,8 @@ permalink: /talks
 ## Talks ##
 
 
+02/2021: USC Probability and Statistics Seminar, Los Angeles  
+02/2021: EPFL, Lausanne   
 01/2021: Weierstrass Institute, Berlin  
 __Near-Optimal Model Discrimination__  
 [[slides]](assets/slides/slides-NewtonTesting.pdf)  
@@ -29,7 +31,7 @@ __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__
 [[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)  
 
 
-04/2019: Toyota Technological Institute at Chicago  
+04/2019: Toyota Technological Institute, Chicago  
 __On Algorithmic Efficiency and Statistical Optimality in Empirical Risk Minimization__  
 [[slides]](/assets/slides/TTIC-talk-2019.pdf)
 
@@ -42,7 +44,7 @@ __Efficient First-order Algorithms for Adaptive Signal Denoising__
 [[slides]](assets/slides/algorec-icml18_back.pdf) 
 [[video]](https://www.youtube.com/watch?v=ObTNWzgemOs&t=6360s)
  
-04/2018: Peter Grünwald's group seminar, CWI, Amsterdam  
+04/2018: CWI, Amsterdam  
 __Adaptive Signal Recovery by Convex Optimization__  
 [[slides]](assets/slides/ostrovskii-sierra-handout.pdf)
  
