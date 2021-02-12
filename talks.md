@@ -4,10 +4,6 @@ title: Talks
 permalink: /talks
 ---
 
-<p align = "center">
-<img src="my_pic.jpg" alt="Getty museum" width="50%" align="center" hspace="20">
-</p>
-
 ## Talks ##
 
 

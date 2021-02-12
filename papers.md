@@ -25,8 +25,8 @@ Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach
 [[code]](https://github.com/flykiller/sublinear-svm)
 
 
-__Adaptive Denoising of Signals with Shift-Invariant Structure__  
-Dmitrii M. Ostrovskii, Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski  
+__Adaptive Denoising of Signals with Local Shift-Invariant Structure__  
+Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii
 [[arXiv]](https://arxiv.org/abs/1806.04028)
 
 
@@ -151,3 +151,8 @@ __Analytical Study of the Quality of Links Established by the Neighborhood Disco
 Andrey Lyakhov, Dmitrii M. Ostrovskii, Evgeny Khorov  
 _Journal of Comm. Technology and Electronics_, vol. 57, no. 12, pp. 1314-1321, 2012  
 [[pdf]](https://link.springer.com/content/pdf/10.1134%2FS1064226912120030.pdf)
+
+
+<p align = "center">
+<img src="my_pic.jpg" alt="Getty museum" width="50%" align="center" hspace="20">
+</p>
