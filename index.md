@@ -17,12 +17,15 @@ I did PhD at the University of Grenoble under [__Anatoli Juditsky__](https://ljk
 
 I work on various aspects of machine learning, statistics, optimization, and signal processing, such as: 
 * statistical optimality and fast learning rates
-* efficient algorithms and algorithmic lower bounds
+* efficient optimization algorithms
 * adaptation to unknown structure and parameters
 * robust statistics
+* hypothesis testing
+
+See my [__research statement__](assets/research_statement.pdf) for more details.
 
 ## Links ##
 
 
-I keep updated my list of [__publications__](/papers) and my [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). Feel free to check my [__CV__](assets/dmitrii_ostrovskii_CV.pdf) and [__research statement__](assets/research_statement.pdf).
+I maintain the [__list of publications__](/papers) and [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). Here is my [__CV__](assets/dmitrii_ostrovskii_CV.pdf).
 I occasionally [__blog__](https://ostrodmit.github.io/blog/) about research.
