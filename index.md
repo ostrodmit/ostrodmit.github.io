@@ -27,5 +27,5 @@ See my [__research statement__](assets/research_statement.pdf) for more details.
 ## Links ##
 
 
-I maintain the [__list of publications__](/papers) and [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). Here is my [__CV__](assets/dmitrii_ostrovskii_CV.pdf).
+I maintain the [__list of publications__](/papers) and [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en). Here is my [__CV__](assets/dmitrii_ostrovskii_CV.pdf).  
 I occasionally [__blog__](https://ostrodmit.github.io/blog/) about research.
