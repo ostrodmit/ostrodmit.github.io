@@ -61,6 +61,7 @@ Dmitrii M. Ostrovskii, Alessandro Rudi
 _COLT 2019_  
 [[paper]](http://proceedings.mlr.press/v99/ostrovskii19a.html) 
 [[arXiv]](https://arxiv.org/abs/1902.03086) 
+[[slides]](/assets/slides/colt19-heavy-covariance.pdf) 
 [[video]](https://www.youtube.com/watch?v=wNsb29RQK3o)
 
 
