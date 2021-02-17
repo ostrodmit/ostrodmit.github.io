@@ -10,7 +10,7 @@ layout: default
 
 I am a postdoc at the __University of Southern California__ with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
 Previously I was an ERCIM Alain Bensoussan fellow at __Inria Paris__ working with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
-I got my PhD from the University of Grenoble where my advisors were [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
+I got my PhD from the University of Grenoble. My thesis advisors were [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
   
 ## Research ##
