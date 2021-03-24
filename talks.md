@@ -7,6 +7,7 @@ permalink: /talks
 ## Talks ##
 
 
+03/2021: Universitat Pompeu Fabra, Barcelona  
 02/2021: USC Probability and Statistics Seminar, Los Angeles  
 02/2021: EPFL, Lausanne   
 01/2021: Weierstrass Institute, Berlin  
