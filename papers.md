@@ -14,11 +14,6 @@ Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn
 [[code]](https://github.com/ostrodmit/testing-without-recovery)  
 
 
-__Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
-Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
-[[arXiv]](https://arxiv.org/abs/2002.07919)  
-
-
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
 Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach  
 [[arXiv]](https://arxiv.org/abs/1902.03755)
@@ -32,6 +27,12 @@ Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii
 
 ## Journal Papers ##  
 
+
+
+__Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
+Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
+_SIAM Journal on Optimization_, 2021 (to appear)  
+[[arXiv]](https://arxiv.org/abs/2002.07919)  
 
 
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
