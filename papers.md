@@ -27,7 +27,7 @@ Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii
 
 ## Journal Papers ##  
 
-
+  
 
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
