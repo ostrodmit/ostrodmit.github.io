@@ -16,12 +16,15 @@ __Near-Optimal Model Discrimination__
 
 
 
+05/2021: Ecole Polytechnique, Paris. 
 09/2019: University of Southern California, Epstein Seminar  
 __On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__  
 [[slides]](assets/slides/USC-Epstein-seminar-handout.pdf)  
 
 
 
+
+04/2021: Ecole Polytechnique, Paris. 
 06/2019: COLT 2019, Phoenix  
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
 [[slides]](/assets/slides/colt19-heavy-covariance.pdf) 
@@ -52,13 +55,9 @@ __Adaptive Signal Denoising by Convex Optimization__
 [[slides]](assets/slides/ostrovskii-jdd-2017.pdf)
     
 07/2017: Axel Munk's group seminar, IMS, Göttingen  
-      
 05/2017: Cédric Févotte's group seminar, IRIT Toulouse  
- 
-05/2017: Mengdi Wang's group seminar, Princeton  
-
+ 05/2017: Mengdi Wang's group seminar, Princeton  
 02/2017: Sham Kakade's group seminar, University of Washington, Seattle  
-
 12/2016: NIPS 2016, Barcelona (poster)  
 __Structure-Blind Signal Recovery__     
 [[poster]](assets/posters/nips2016-poster.pdf)
