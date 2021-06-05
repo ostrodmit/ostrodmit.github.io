@@ -8,23 +8,23 @@ permalink: /talks
 
 
 03/2021: Universitat Pompeu Fabra, Barcelona  
-02/2021: USC Probability and Statistics Seminar, Los Angeles  
-02/2021: EPFL, Lausanne   
+02/2021: University of Southern California, Los Angeles  
+02/2021: EPFL, Lausanne  
 01/2021: Weierstrass Institute, Berlin  
 __Near-Optimal Model Discrimination__  
 [[slides]](assets/slides/slides-NewtonTesting.pdf)  
 
 
 
-05/2021: Ecole Polytechnique, Paris. 
-09/2019: University of Southern California, Epstein Seminar  
+05/2021: Ecole Polytechnique, Paris  
+09/2019: University of Southern California, Los Angeles  
 __On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__  
 [[slides]](assets/slides/USC-Epstein-seminar-handout.pdf)  
 
 
 
 
-04/2021: Ecole Polytechnique, Paris. 
+04/2021: Ecole Polytechnique, Paris  
 06/2019: COLT 2019, Phoenix  
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
 [[slides]](/assets/slides/colt19-heavy-covariance.pdf) 
