@@ -10,7 +10,7 @@ permalink: /papers
 __Near-Optimal Model Discrimination with Non-Disclosure__  
 Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
-[[slides]](assets/slides/slides-NewtonTesting.pdf) 
+[[slides]](assets/slides/slides-Newton-testing.pdf) 
 [[code]](https://github.com/ostrodmit/testing-without-recovery)  
 
 
