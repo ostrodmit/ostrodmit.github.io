@@ -7,12 +7,13 @@ permalink: /talks
 ## Talks ##
 
 
+06/2021: Higher School of Economics, Moscow  
 03/2021: Universitat Pompeu Fabra, Barcelona  
 02/2021: University of Southern California, Los Angeles  
 02/2021: EPFL, Lausanne  
 01/2021: Weierstrass Institute, Berlin  
 __Near-Optimal Model Discrimination__  
-[[slides]](assets/slides/slides-NewtonTesting.pdf)  
+[[slides]](assets/slides/slides-Newton-testing.pdf)  
 
 
 
