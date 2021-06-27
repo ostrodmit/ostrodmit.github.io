@@ -12,7 +12,7 @@ permalink: /talks
 02/2021: University of Southern California, Los Angeles  
 02/2021: EPFL, Lausanne  
 01/2021: Weierstrass Institute, Berlin  
-__Near-Optimal Model Discrimination__  
+__Near-Optimal Model Discrimination with Non-Disclosure__  
 [[slides]](assets/slides/slides-Newton-testing.pdf)  
 
 
