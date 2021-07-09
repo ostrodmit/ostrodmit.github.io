@@ -11,7 +11,8 @@ __Near-Optimal Model Discrimination with Non-Disclosure__
 Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
-[[code]](https://github.com/ostrodmit/testing-without-recovery)  
+[[code]](https://github.com/ostrodmit/testing-without-recovery) 
+[[video]](https://www.dropbox.com/s/9gdy6yhxed95kph/HSE-Newton-Testing.mp4?dl=0)  
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
