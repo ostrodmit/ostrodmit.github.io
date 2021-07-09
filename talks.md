@@ -12,8 +12,9 @@ permalink: /talks
 02/2021: University of Southern California, Los Angeles  
 02/2021: EPFL, Lausanne  
 01/2021: Weierstrass Institute, Berlin  
-__Near-Optimal Model Discrimination with Non-Disclosure__  
-[[slides]](assets/slides/slides-Newton-testing.pdf)  
+__Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
+[[slides]](assets/slides/slides-Newton-testing.pdf) 
+[[video]](https://www.dropbox.com/s/9gdy6yhxed95kph/HSE-Newton-Testing.mp4?dl=0)  
 
 
 
