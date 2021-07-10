@@ -7,7 +7,7 @@ permalink: /papers
 
 
 
-__Near-Optimal Model Discrimination with Non-Disclosure__  
+__Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
 Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
