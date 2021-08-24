@@ -10,16 +10,16 @@ layout: default
 
 Assistant Professor (RTPC) of Mathematics at __University of Southern California__.  
   
-Previously I was a postdoc at USC with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris with [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
+Previously I was a postdoc at USC hosted by [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris under [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
   
-I defended my PhD thesis in early 2018. My advisors were [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
+I defended my PhD thesis in early 2018, under [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
   
 ## Research ##
 
 I work on various aspects of machine learning, statistics, optimization, and signal processing, in particular:  
 * statistical optimality and fast learning rates
-* efficient optimization algorithms
+* efficient optimization algorithms, in particular for min-max optimization
 * adaptation to unknown structure and parameters
 * robust statistics
 * hypothesis testing
