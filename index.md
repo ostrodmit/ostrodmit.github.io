@@ -8,7 +8,7 @@ layout: default
 
 ## About ##
 
-Assistant Professor (RTPC) of Mathematics at __University of Southern California__.  
+I'm an Assistant Professor (RTPC) of Mathematics at __University of Southern California__.  
   
 Previously I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris under [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
   
