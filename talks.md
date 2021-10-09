@@ -14,7 +14,7 @@ permalink: /talks
 01/2021: Weierstrass Institute, Berlin  
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
-[[video]](https://www.dropbox.com/s/9gdy6yhxed95kph/HSE-Newton-Testing.mp4?dl=0)  
+[[video]](https://www.youtube.com/watch?v=s8TyXOuNlj4&ab_channel=DmitriiOstrovskii)  
 
 
 
