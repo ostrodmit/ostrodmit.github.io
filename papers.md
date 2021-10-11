@@ -6,6 +6,10 @@ permalink: /papers
 ## Preprints ##  
 
 
+__Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
+Dmitrii M. Ostrovskii, Babak Barazandeh, Meisam Razaviyayn  
+[[arXiv]](https://arxiv.org/abs/2110.03950) 
+
 
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
 Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn  
