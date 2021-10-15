@@ -9,6 +9,7 @@ permalink: /papers
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 Dmitrii M. Ostrovskii, Babak Barazandeh, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2110.03950) 
+[[slides]](assets/slides/slides-Newton-testing.pdf)  
 
 
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
