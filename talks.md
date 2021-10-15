@@ -7,7 +7,7 @@ permalink: /talks
 ## Talks ##
 
 
-10/2021: AMS Seminar, Johns Hopkins University  
+10/2021: AMS seminar, Johns Hopkins University  
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 [[slides]](assets/slides/slides-small-domain.pdf)  
 
@@ -56,7 +56,7 @@ __Adaptive Signal Recovery by Convex Optimization__
 [[slides]](assets/slides/ostrovskii-sierra-handout.pdf)
  
  
-02/2018: SIERRA Team seminar, Inria, Paris  
+02/2018: SIERRA seminar, Inria Paris  
 
 
 11/2017: University of Grenoble Alpes  
