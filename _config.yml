@@ -7,6 +7,7 @@ baseurl:
 url:         "http://ostrodmit.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
+ - research.md
  - papers.md
  - talks.md
  - teaching.md
