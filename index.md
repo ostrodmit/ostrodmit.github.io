@@ -13,8 +13,9 @@ __Assistant Professor (RTPC) of Mathematics @ University of Southern California_
 _I am on the job market this year. I only consider tenure-track positions in academia._  
 </span>  
   
-From 2019 to 2021 I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/). For 1.5 years before that I was an ERCIM Alain Bensoussan fellow at Inria Paris working with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
-I defended my PhD thesis in 2018. My PhD advisors were [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html). I also enjoyed working with Arkadi Nemirovski.
+In 2019--2021 I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/).  
+In the previous 1.5 years I was an ERCIM Alain Bensoussan fellow at Inria Paris with [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
+I defended my PhD thesis in 2018. My advisors were [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html). I also enjoyed working with Arkadi Nemirovski.
 <br />
   
 ## Research ##
