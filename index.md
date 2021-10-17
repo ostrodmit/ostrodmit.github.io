@@ -3,12 +3,9 @@ layout: default
 title: About
 ---
 
-<span align="center">
-__Assistant Professor (RTPC) of Mathematics__  
-University of Southern California  
-</span>
+__Assistant Professor (RTPC) of Mathematics__, University of Southern California  
 
-<p align = "center">
+<p align="center">
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
   
