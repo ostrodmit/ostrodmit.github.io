@@ -5,8 +5,9 @@ permalink: /teaching
 ---
 
 ## Teaching ##
-
-
+  
+  
+  
 __USC 2021--2022__  
 * Math 541b: Introduction to Mathematical Statistics (graduate course, instructor)  
 [[syllabus]](assets/teaching/Syllabus-541b.pdf) 
