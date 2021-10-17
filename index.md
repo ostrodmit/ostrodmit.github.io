@@ -3,8 +3,10 @@ layout: default
 title: About
 ---
 
+<p align = "center">
 __Assistant Professor (RTPC) of Mathematics__  
 University of Southern California  
+</p>
 
 <p align = "center">
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
@@ -14,8 +16,8 @@ University of Southern California
 _I am on the job market this year. In academia I only consider tenure-track positions._  
 </span>  
   
-In 2019--2021 I was a postdoc at USC Viterbi with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/). In the previous 1.5 years I was an ERCIM Alain Bensoussan fellow at Inria Paris hosted by [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
-I defended my PhD thesis in 2018. I was advised by [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html) and collaborated with Arkadi Nemirovski.
+In 2019--2021 I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://sites.usc.edu/razaviyayn/research/). In the previous 1.5 years I was an ERCIM Alain Bensoussan fellow at Inria Paris hosted by [__Francis Bach__](https://www.di.ens.fr/~fbach/).  
+I defended my PhD thesis in 2018. I was advised by [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html) and collaborated with [Arkadi Nemirovski](https://www2.isye.gatech.edu/~nemirovs/).
 <br />
   
 ## Research ##
