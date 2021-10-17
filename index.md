@@ -6,7 +6,7 @@ title: About
 __Assistant Professor (RTPC) of Mathematics @ University of Southern California__  
 
 <p align = "center">
-<img src="photoGrandCanyon-cropped.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
+<img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
   
 <span style="color:brown;">
