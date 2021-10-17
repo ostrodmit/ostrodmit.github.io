@@ -16,7 +16,7 @@ __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Propertie
 06/2021: Higher School of Economics, Moscow  
 03/2021: Universitat Pompeu Fabra, Barcelona  
 02/2021: University of Southern California, Los Angeles  
-02/2021: EPFL, Lausanne  
+02/2021: EPFL  
 01/2021: Weierstrass Institute, Berlin  
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
 [[video]](https://www.youtube.com/watch?v=s8TyXOuNlj4&ab_channel=DmitriiOstrovskii)  
@@ -63,11 +63,12 @@ __Adaptive Signal Denoising by Convex Optimization__
     
   
 __Structure-Blind Signal Recovery__         
-07/2017: Axel Munk's group seminar, IMS, Göttingen  
+07/2017: Axel Munk's group seminar, Uni Göttingen  
 05/2017: Cédric Févotte's group seminar, IRIT Toulouse  
  05/2017: Mengdi Wang's group seminar, Princeton  
-02/2017: Sham Kakade's group seminar, University of Washington, Seattle  
-12/2016: NIPS 2016, Barcelona (poster)  
+02/2017: Sham Kakade's group seminar, UW Seattle  
+12/2016: NIPS 2016, Barcelona  
+[[poster]](assets/slides/slides-Goettingen-2017.pdf) 
 [[poster]](assets/posters/nips2016-poster.pdf)
 
 
