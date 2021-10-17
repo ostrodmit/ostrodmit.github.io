@@ -13,4 +13,4 @@ permalink: /research
   
 * __Optimization:__ first-order methods, minimax problems, non-Euclidean proximal geometry, acceleration, performance estimation, lower complexity bounds.  
 
-See my [__research statement__](assets/research_statement.pdf), [__list of papers__](/papers), [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and [__research blog__](https://ostrodmit.github.io/blog/).
+See my [__research statement__](assets/research_statement.pdf), [__list of papers__](/papers), [__Google Scholar__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and [__research blog__](https://ostrodmit.github.io/blog/).
