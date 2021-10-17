@@ -4,12 +4,10 @@ title: Research
 permalink: /research
 ---
 
-I work on various aspects of machine learning, statistics, optimization, and signal processing, in particular:  
-* statistical optimality and fast learning rates
-* efficient optimization algorithms, in particular for min-max optimization
-* adaptation to unknown structure and parameters
-* robust statistics
-* hypothesis testing
+* __Statistics and learning theory:__ fast rates, robustness, adaptive estimation, nonparametric and high-dimensional estimation, testing.  
+* __Optimization:__ first-order methods, minimax problems, non-Euclidean geometry, performance estimation, acceleration.  
+* __Signal processing:__ estimation with local shift-invariant structure, super-resolution.
+
 
 See my [__research statement__](assets/research_statement.pdf) and [__list of publications__](/papers) for more details.
 
