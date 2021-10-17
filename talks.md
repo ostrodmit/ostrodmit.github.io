@@ -67,7 +67,7 @@ __Structure-Blind Signal Recovery__
  05/2017: Mengdi Wang's group seminar, Princeton  
 02/2017: Sham Kakade's group seminar, UW Seattle  
 12/2016: NIPS 2016, Barcelona  
-[[poster]](assets/slides/slides-Goettingen-2017.pdf) 
+[[slides]](assets/slides/slides-Goettingen-2017.pdf) 
 [[poster]](assets/posters/nips2016-poster.pdf)
 
 
