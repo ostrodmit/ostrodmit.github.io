@@ -3,9 +3,10 @@ layout: page
 title: Papers
 permalink: /papers
 ---
+  
 ## Preprints ##  
-
-
+  
+  
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 Dmitrii M. Ostrovskii, Babak Barazandeh, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2110.03950) 
@@ -31,7 +32,7 @@ Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii
 [[arXiv]](https://arxiv.org/abs/1806.04028)
 
 
-## Journal Papers ##  
+## Journal Papers ##  (published or accepted)  
 
   
 

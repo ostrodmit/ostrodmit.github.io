@@ -4,7 +4,6 @@ title: Talks
 permalink: /talks
 ---
 
-## Talks ##
 
 
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  

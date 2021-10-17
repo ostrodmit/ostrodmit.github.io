@@ -7,9 +7,10 @@ title: About
 <img src="photoGrandCanyon-cropped.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
 
-## About ##
 
-Assistant Professor (RTPC) of Mathematics at __University of Southern California__.  
+__Assistant Professor (RTPC) of Mathematics at University of Southern California__.  
+  
+_I am on the job market in 2021/2022. I only consider tenure-track positions in academia (or CDI in the case of France)_.  
   
 Previously I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris with [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
   
