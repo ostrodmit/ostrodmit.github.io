@@ -7,7 +7,7 @@ permalink: /talks
 ## Talks ##
 
 
-10/2021: Johns Hopkins University, AMS seminar (invited talk)
+10/2021: Johns Hopkins University, AMS seminar (invited talk)  
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 [[slides]](assets/slides/slides-small-domain.pdf)  
 
