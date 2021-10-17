@@ -4,10 +4,9 @@ title: Research
 permalink: /research
 ---
 
-* __Statistics and learning theory:__ fast rates, robustness, adaptive estimation, nonparametric and high-dimensional estimation, testing.  
-* __Optimization:__ first-order methods, minimax problems, non-Euclidean geometry, performance estimation, acceleration.  
-* __Signal processing:__ estimation with local shift-invariant structure, super-resolution.
+* __Statistics and learning theory:__ fast rates, robustness, adaptive estimation, nonparametric and high-dimensional estimation, testing, inverse problems, estimation with local shift-invariant structure, super-resolution.  
 
+* __Optimization:__ first-order methods, minimax problems, non-Euclidean geometry, acceleration, performance estimation, lower bounds.  
 
 See my [__research statement__](assets/research_statement.pdf) and [__list of publications__](/papers) for more details.
 
