@@ -160,8 +160,3 @@ __Analytical Study of the Quality of Links Established by the Neighborhood Disco
 Andrey Lyakhov, Dmitrii M. Ostrovskii, Evgeny Khorov  
 _Journal of Comm. Technology and Electronics_, vol. 57, no. 12, pp. 1314-1321, 2012  
 [[pdf]](https://link.springer.com/content/pdf/10.1134%2FS1064226912120030.pdf)
-
-
-<p align = "center">
-<img src="my_pic.jpg" alt="Getty museum" width="50%" align="center" hspace="20">
-</p>

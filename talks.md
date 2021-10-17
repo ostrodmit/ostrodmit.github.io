@@ -82,11 +82,3 @@ __Adaptive Recovery of Signals by Convex Optimization__
 __Concentration Inequality for the Exponential Weighting Method__ (in Russian)  
 11/2013: 56th Annual MIPT Conference, Moscow  
 [[slides]](assets/slides/mipt2014-MSc-slides.pdf)
-
-
-<p align = "center">
-<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
-</p>  
-<p align = "center">
-&copy; Victoria Marquez Feldman
-</p>  

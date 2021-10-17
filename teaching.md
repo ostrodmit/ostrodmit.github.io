@@ -22,3 +22,9 @@ __UGA 2015--2017__
 
 __UGA 2015--2016__  
 * Statistical Methods for Biology and Medicine (_in French, travaux pratiques_)  
+
+<p align = "center">
+<img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
+</p>  
+<p align = "center">
+</p>  
