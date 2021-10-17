@@ -15,5 +15,5 @@ See my [__research statement__](assets/research_statement.pdf) and [__papers__](
 Here you can find my [__CV__](assets/dmitrii_ostrovskii_CV.pdf), [__Google Scholar profile__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and (defunct) [__research blog__](https://ostrodmit.github.io/blog/).
 
 <p align = "center">
-<img src="my_pic.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
+<img src="my_pic.jpg" alt="Getty museum" width="35%" align="center" hspace="20">  
 </p>  
