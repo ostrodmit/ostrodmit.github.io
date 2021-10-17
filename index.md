@@ -9,7 +9,9 @@ __Assistant Professor (RTPC) of Mathematics at University of Southern California
 <img src="photoGrandCanyon-cropped.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
   
+<span style="color:brown;">
 _I am on the job market in 2021/2022. In academia I only consider tenure-track positions._  
+</span>  
   
 Previously I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris with [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
   
