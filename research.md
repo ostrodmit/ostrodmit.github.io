@@ -5,7 +5,7 @@ permalink: /research
 ---
 
 <p align = "center">
-<img src="irises-downsized.jpg" alt="Irises" width="90%" align="center" hspace="20">  
+<img src="irises.jpg" alt="Irises" width="90%" align="center" hspace="20">  
 </p>  
 
 * __Statistics and learning theory:__ fast rates, robustness, adaptive estimation, nonparametric and high-dimensional estimation, testing, inverse problems, estimation and prediction with local shift-invariant structure, super-resolution.  
