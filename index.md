@@ -17,4 +17,4 @@ In 2019--2021 I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://si
 I graduated with a PhD in 2018. My advisors were [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html). 
 <br />
   
-Here you can find my [__CV__](assets/dmitrii_ostrovskii_CV.pdf), [__Google Scholar__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and  [__research blog__](https://ostrodmit.github.io/blog/) (for now defunct).
+Here you can find my [__CV__](assets/dmitrii_ostrovskii_CV.pdf), [__Google Scholar__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and  [__research blog__](https://ostrodmit.github.io/blog/).
