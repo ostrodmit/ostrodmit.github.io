@@ -1,5 +1,7 @@
 ---
 layout: default
+title: About
+permalink: /about
 ---
 
 <p align = "center">
@@ -10,7 +12,7 @@ layout: default
 
 Assistant Professor (RTPC) of Mathematics at __University of Southern California__.  
   
-Previously I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris under [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
+Previously I was a postdoc at USC working with [__Meisam Razaviyayn__](https://sites.usc.edu/razaviyayn/research/) (2019-2021) and an ERCIM Alain Bensoussan fellow at Inria Paris with [__Francis Bach__](https://www.di.ens.fr/~fbach/) (2018-2019).  
   
 I defended my PhD thesis in early 2018, under [__Anatoli Juditsky__](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [__Zaid Harchaoui__](http://faculty.washington.edu/zaid/index.html).
 <br />
