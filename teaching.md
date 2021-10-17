@@ -27,4 +27,5 @@ __UGA 2015--2016__
 <img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
 </p>  
 <p align = "center">
+&copy V. Marquez Feldman
 </p>  
