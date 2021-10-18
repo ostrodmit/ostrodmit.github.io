@@ -27,11 +27,17 @@ Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach
 [[code]](https://github.com/flykiller/sublinear-svm)
 
 
+
+## Book chapter ##  
+  
+  
 __Adaptive Denoising of Signals with Local Shift-Invariant Structure__  
-Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii  
+Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii   
+Foundations of Modern Statistics -- Festschrift in Honor of Vladimir Spokoiny  
+Springer, 2021 (to appear)  
 [[arXiv]](https://arxiv.org/abs/1806.04028)
-
-
+  
+  
 ## Journal Papers ##  
 (published or accepted)  
   
