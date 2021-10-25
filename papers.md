@@ -38,18 +38,17 @@ Springer Proceedings in Mathematics & Statistics, 2021 (to appear)
   
   
 ## Journal Papers ##  
-(published or accepted)  
   
 
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
-_SIAM Journal on Optimization_, 2021 (to appear)  
+_SIAM Journal on Optimization_, 31(4):2508-2538, 2021  
 [[arXiv]](https://arxiv.org/abs/2002.07919)  
 
 
 __Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
 Dmitrii M. Ostrovskii, Francis Bach  
-_Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021  
+_Electronic Journal of Statistics_, 15(1): 326-391, 2021  
 [[paper]](https://doi.org/10.1214/20-EJS1780)
 [[arXiv]](https://arxiv.org/abs/1810.06838)
 [[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
@@ -59,7 +58,7 @@ _Electronic Journal of Statistics_, vol. 15, no. 1, pp. 326-391, 2021
 
 __Concentration Inequalities for the Exponential Weighting Method__  
 Yuri Golubev, Dmitrii M. Ostrovskii  
-_Mathematical Methods of Statistics_, vol. 23, no. 1, pp. 20-37, 2014  
+_Mathematical Methods of Statistics_, 23(1):20-37, 2014  
 [[paper]](https://link.springer.com/article/10.3103/S1066530714010025)
 [[eprint]](https://hal.archives-ouvertes.fr/hal-01292413)
 [[slides]](assets/slides/mipt2014-MSc-slides.pdf)
@@ -157,11 +156,11 @@ _Wireless Days 2012_
 
 __A Dynamic Channel Reservation Method for Multimedia Streaming in Wi-Fi Mesh Networks__  
 Artem Krasilov, Andrey Lyakhov, Dmitrii M. Ostrovskii, Evgeny Khorov  
-_Automation and Remote Control_, vol. 74, no. 9, pp. 1460-1473, 2013  
+_Automation and Remote Control_, 74(9):1460-1473, 2013  
 [[pdf]](https://link.springer.com/content/pdf/10.1134%2FS0005117913090038.pdf)
   
 
 __Analytical Study of the Quality of Links Established by the Neighborhood Discovery Protocol__  
 Andrey Lyakhov, Dmitrii M. Ostrovskii, Evgeny Khorov  
-_Journal of Comm. Technology and Electronics_, vol. 57, no. 12, pp. 1314-1321, 2012  
+_Journal of Comm. Technology and Electronics_, 57(12):1314-1321, 2012  
 [[pdf]](https://link.springer.com/content/pdf/10.1134%2FS1064226912120030.pdf)
