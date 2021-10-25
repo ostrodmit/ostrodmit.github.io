@@ -43,6 +43,7 @@ Springer Proceedings in Mathematics & Statistics, 2021 (to appear)
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
 Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
 _SIAM Journal on Optimization_, 31(4):2508-2538, 2021  
+[[paper]](https://epubs.siam.org/doi/abs/10.1137/20M1337600)
 [[arXiv]](https://arxiv.org/abs/2002.07919)  
 
 
