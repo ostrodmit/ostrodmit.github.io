@@ -11,7 +11,7 @@ _I am on the job market this year. I only consider tenure-track or permanent pos
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
     
-In 2019--2021 I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://sites.usc.edu/razaviyayn/research/). Previously, I used to be an ERCIM Alain Bensoussan fellow at Inria Paris hosted by [Francis Bach](https://www.di.ens.fr/~fbach/).  
+In 2019--2021 I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://sites.usc.edu/razaviyayn/research/); before that, I used to be an ERCIM Alain Bensoussan fellow at Inria Paris hosted by [Francis Bach](https://www.di.ens.fr/~fbach/).  
 I graduated with a PhD in 2018. My advisors were [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html). 
 <br />
   
