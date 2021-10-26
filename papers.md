@@ -37,7 +37,7 @@ Springer Proceedings in Mathematics & Statistics, 2021 (to appear)
 [[arXiv]](https://arxiv.org/abs/1806.04028)
   
   
-## Journal Papers ##  
+## Journal papers ##  
   
 
 __Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
@@ -65,7 +65,7 @@ _Mathematical Methods of Statistics_, 23(1):20-37, 2014
 [[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
-## Conference Papers ##  
+## Conference papers ##  
 
 
 
@@ -111,7 +111,7 @@ _COLT 2015_
 [[eprint]](https://hal.inria.fr/hal-01250215/)
 
 
-## PhD Thesis ##  
+## PhD thesis ##  
 
 
 
@@ -123,7 +123,7 @@ Université Grenoble Alpes, 2018
 [[software]](https://github.com/ostrodmit/AdaFilter)
 
 
-## MSc Thesis ##  
+## MSc thesis ##  
 
 
 
@@ -132,7 +132,7 @@ Moscow Institute of Physics and Technology, 2014 (in Russian)
 [[pdf]](assets/theses/my-MSc-thesis.pdf)
 
 
-## BSc Thesis ##  
+## BSc thesis ##  
 
 
 __Analytical Study of NHDP Link Management Protocol__  
@@ -140,7 +140,7 @@ Moscow Institute of Physics and Technology, 2012 (in Russian)
 [[pdf]](assets/theses/my-BSc-thesis.pdf)
 
 
-## Wireless Networks ##  
+## Wireless networks ##  
 
 
 
