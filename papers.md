@@ -18,7 +18,7 @@ Dmitrii M. Ostrovskii, Mohamed Ndaoud, Adel Javanmard, Meisam Razaviyayn
 [[arXiv]](https://arxiv.org/abs/2012.02901) 
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
 [[code]](https://github.com/ostrodmit/testing-without-recovery) 
-[[video]](https://www.dropbox.com/s/9gdy6yhxed95kph/HSE-Newton-Testing.mp4?dl=0)  
+[[video]](https://www.youtube.com/watch?v=s8TyXOuNlj4&ab_channel=DmitriiOstrovskii)  
 
 
 __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__  
