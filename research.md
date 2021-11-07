@@ -8,6 +8,9 @@ permalink: /research
 <img src="irises-downsized.jpg" alt="Irises" width="45%" align="center" hspace="20">  
 </p>  
 
+__Research interests__  
+  
+
 * __Statistics and learning theory:__ fast rates, robustness, adaptive estimation, nonparametric and high-dimensional estimation, testing, inverse problems, estimation and prediction with local shift-invariant structure, super-resolution.  
   
   
