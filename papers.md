@@ -11,7 +11,7 @@ __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__
 Dmitrii M. Ostrovskii, Babak Barazandeh, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2110.03950) 
 [[slides]](assets/slides/slides-small-domain.pdf) 
-[[video]](https://www.youtube.com/watch?v=bAwqZaFe4vA&t=1961s&ab_channel=DmitriiOstrovskii)  
+[[video]](https://www.youtube.com/watch?v=bAwqZaFe4vA&ab_channel=DmitriiOstrovskii)  
 
 
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
