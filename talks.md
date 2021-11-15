@@ -9,7 +9,7 @@ permalink: /talks
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
-[[slides]](assets/slides/slides-small-domain.pdf)  
+[[slides]](assets/slides/slides-small-domain.pdf) 
 [[video]](https://www.youtube.com/watch?v=bAwqZaFe4vA&t=1961s&ab_channel=DmitriiOstrovskii)  
 
 
