@@ -10,6 +10,7 @@ __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-small-domain.pdf)  
+[[video]](https://www.youtube.com/watch?v=bAwqZaFe4vA&t=1961s&ab_channel=DmitriiOstrovskii)  
 
 
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
