@@ -18,6 +18,7 @@ I graduated with a PhD in 2018. My advisors were [Anatoli Juditsky](https://ljk.
 <br />
   
 <p align="center">
-<b>Links:</b> see my <a href="assets/dmitrii_ostrovskii_CV.pdf">CV</a> 
-[__CV__](assets/dmitrii_ostrovskii_CV.pdf), [__Google Scholar__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and [__research statement__](assets/research_statement.pdf).
+<b>Links:</b> <a href="assets/dmitrii_ostrovskii_CV.pdf"><b>CV</b></a>, 
+<a href="https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en"><b>Google Scholar</b></a>,  
+<a href="assets/research_statement.pdf"><b>research statement</b></a>.
 </p>
