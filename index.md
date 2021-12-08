@@ -5,7 +5,7 @@ title: About
 __Assistant Professor (RTPC) of Mathematics__ --- University of Southern California  
 <p align="center">
 <span style="color:red; font-style:italic;">
-I am on the job market this year.  
+I am on the job market this year  
 </span>  
 </p>
 
@@ -17,4 +17,6 @@ __Bio:__ I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://sites.u
 I graduated with a PhD in 2018. My advisors were [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html). 
 <br />
   
+<p align="center">
 __Links:__ see my [__CV__](assets/dmitrii_ostrovskii_CV.pdf), [__Google Scholar__](https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en), and [__research statement__](assets/research_statement.pdf).
+</p>
