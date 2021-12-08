@@ -3,9 +3,11 @@ layout: default
 title: About
 ---
 __Assistant Professor (RTPC) of Mathematics__ --- University of Southern California  
+<p align="center">
 <span style="color:red;">
 _I am on the job market this year._  
 </span>  
+</p>
 
 <p align="center">
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
