@@ -7,7 +7,6 @@ permalink: /talks
 
 
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
-12/2021: Southern California Probability Symposium (SCPS)  
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-small-domain.pdf) 
@@ -15,6 +14,7 @@ __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__
 
 
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
+12/2021: Southern California Probability Symposium (SCPS)  
 06/2021: Higher School of Economics, Moscow  
 03/2021: Universitat Pompeu Fabra, Barcelona  
 02/2021: University of Southern California, Los Angeles  
