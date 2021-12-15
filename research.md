@@ -17,7 +17,7 @@ permalink: /research
 * __Optimization:__ first-order methods, minimax problems, non-Euclidean proximal geometry, acceleration, performance estimation, lower complexity bounds.  
 
 <p align="center">
-<a href="assets/dmitrii_ostrovskii_CV.pdf"><b>CV</b></a>  
-<a href="https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en"><b>Google Scholar</b></a>  
-<a href="assets/research_statement.pdf"><b>Research Statement</b></a>  
+<a href="https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en"><b>Google Scholar</b></a>&emsp;
+<a href="assets/dmitrii_ostrovskii_CV.pdf"><b>CV</b></a>&emsp;
+<a href="assets/research_statement.pdf"><b>Research Statement</b></a>
 </p>
