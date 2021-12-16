@@ -4,14 +4,13 @@ title: Research
 permalink: /research
 ---
 
-<p align = "center">
-<img src="irises-downsized.jpg" alt="Irises" width="45%" align="center" hspace="20">  
-</p>  
-
 <p style="font-size:24px" align="center">
 <b>Research Interests</b>
 </p>
-  
+
+<p align = "center">
+<img src="irises-downsized.jpg" alt="Irises" width="40%" align="center" hspace="20">  
+</p>  
 
 * __Statistics and learning theory:__ fast rates, robustness, adaptive estimation, nonparametric and high-dimensional estimation, testing, inverse problems, estimation and prediction with local shift-invariant structure, super-resolution.  
   
