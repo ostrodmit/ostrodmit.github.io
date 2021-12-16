@@ -9,7 +9,7 @@ permalink: /research
 </p>  
 
 <p align="center">
-<h1>Research Interests</h1>
+<h3>Research Interests</h3>
 </p>
   
 
