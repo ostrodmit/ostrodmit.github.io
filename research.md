@@ -8,10 +8,8 @@ permalink: /research
 <img src="irises-downsized.jpg" alt="Irises" width="45%" align="center" hspace="20">  
 </p>  
 
-<p align="center">
-<span style="">
-Research Interests
-</span>
+<p style="font-size:20px" align="center">
+<b>Research Interests</b>
 </p>
   
 
