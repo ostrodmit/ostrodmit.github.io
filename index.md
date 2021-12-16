@@ -11,9 +11,11 @@ University of Southern California
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
     
-__Bio:__ I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://sites.usc.edu/razaviyayn/research/) in 2019--2021. Before that, I used to be an ERCIM Alain Bensoussan fellow at Inria hosted by [Francis Bach](https://www.di.ens.fr/~fbach/).  
-I graduated with a PhD in 2018. My advisors were [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html). 
-<br />
+<p align="center">
+<b>Bio:</b>  I was a postdoc at USC Viterbi with <a href="https://sites.usc.edu/razaviyayn/research/">Meisam Razaviyayn</a> from 08/2019 to 08/2021.  
+Before, I used to be an ERCIM Alain Bensoussan fellow at Inria hosted by <a href="https://www.di.ens.fr/~fbach/">Francis Bach</a>.  
+I graduated with a PhD in 2018. My advisors were <a href="https://ljk.imag.fr/membres/Anatoli.Iouditski/">Anatoli Juditsky</a> and <a href="http://faculty.washington.edu/zaid/index.html">Zaid Harchaoui</a>. 
+</p>
 
 <p align="center">
 <span style="color:red">
