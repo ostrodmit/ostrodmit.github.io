@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 <p align="center">
-<b>Assistant Professor (RTPC) of Mathematics</b>  
+<b>Assistant Professor (RTPC) of Mathematics</b><br />  
 University of Southern California
 </p>
 
