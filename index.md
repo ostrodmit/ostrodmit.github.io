@@ -15,7 +15,7 @@ __Bio:__ I was a postdoc at USC Viterbi with [Meisam Razaviyayn](https://sites.u
 I graduated with a PhD in 2018. My advisors were [Anatoli Juditsky](https://ljk.imag.fr/membres/Anatoli.Iouditski/) and [Zaid Harchaoui](http://faculty.washington.edu/zaid/index.html). 
 <br />
 
-<p align="center" style="font-size:18px">
+<p style="font-size:18px" align="center" >
 I am on the job market this year.  
 </p>
   
