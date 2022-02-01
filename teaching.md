@@ -9,11 +9,11 @@ permalink: /teaching
 __USC 2021--2022__  
 
 * Math 208: Elementary Probability and Statistics (_instructor_)  
-[[syllabus]](assets/teaching/Syllabus-M208.pdf) 
+[[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf) 
 [[blackboard]](https://blackboard.usc.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_289967_1&handle=cp_announcements&mode=cpview)  
   
 * Math 541b: Introduction to Mathematical Statistics (_graduate course, instructor_)  
-[[syllabus]](assets/teaching/Syllabus-M541b.pdf) 
+[[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf) 
 [[blackboard]](https://blackboard.usc.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_283225_1&handle=cp_announcements&mode=cpview) 
 
 
