@@ -15,10 +15,10 @@ permalink: /research
 * __Mathematical statistics:__ high-dimensional & robust estimation, adaptation, testing, nonparametrics.  
   
   
-* __Optimization theory:__ minimax & nonconvex problems, acceleration, non-Euclidean geometry, lower complexity bounds.  
+* __Optimization theory:__ large-scale algorithms, minimax & nonconvex problems, acceleration, non-Euclidean geometry, lower complexity bounds.  
 
 
-* __Learning theory:__ fast rates / constant regret in statistical/online learning; model misspecification.  
+* __Learning theory:__ fast rates / constant regret in statistical / online learning, model misspecification.  
 
 
 * __Signal processing:__ estimation with shift-invariant structure, super-resolution.  
