@@ -6,7 +6,7 @@ title: About
 <b>Assistant Professor (RTPC) of Mathematics</b><br />  
 University of Southern California  
 <span style="color:red">
-I am on the job market this year.  
+I am on the job market this year!  
 </span>
 </p>  
 
