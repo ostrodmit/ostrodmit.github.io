@@ -12,6 +12,7 @@ permalink: /research
 <img src="irises-downsized.jpg" alt="Irises" width="40%" align="center" hspace="20">  
 </p>  
 
+
 * __Mathematical statistics:__ high-dimensional & robust estimation, adaptation, testing, nonparametrics.  
   
   
@@ -22,6 +23,7 @@ permalink: /research
 
 
 * __Signal processing:__ estimation with shift-invariant structure, super-resolution.  
+
 
 <p align="center">
 <a href="https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en"><b>Google Scholar</b></a>&emsp;
