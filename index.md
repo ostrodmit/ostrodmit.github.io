@@ -4,7 +4,8 @@ title: About
 ---
 <p align="center">
 <b>Assistant Professor (RTPC) of Mathematics</b><br />  
-University of Southern California
+University of Southern California  
+I am on the job market this year.
 </p>
 
 <p align="center">
