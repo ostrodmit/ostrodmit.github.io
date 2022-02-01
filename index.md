@@ -4,16 +4,17 @@ title: About
 ---
 <p align="center">
 <b>Assistant Professor (RTPC) of Mathematics</b><br />  
-University of Southern California</b><br />. 
-<span style="color:red">
-I am on the job market this year!  
-</span>
+University of Southern California
 </p>  
 
 <p align="center">
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
     
+<p align="center"><span style="color:red">
+I am on the job market this year!  
+</span></p>
+  
 <p align="center">
 <b>Bio:</b>  I was a postdoc at USC Viterbi with <a href="https://sites.usc.edu/razaviyayn/research/">Meisam Razaviyayn</a> from 08/2019 to 08/2021.  
 Before, I used to be an ERCIM Alain Bensoussan fellow at Inria hosted by <a href="https://www.di.ens.fr/~fbach/">Francis Bach</a>.  
