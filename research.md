@@ -13,7 +13,7 @@ permalink: /research
 </p>  
   
   
-* __Mathematical statistics:__ high-dimensional & robust estimation, adaptation, testing, nonparametrics.  
+* __Mathematical statistics:__ high-dimensional & robust estimation, structural adaptation, hypotheses testing, nonparametric estimation.  
   
   
 * __Optimization theory:__ large-scale algorithms, minimax & nonconvex problems, acceleration, non-Euclidean geometry, lower complexity bounds.  
