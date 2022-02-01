@@ -22,14 +22,14 @@ __USC 2019--2021__
 * ISE 633: Optimization for Machine Learning (_graduate course, invited lecturer_)  
 
 
-__UGA 2015--2017__  
+__UGA 2015--2017 (in French)__  
 
-* Calculus for Science and Engineering (_in French, cours--travaux dirigés_)  
+* Calculus for Science and Engineering (_cours--travaux dirigés_)  
 
 
-__UGA 2015--2016__  
+__UGA 2015--2016 (in French)__  
 
-* Statistical Methods for Biology and Medicine (_in French, travaux pratiques_)  
+* Statistical Methods for Biology and Medicine (_travaux pratiques_)  
 
 <p align = "center">
 <img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
