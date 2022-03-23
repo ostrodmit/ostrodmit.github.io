@@ -5,13 +5,13 @@ permalink: /talks
 ---
 
   
-__Recent Advances in Nonconvex-[Non]Concave Min-Max Optimization__  
+__Recent Advances in Nonconvex-(Non)Concave Min-Max Optimization__  
 02/2022: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-min-max.pdf)  
 
 
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
-03/2022: INFORMS Optimization Society Conference, Greenville (IOS 2022)  
+03/2022: INFORMS Optimization Society Conference (IOS 2022), Greenville   
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-small-domain.pdf) 
@@ -24,7 +24,7 @@ __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Propertie
 06/2021: Higher School of Economics, Moscow  
 03/2021: Universitat Pompeu Fabra, Barcelona  
 02/2021: University of Southern California, Los Angeles  
-02/2021: EPFL  
+02/2021: EPFL, Lausanne   
 01/2021: Weierstrass Institute, Berlin  
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
 [[video]](https://www.youtube.com/watch?v=s8TyXOuNlj4&ab_channel=DmitriiOstrovskii)  
