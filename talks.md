@@ -5,7 +5,7 @@ permalink: /talks
 ---
 
   
-__Recent advances in nonconvex-(non)concave min-max optimization__  
+__Recent Advances in Nonconvex-[Non]Concave Min-Max Optimization__  
 02/2022: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-min-max.pdf)  
 
