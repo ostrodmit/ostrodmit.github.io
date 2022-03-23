@@ -4,9 +4,12 @@ title: Talks
 permalink: /talks
 ---
 
+  __Recent advances in nonconvex-(non)concave min-max optimization__  
+02/2022: Johns Hopkins University, AMS seminar  
 
 
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
+03/2022: INFORMS Optimization Society Conference (IOS 2022), Greenville SC  
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-small-domain.pdf) 
