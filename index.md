@@ -25,5 +25,6 @@ I graduated with a PhD in 2018. My advisors were <a href="https://ljk.imag.fr/me
 <p align="center">
 <a href="https://scholar.google.fr/citations?user=2IvZJ3cAAAAJ&hl=en"><b>Google Scholar</b></a>&emsp;
 <a href="assets/dmitrii_ostrovskii_CV.pdf"><b>CV</b></a>&emsp;
+<a href="assets/videos/spotlight-generic.mp4"><b>Video Spotlight</b></a>&emsp;
 <a href="assets/research_statement.pdf"><b>Research Statement</b></a>
 </p>
