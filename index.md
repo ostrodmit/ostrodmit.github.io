@@ -16,7 +16,7 @@ I am on the job market this year!
 </span></p>
   
 <p align="center">
-<a href="assets/videos/spotlight-generic.mp4"><b>Spotlight</b></a>
+<a href="https://www.youtube.com/watch?v=BakKBv288YE"><b>Spotlight</b></a>
 </p>  
 
 <p align="center">
