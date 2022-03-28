@@ -8,8 +8,13 @@ permalink: /research
 <b>Research Interests</b>
 </p>
 
+
 <p align = "center">
 <img src="irises-downsized.jpg" alt="Irises" width="40%" align="center" hspace="20">  
+</p>  
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=BakKBv288YE"><b>Spotlight</b></a>
 </p>  
   
   
