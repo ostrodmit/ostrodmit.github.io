@@ -27,12 +27,12 @@ __USC 2019--2021__
 * ISE 633: Optimization for Machine Learning (_graduate course, invited lecturer_)  
 
 
-__UGA 2015--2017 (in French)__  
+__UGA 2015--2017__  
 
 * Calculus for Science and Engineering (_cours--travaux dirigés_)  
 
 
-__UGA 2015--2016 (in French)__  
+__UGA 2015--2016__  
 
 * Statistical Methods for Biology and Medicine (_travaux pratiques_)  
 
