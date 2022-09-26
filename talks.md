@@ -6,7 +6,7 @@ permalink: /talks
 
 
 __An Overview of Minimax Optimization__  
-09/2022: Georgia Tech, Invited lecture at ISyE 8813  
+09/2022: Georgia Tech,  First-Order Methods in Optimization for Machine Learning (ISyE 8813), guest lecture    
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
   
   
