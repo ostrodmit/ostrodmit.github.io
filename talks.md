@@ -4,6 +4,11 @@ title: Talks
 permalink: /talks
 ---
 
+
+__An Overview of Minimax Optimization__  
+09/2022: Georgia Tech, Invited lecture at ISyE 8813  
+[[slides]](assets/slides/slides-minimax-GATech.pdf)  
+  
   
 __Recent Advances in Nonconvex-(Non)Concave Min-Max Optimization__  
 02/2022: Johns Hopkins University, AMS seminar  
