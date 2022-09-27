@@ -5,15 +5,15 @@ permalink: /talks
 ---
   
   
-__An Overview of Minimax Optimization__  
-09/2022: Georgia Tech,  First-Order Methods in Optimization for Machine Learning (ISyE 8813), guest lecture    
-[[slides]](assets/slides/slides-minimax-GATech.pdf)  
-
-
 __Efficient and Near-Optimal Online Portfolio Selection__  
 04/2022: University of Southern California, Mathematical Finance Colloquium   
 [[slides]](assets/slides/slides-online-portfolio.pdf) 
 [[video]](https://www.youtube.com/watch?v=-esRt5i3cvg)  
+
+
+__An Overview of Minimax Optimization__  
+09/2022: Georgia Tech,  First-Order Methods in Optimization for Machine Learning (ISyE 8813), guest lecture  
+[[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 
 __Recent Advances in Nonconvex-[Non-]Concave Min-Max Optimization__  
