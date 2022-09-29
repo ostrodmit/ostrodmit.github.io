@@ -7,6 +7,13 @@ permalink: /papers
 ## Preprints ##  
   
   
+__Efficient and Near-Optimal Online Portfolio Selection__  
+Rémi Jézéquel, Dmitrii M. Ostrovskii, Pierre Gaillard    
+[[arXiv]](https://arxiv.org/abs/2209.13932) 
+[[slides]](assets/slides/slides-online-portfolio.pdf) 
+[[video]](https://www.youtube.com/watch?v=-esRt5i3cvg)  
+
+
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 Dmitrii M. Ostrovskii, Babak Barazandeh, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2110.03950) 
