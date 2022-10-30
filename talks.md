@@ -6,7 +6,7 @@ permalink: /talks
   
   
 __Efficient and Near-Optimal Online Portfolio Selection__  
-04/2022: Georgia Tech, Stochastics Seminar  
+10/2022: Georgia Tech, Stochastics Seminar  
 04/2022: University of Southern California, Mathematical Finance Colloquium   
 [[slides]](assets/slides/slides-portfolio.pdf) 
 [[video]](https://www.youtube.com/watch?v=g8PelyJES00)  
