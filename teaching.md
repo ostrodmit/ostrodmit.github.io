@@ -7,20 +7,23 @@ permalink: /teaching
   
 __USC 2022--2023__  
 
-* 542 (Spring): Analysis of Variance and Regression (_grad. course_)  
+* Math 542, Spring: Analysis of Variance and Regression (_grad. course_)  
+
+* ISyE 541b: First-Order Methods in Optimization for Machine Learning, _``An Overview of Minimax Optimization''_ (invited lecture at Georgia Tech)
+[[slides]](assets/slides/slides-minimax-GATech.pdf)  
   
-* 541b (Fall): Introduction to Mathematical Statistics (_grad. course_)  
+* Math 541b, Fall: Introduction to Mathematical Statistics (_grad. course_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
   
 __USC 2021--2022__  
 
-* 225 (Summer): Linear Algebra and Linear Differential Equations
+* Math 225, Summer: Linear Algebra and Linear Differential Equations
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf)  
   
-* 208 (Spring): Elementary Probability and Statistics
+* Math 208, Spring: Elementary Probability and Statistics
 [[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf)  
   
-* 541b (Fall): Introduction to Mathematical Statistics (_grad. course_)  
+* Math 541b, Fall: Introduction to Mathematical Statistics (_grad. course_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf)  
 
 
