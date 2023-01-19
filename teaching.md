@@ -9,12 +9,12 @@ __USC 2022--2023__
 
 * Math 542, Spring: Analysis of Variance and Regression (_grad. course_)  
 
-* ISyE 541b: First-Order Methods in Optimization for Machine Learning, _``An Overview of Minimax Optimization''_ (invited lecture at Georgia Tech)
-[[slides]](assets/slides/slides-minimax-GATech.pdf)  
-  
 * Math 541b, Fall: Introduction to Mathematical Statistics (_grad. course_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
-  
+
+* ISyE 541b: First-Order Methods in Optimization for Machine Learning, _``An Overview of Minimax Optimization''_ (invited lecture at Georgia Tech)
+[[slides]](assets/slides/slides-minimax-GATech.pdf)  
+    
 __USC 2021--2022__  
 
 * Math 225, Summer: Linear Algebra and Linear Differential Equations
