@@ -12,8 +12,8 @@ __USC 2022--2023__
 * Math 541b, Fall: Introduction to Mathematical Statistics (_grad. course_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
 
-* ISyE 541b: First-Order Methods in Optimization for Machine Learning:  
-_An Overview of Minimax Optimization_ (invited lecture, Georgia Tech)
+* ISyE 541b: First-Order Methods in Optimization for Machine Learning --   
+An Overview of Minimax Optimization _(invited lecture, Georgia Tech)_
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
     
 __USC 2021--2022__  
