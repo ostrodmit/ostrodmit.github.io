@@ -7,9 +7,9 @@ permalink: /teaching
   
 __USC 2022--2023__  
 
-* Math 542, Spring: Analysis of Variance and Regression (_grad. course_)  
+* Math 542, Spring: Analysis of Variance and Regression (_graduate_)  
 
-* Math 541b, Fall: Introduction to Mathematical Statistics (_grad. course_)  
+* Math 541b, Fall: Introduction to Mathematical Statistics (_graduate_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
 
 * ISyE 541b: First-Order Methods in Optimization for Machine Learning --   
@@ -24,7 +24,7 @@ __USC 2021--2022__
 * Math 208, Spring: Elementary Probability and Statistics
 [[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf)  
   
-* Math 541b, Fall: Introduction to Mathematical Statistics (_grad. course_)  
+* Math 541b, Fall: Introduction to Mathematical Statistics (_graduate_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf)  
 
 
