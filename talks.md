@@ -6,6 +6,7 @@ permalink: /talks
   
   
 __Efficient and Near-Optimal Online Portfolio Selection__  
+01/2023: Optimization and Statistical Learning (OSL 2023), Les Houches  
 10/2022: Georgia Tech, Stochastics Seminar  
 04/2022: University of Southern California, Mathematical Finance Colloquium   
 [[slides]](assets/slides/slides-portfolio.pdf) 
@@ -31,8 +32,9 @@ __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__
 
 
 __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Properties__  
+12/2022: Meeting in Mathematical Statistics (MMS 2022), Luminy  
 02/2022: Cambridge University, Statistical Seminar   
-12/2021: Southern California Probability Symposium (SCPS)  
+12/2021: Southern California Probability Symposium (SCPS 2021), Los Angeles  
 06/2021: Higher School of Economics, Moscow  
 03/2021: Universitat Pompeu Fabra, Barcelona  
 02/2021: University of Southern California, Los Angeles  
