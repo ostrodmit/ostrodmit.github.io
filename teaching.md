@@ -37,10 +37,7 @@ __USC 2019--2021__
 __UGA 2015--2017__  
 
 * Calculus for Science and Engineering (_lectures & seminars_)  
-
-
-__UGA 2015--2016__  
-
+  
 * Statistical Methods for Biology and Medicine (_practical sessions_)  
 
 <p align = "center">
