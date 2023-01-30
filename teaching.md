@@ -8,6 +8,7 @@ permalink: /teaching
 __USC 2022--2023__  
 
 * Math 542, Spring: Analysis of Variance and Regression (_graduate_)  
+[[syllabus]](assets/teaching/Syllabus-M542-S2023.pdf)  
 
 * Math 541b, Fall: Introduction to Mathematical Statistics (_graduate_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
