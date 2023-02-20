@@ -18,7 +18,7 @@ __An Overview of Minimax Optimization__
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 
-__Recent Advances in Nonconvex-[Non-]Concave Min-Max Optimization__  
+__Recent Advances in Nonconvex-[Non]Сoncave Min-Max Optimization__  
 02/2022: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-min-max.pdf)  
 
