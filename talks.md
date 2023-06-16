@@ -24,7 +24,8 @@ __Recent Advances in Nonconvex-[Non]Сoncave Min-Max Optimization__
 
 
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
-03/2022: INFORMS Optimization Society Conference (IOS 2022), Greenville   
+05/2023: SIAM Conference on Optimization (OP23), Seattle  
+03/2022: INFORMS Optimization Society Conference (IOS 2022), Greenville  
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-small-domain.pdf) 
