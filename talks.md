@@ -6,7 +6,7 @@ permalink: /talks
   
   
 __Efficient and Near-Optimal Online Portfolio Selection__  
-03/2023:Toulouse School of Economics  
+03/2023: Toulouse School of Economics  
 01/2023: Optimization and Statistical Learning (OSL 2023), Les Houches  
 10/2022: Georgia Tech, Stochastics Seminar  
 04/2022: University of Southern California, Mathematical Finance Colloquium   
