@@ -14,16 +14,6 @@ __Efficient and Near-Optimal Online Portfolio Selection__
 [[video]](https://www.youtube.com/watch?v=g8PelyJES00)  
 
 
-__An Overview of Minimax Optimization__  
-09/2022: Georgia Tech,  ISyE 8813: First-Order Methods in Optimization for Machine Learning (invited lecture)  
-[[slides]](assets/slides/slides-minimax-GATech.pdf)  
-
-
-__Recent Advances in Nonconvex-[Non]Сoncave Min-Max Optimization__  
-02/2022: Johns Hopkins University, AMS seminar  
-[[slides]](assets/slides/slides-min-max.pdf)  
-
-
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 05/2023: SIAM Conference on Optimization (OP23), Seattle  
 03/2022: INFORMS Optimization Society Conference (IOS 2022), Greenville  
@@ -44,6 +34,16 @@ __Near-Optimal Procedures for Model Discrimination with Non-Disclosure Propertie
 01/2021: Weierstrass Institute, Berlin  
 [[slides]](assets/slides/slides-Newton-testing.pdf) 
 [[video]](https://www.youtube.com/watch?v=s8TyXOuNlj4&ab_channel=DmitriiOstrovskii)  
+
+
+__An Overview of Minimax Optimization__  
+09/2022: Georgia Tech,  ISyE 8813: First-Order Methods in Optimization for Machine Learning (invited lecture)  
+[[slides]](assets/slides/slides-minimax-GATech.pdf)  
+
+
+__Recent Advances in Nonconvex-[Non]Сoncave Min-Max Optimization__  
+02/2022: Johns Hopkins University, AMS seminar  
+[[slides]](assets/slides/slides-min-max.pdf)  
 
 
 __On Fast Rates in Empirical Risk Minimization Beyond Least-Squares__  
