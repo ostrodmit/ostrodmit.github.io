@@ -5,6 +5,12 @@ permalink: /teaching
 ---
   
   
+__Georgia Tech 2023--2024__  
+
+* Math 1553, Fall: Introduction to Linear Algebra  
+[[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
+[[canvas]](https://gatech.instructure.com/courses/326018)  
+
 __USC 2022--2023__  
 
 * Math 542, Spring: Analysis of Variance and Regression (_graduate_)  
@@ -13,7 +19,7 @@ __USC 2022--2023__
 * Math 541b, Fall: Introduction to Mathematical Statistics (_graduate_)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
 
-* ISyE 541b: First-Order Methods in Optimization for Machine Learning --   
+* ISyE 8813: First-Order Methods in Optimization for Machine Learning --   
 An Overview of Minimax Optimization _(invited lecture, Georgia Tech)_
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
     
