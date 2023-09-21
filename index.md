@@ -3,8 +3,8 @@ layout: default
 title: About
 ---
 <p align="center">
-<b>Assistant Professor (RTPC) of Mathematics</b><br />  
-University of Southern California
+<b>Assistant Professor</b><br />  
+Georgia Tech - School of Mathematics & H. Milton Stewart School of ISyE
 </p>  
 
 <p align="center">
