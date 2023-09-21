@@ -4,16 +4,14 @@ title: About
 ---
 <p align="center">
 <b>Assistant Professor</b><br />  
-Georgia Tech - School of Mathematics & H. Milton Stewart School of ISyE
+Georgia Tech -- School of Mathematics  
+H. Milton Stewart School of Industrial and Systems Engineering (ISyE)
 </p>  
 
 <p align="center">
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
 </p>
     
-<p align="center"><span style="color:red">
-I am on the job market this year!  
-</span></p>
   
 <p align="center">
 <a href="https://www.youtube.com/watch?v=BakKBv288YE"><b>Spotlight</b></a>
