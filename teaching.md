@@ -17,16 +17,16 @@ An Overview of Minimax Optimization _(invited lecture)_
 
 __University of Southern California__  
 
-* Spring 2023: Analysis of Variance and Regression (Math 542)
+* Spg 2023: Analysis of Variance and Regression (Math 542)
 [[syllabus]](assets/teaching/Syllabus-M542-S2023.pdf)  
 
 * Fall 2022: Introduction to Mathematical Statistics (Math 541b)
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
     
-* Summer 2022: Linear Algebra & Linear Differential Equations (Math 225)
+* Smr 2022: Linear Algebra & Linear Differential Equations (Math 225)
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf)  
   
-* Spring 2022: Elementary Probability and Statistics (Math 208)
+* Spg 2022: Elementary Probability and Statistics (Math 208)
 [[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf)  
   
 * Fall 2021: Introduction to Mathematical Statistics (Math 541b)
