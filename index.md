@@ -5,7 +5,9 @@ title: About
 
 <p align="center">
 <b>Assistant Professor</b><br />  
-Georgia Tech -- School of Mathematics  
+<b>Georgia Tech</b><br />  
+School of Mathematics  
+H. Milton Stewart School of Industrial & Systems Engineering (ISyE)  
 </p>  
 
 <p align="center">
