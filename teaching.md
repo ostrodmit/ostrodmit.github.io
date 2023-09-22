@@ -11,7 +11,7 @@ __Georgia Tech__
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
-* Fall 2022: Invited Lecture on Minimax Algorithms (for ISyE 8813 MAG)  
+* Fall 2022: Invited Lecture on Minimax Problems (for ISyE 8813 MAG)  
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 __University of Southern California__  
