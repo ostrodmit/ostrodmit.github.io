@@ -2,10 +2,10 @@
 layout: default
 title: About
 ---
+
 <p align="center">
 <b>Assistant Professor</b><br />  
 Georgia Tech -- School of Mathematics  
-H. Milton Stewart School of Industrial and Systems Engineering (ISyE)
 </p>  
 
 <p align="center">
