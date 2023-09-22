@@ -26,8 +26,7 @@ __University of Southern California__
     
 * Smr 2022: Linear Algebra & Linear Differential Equations (Math 225)  
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf) 
-[[videos]](https://www.dropbox.com/scl/fo/pq8w39t85oo3bevnka79v/h?rlkey=8vhihvbfea1asaz343q894zro&dl=0) 
-[[some-notes]](https://www.dropbox.com/scl/fo/dttriysmvwf423lb7ou4c/h?rlkey=88d18rcywrhltqmn7ctus6h9z&dl=0)  
+[[videos]](https://www.dropbox.com/scl/fo/pq8w39t85oo3bevnka79v/h?rlkey=8vhihvbfea1asaz343q894zro&dl=0)  
   
 * Spg 2022: Elementary Probability and Statistics (Math 208)  
 [[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf) 
@@ -35,7 +34,7 @@ __University of Southern California__
 [[videos]](https://www.dropbox.com/scl/fo/zgkrjq4nhqlxjwb3fv8er/h?rlkey=v7m01ngpof0l0uu008vbpvrg7&dl=0) 
   
 * Fall 2021: Introduction to Mathematical Statistics (Math 541b)  
-[[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf)  
+[[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/wu5r72el2yqqt986zk9oj/h?rlkey=7zddzzczsh5izcr61opbl7f42&dl=0) 
 [[videos]](https://www.dropbox.com/scl/fo/whfr1h4ukus68dx0twwow/h?rlkey=4nlvo13ecaiiis3ovxdbf6mk8&dl=0)  
 
