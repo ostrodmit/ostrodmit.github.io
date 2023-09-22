@@ -6,10 +6,11 @@ title: About
 <p align="center">
 <b>Assistant Professor</b><br />
 <b>Georgia Tech</b><br />
-School of Mathematics and ISyE<br />  
+School of Mathematics
+Office: Skiles 263<br />
 </p>  
 <p align="center">
-<img src="email.png" alt="Email" width="16%" align="center" hspace="20">
+<img src="email.png" alt="Email" width="20%" align="center" hspace="20">
 </p>    
 
 <p align="center">
