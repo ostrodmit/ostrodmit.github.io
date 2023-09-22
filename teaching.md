@@ -30,8 +30,7 @@ __University of Southern California__
 [[videos]](https://www.dropbox.com/scl/fo/zgkrjq4nhqlxjwb3fv8er/h?rlkey=v7m01ngpof0l0uu008vbpvrg7&dl=0)    
 * Fall 2021: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf) 
-[[notes]](https://www.dropbox.com/scl/fo/wu5r72el2yqqt986zk9oj/h?rlkey=7zddzzczsh5izcr61opbl7f42&dl=0) 
-[[videos]](https://www.dropbox.com/scl/fo/whfr1h4ukus68dx0twwow/h?rlkey=4nlvo13ecaiiis3ovxdbf6mk8&dl=0) 
+[[notes]](https://www.dropbox.com/scl/fo/wu5r72el2yqqt986zk9oj/h?rlkey=7zddzzczsh5izcr61opbl7f42&dl=0)  
 
 __Université Grenoble Alpes__  
 
