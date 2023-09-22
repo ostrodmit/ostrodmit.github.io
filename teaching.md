@@ -11,7 +11,7 @@ __Georgia Tech__
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
-* Fall 2022: First-Order Methods in Optimization for Machine Learning (ISyE 8813) -- _invited lecture_  
+* Fall 2022: First-Order Optimization Methods for Machine Learning (ISyE 8813) -- _invited lecture_  
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 __University of Southern California__  
