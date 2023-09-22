@@ -9,7 +9,7 @@ title: About
 Schools of Mathematics and ISyE<br />  
 </p>  
 <p align="center">
-<img src="email.png" alt="Email" width="20%" align="center" hspace="20">
+<img src="email.png" alt="Email" width="16%" align="center" hspace="20">
 </p>    
 
 <p align="center">
