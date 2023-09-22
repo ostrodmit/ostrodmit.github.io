@@ -7,7 +7,7 @@ title: About
 <b>Assistant Professor</b><br />
 <b>Georgia Tech — School of Mathematics</b><br />  
 Office: Skiles 263<br />  
-<img src="email.png" alt="Email" width="20%" hspace="20" vspace="5"> 
+<img src="email.png" alt="Email" width="20%" hspace="20" vspace="4"> 
 </p> 
 
 <p align="center">
