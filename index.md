@@ -4,10 +4,10 @@ title: About
 ---
 
 <p align="center">
-<b>Assistant Professor</b><br/>
-Georgia Tech — School of Mathematics<br/>
-Office: Skiles 263<br/>
-<img src="email.png" alt="Email" width="20%" hspace="20"> 
+<b>Assistant Professor</b><br />
+<b>Georgia Tech — School of Mathematics</b><br />  
+Office: Skiles 263<br />  
+<img src="email.png" alt="Email" width="20%" hspace="20" vspace="10"> 
 </p> 
 
 <p align="center">
