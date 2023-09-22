@@ -5,12 +5,9 @@ title: About
 
 <p align="center">
 <b>Assistant Professor</b><br />
-<b>Georgia Tech</b><br />
-Skiles 263 (School of Mathematics)
+<b>Georgia Tech</b> School of Mathematics<br />
+Skiles 263, <img src="email.png" alt="Email" width="20%" hspace="20"> 
 </p> 
-<p align="center">
-<img src="email.png" alt="Email" width="20%" align="center" hspace="20">
-</p>    
 
 <p align="center">
 <img src="photoGrandCanyon-cropped-stronger.jpg" alt="Getty museum" width="30%" align="center" hspace="20">
