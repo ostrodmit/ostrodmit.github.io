@@ -34,9 +34,9 @@ __University of Southern California__
 
 __Université Grenoble Alpes__  
 
-* Fall 2016: Mathématiques pour les sciences de l'ingénieur (MAT102) -- _Cours-TD_  
-* Fall 2015: Méthodes statistiques pour la biologie (STA230) -- _TP_  
-* Fall 2015: Mathématiques pour les sciences de l'ingénieur (MAT102) -- _Cours-TD_   
+* Fall 2016: Mathématiques pour les sciences de l'ingénieur (MAT 102) -- _Cours-TD_  
+* Fall 2015: Méthodes statistiques pour la biologie (STA 230) -- _TP_  
+* Fall 2015: Mathématiques pour les sciences de l'ingénieur (MAT 102) -- _Cours-TD_   
   
 
 <p align = "center">
