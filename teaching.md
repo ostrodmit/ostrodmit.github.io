@@ -32,10 +32,10 @@ __University of Southern California__
 [[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf)  
   
 
-__Université Grenoble Alpes__ (in French)  
+__Université Grenoble Alpes__  
 
-* Calculus for Science and Engineering (Cours-TD) 
-* Statistical Methods for Biology and Medicine (TP) 
+* 2015-2016: Mathématiques utiles pour les sciences de l'ingénieur (MAT116 & MAT102), _Cours-TD_   
+* 2015: Méthodes statistiques pour la biologie (STA230), _TP_   
 
 <p align = "center">
 <img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
