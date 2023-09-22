@@ -11,24 +11,24 @@ __Georgia Tech__
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
-* Fall 2022: First-Order Methods in Optimization for Machine Learning (ISyE 8813 MAG) -- _invited lecture_  
+* Fall 2022: Invited Lecture on Minimax Algorithms (for ISyE 8813 MAG)  
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 __University of Southern California__  
 
-* Spg 2023: Analysis of Variance and Regression (Math 542)
+* Spg 2023: Analysis of Variance and Regression (Math 542)  
 [[syllabus]](assets/teaching/Syllabus-M542-S2023.pdf)  
 
-* Fall 2022: Introduction to Mathematical Statistics (Math 541b)
+* Fall 2022: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
     
-* Smr 2022: Linear Algebra & Linear Differential Equations (Math 225)
+* Smr 2022: Linear Algebra & Linear Differential Equations (Math 225)  
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf)  
   
-* Spg 2022: Elementary Probability and Statistics (Math 208)
+* Spg 2022: Elementary Probability and Statistics (Math 208)  
 [[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf)  
   
-* Fall 2021: Introduction to Mathematical Statistics (Math 541b)
+* Fall 2021: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf)  
   
 
