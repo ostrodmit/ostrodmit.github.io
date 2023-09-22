@@ -11,7 +11,7 @@ __Georgia Tech__
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
-* Fall 2022: First-Order Methods in Optimization for Machine Learning (ISyE 8813), _(invited lecture)_
+* Fall 2022: First-Order Methods in Optimization for Machine Learning (ISyE 8813) -- _invited lecture_  
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 __University of Southern California__  
@@ -34,8 +34,10 @@ __University of Southern California__
 
 __Université Grenoble Alpes__  
 
-* 2015-2016: Mathématiques utiles pour les sciences de l'ingénieur (MAT116 & MAT102), _Cours-TD_   
-* 2015: Méthodes statistiques pour la biologie (STA230), _TP_   
+* Fall 2016: Mathématiques pour les sciences de l'ingénieur (MAT102) -- _Cours-TD_  
+* Fall 2015: Méthodes statistiques pour la biologie (STA230) -- _TP_  
+* Fall 2015: Mathématiques pour les sciences de l'ingénieur (MAT102) -- _Cours-TD_   
+  
 
 <p align = "center">
 <img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
