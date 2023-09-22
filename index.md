@@ -6,9 +6,8 @@ title: About
 <p align="center">
 <b>Assistant Professor</b><br />
 <b>Georgia Tech</b><br />
-School of Mathematics
-Office: Skiles 263<br />
-</p>  
+Skiles 263 (School of Mathematics)
+</p> 
 <p align="center">
 <img src="email.png" alt="Email" width="20%" align="center" hspace="20">
 </p>    
