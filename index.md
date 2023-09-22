@@ -6,7 +6,7 @@ title: About
 <p align="center">
 <b>Assistant Professor</b><br />
 <b>Georgia Tech</b><br />
-Schools of Mathematics and ISyE<br />  
+School of Mathematics and ISyE<br />  
 </p>  
 <p align="center">
 <img src="email.png" alt="Email" width="16%" align="center" hspace="20">
