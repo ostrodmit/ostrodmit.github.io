@@ -11,7 +11,7 @@ __Georgia Tech__
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
-* Fall 2022: First-Order Methods in Optimization for Machine Learning --   
+* Fall 2022: First-Order Methods in Optimization for Machine Learning -- 
 An Overview of Minimax Optimization _(invited lecture)_
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
