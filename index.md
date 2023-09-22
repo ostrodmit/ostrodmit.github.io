@@ -11,7 +11,7 @@ H. Milton Stewart School of Industrial and Systems Engineering (ISyE)
 </p>  
 
 <p align="center">
-<img src="email.png" alt="Email" width="100%" align="center" hspace="20">
+<img src="email.png" alt="Email" width="20%" align="center" hspace="20">
 </p>    
 
 <p align="center">

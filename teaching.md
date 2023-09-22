@@ -11,8 +11,7 @@ __Georgia Tech__
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
-* Fall 2022: First-Order Methods in Optimization for Machine Learning -- 
-An Overview of Minimax Optimization _(invited lecture)_
+* Fall 2022: First-Order Methods in Optimization for Machine Learning (ISyE 8813), _(invited lecture)_
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
 
 __University of Southern California__  
@@ -35,8 +34,8 @@ __University of Southern California__
 
 __Université Grenoble Alpes__ (in French)  
 
-* Calculus for Science and Engineering (_lectures & seminars_)    
-* Statistical Methods for Biology and Medicine (_practical sessions_)  
+* Calculus for Science and Engineering (Cours-TD) 
+* Statistical Methods for Biology and Medicine (TP) 
 
 <p align = "center">
 <img src="sketch_vicky.jpg" alt="Sketch by Vicky" width="40%" align="center" hspace="20">  
