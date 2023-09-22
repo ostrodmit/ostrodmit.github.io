@@ -7,7 +7,7 @@ permalink: /teaching
   
 __Georgia Tech__  
 
-* Fall 2023: Introduction to Linear Algebra (Math 1553)
+* Fall 2023: Introduction to Linear Algebra (Math 1553)  
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
   
@@ -23,7 +23,7 @@ __University of Southern California__
 * Fall 2022: Introduction to Mathematical Statistics (Math 541b)
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf)  
     
-* Summer 2022: Linear Algebra and Linear Differential Equations (Math 225)
+* Summer 2022: Linear Algebra & Linear Differential Equations (Math 225)
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf)  
   
 * Spring 2022: Elementary Probability and Statistics (Math 208)
