@@ -5,7 +5,7 @@ title: About
 
 <p align="center">
 <b>Assistant Professor</b><br />
-<b>Georgia Tech — Math & ISyE</b><br />  
+<b>Georgia Tech — Math and ISyE</b><br />  
 Office: Skiles 263<br />  
 <img src="email.png" alt="Email" width="20%" hspace="20" vspace="4"> 
 </p> 
