@@ -12,13 +12,13 @@ __Georgia Tech__
 [[videos]](https://www.dropbox.com/home/!Teaching/GaTech/2023-2024/1553/Videos) 
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
-* Fall 2022: Invited Lecture on Minimax Problems (for ISyE 8813 MAG)  
-[[slides]](assets/slides/slides-minimax-GATech.pdf) 
 
 __University of Southern California__  
 
 * Spring 2023: Analysis of Variance and Regression (Math 542)  
 [[syllabus]](assets/teaching/Syllabus-M542-S2023.pdf)  
+* Fall 2022: Invited Lecture on Minimax Problems (for ISyE 8813 MAG)    
+[[slides]](assets/slides/slides-minimax-GATech.pdf)  
 * Fall 2022: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/kj63l3bha5ditcpn74rmz/h?rlkey=3aksu0n1bsb6y54zzptqz60hn&dl=0) 
