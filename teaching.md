@@ -9,7 +9,7 @@ __Georgia Tech__
 
 * Spring 2024: Statistical Estimation (Math 6262)  -- TBD  
 * Fall 2023: Introduction to Linear Algebra (Math 1553)  
-[[videos]](https://www.dropbox.com/home/!Teaching/GaTech/2023-2024/1553/Videos) 
+[[videos]](https://www.dropbox.com/scl/fo/1mr4tk7mmpb9y3ddri0qi/h?rlkey=suhq9nu34w97ixnzs90td1fk9&dl=0) 
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
 
