@@ -6,7 +6,7 @@ permalink: /teaching
   
 __Georgia Tech__  
 
-* Spring 2024: Statistical Estimation (Math 6262)  -- TBD  
+* Spring 2024: Statistical Estimation (Math 6262)  
 [[syllabus]](assets/teaching/Syllabus-M6262-S2024.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/365662)  
 * Fall 2023: Introduction to Linear Algebra (Math 1553)  
@@ -24,7 +24,7 @@ __University of Southern California__
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/kj63l3bha5ditcpn74rmz/h?rlkey=3aksu0n1bsb6y54zzptqz60hn&dl=0) 
 [[videos]](https://www.dropbox.com/scl/fo/whfr1h4ukus68dx0twwow/h?rlkey=4nlvo13ecaiiis3ovxdbf6mk8&dl=0)  
-* Summer 2022: Linear Algebra & Linear Differential Equations (Math 225)  
+* Summer 2022: Linear Algebra and Differential Equations (Math 225)  
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf) 
 [[videos]](https://www.dropbox.com/scl/fo/pq8w39t85oo3bevnka79v/h?rlkey=8vhihvbfea1asaz343q894zro&dl=0)    
 * Spring 2022: Elementary Probability and Statistics (Math 208)  
