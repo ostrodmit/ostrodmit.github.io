@@ -4,10 +4,11 @@ title: Teaching
 permalink: /teaching
 ---
   
-  
 __Georgia Tech__  
 
 * Spring 2024: Statistical Estimation (Math 6262)  -- TBD  
+[[syllabus]](assets/teaching/Syllabus-M6262-S2024.pdf)  
+[[canvas]](https://gatech.instructure.com/courses/365662)  
 * Fall 2023: Introduction to Linear Algebra (Math 1553)  
 [[videos]](https://www.dropbox.com/scl/fo/1mr4tk7mmpb9y3ddri0qi/h?rlkey=suhq9nu34w97ixnzs90td1fk9&dl=0) 
 [[calendar]](https://chrisj.math.gatech.edu/23f/1553/2023f-schedule.html) 
