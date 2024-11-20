@@ -7,6 +7,12 @@ permalink: /papers
 ## Preprints ##  
   
   
+__Near-Optimal and Tractable Estimation under Shift-Invariance__  
+Dmitrii M. Ostrovskii    
+[[arXiv]](https://arxiv.org/abs/2411.03383) 
+[[slides]](assets/slides/slides-optimal-filters.pdf)  
+
+
 __Efficient and Near-Optimal Online Portfolio Selection__  
 Rémi Jézéquel, Dmitrii M. Ostrovskii, Pierre Gaillard    
 [[arXiv]](https://arxiv.org/abs/2209.13932) 
