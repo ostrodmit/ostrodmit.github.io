@@ -8,14 +8,15 @@ __Georgia Tech__
 
 * Sp24: Statistical Estimation (Math 6262)  
 [[syllabus]](assets/teaching/Syllabus-M6262-S2024.pdf) 
-[[canvas]](https://gatech.instructure.com/courses/365662)  
+[[canvas]](https://gatech.instructure.com/courses/365662) 
 [[hw1]](assets/teaching/Homeworks/GaTech/6262/6262-hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/6262/6262-hw2.pdf) 
 [[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf)  
 
 * Fa23: Introduction to Linear Algebra (Math 1553)  
 [[videos]](https://www.dropbox.com/scl/fo/1mr4tk7mmpb9y3ddri0qi/h?rlkey=suhq9nu34w97ixnzs90td1fk9&dl=0) 
-[[canvas]](https://gatech.instructure.com/courses/326018)  
+[[canvas]](https://gatech.instructure.com/courses/326018) 
+
 
 __University of Southern California__  
 
@@ -26,7 +27,11 @@ __University of Southern California__
 * Fa22: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/kj63l3bha5ditcpn74rmz/h?rlkey=3aksu0n1bsb6y54zzptqz60hn&dl=0) 
-[[videos]](https://www.dropbox.com/scl/fo/whfr1h4ukus68dx0twwow/h?rlkey=4nlvo13ecaiiis3ovxdbf6mk8&dl=0)  
+[[videos]](https://www.dropbox.com/scl/fo/whfr1h4ukus68dx0twwow/h?rlkey=4nlvo13ecaiiis3ovxdbf6mk8&dl=0) 
+[[hw1]](assets/teaching/Homeworks/USC/541b/541b-hw1.pdf) 
+[[hw2]](assets/teaching/Homeworks/USC/541b/541b-hw2.pdf) 
+[[hw3]](assets/teaching/Homeworks/USC/541b/541b-hw3.pdf) 
+
 * Su22: Linear Algebra and Differential Equations (Math 225)  
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf) 
 [[videos]](https://www.dropbox.com/scl/fo/pq8w39t85oo3bevnka79v/h?rlkey=8vhihvbfea1asaz343q894zro&dl=0)    
