@@ -12,11 +12,9 @@ __Georgia Tech__
 [[hw1]](assets/teaching/Homeworks/GaTech/6262/6262-hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/6262/6262-hw2.pdf) 
 [[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf)  
-
 * Fa23: Introduction to Linear Algebra (Math 1553)  
 [[videos]](https://www.dropbox.com/scl/fo/1mr4tk7mmpb9y3ddri0qi/h?rlkey=suhq9nu34w97ixnzs90td1fk9&dl=0) 
-[[canvas]](https://gatech.instructure.com/courses/326018) 
-
+[[canvas]](https://gatech.instructure.com/courses/326018)  
 
 __University of Southern California__  
 
@@ -31,7 +29,7 @@ __University of Southern California__
 [[hw1]](assets/teaching/Homeworks/USC/541b/541b-hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/USC/541b/541b-hw2.pdf) 
 [[hw3]](assets/teaching/Homeworks/USC/541b/541b-hw3.pdf) 
-
+[[hw4]](assets/teaching/Homeworks/USC/541b/541b-hw4.pdf)  
 * Su22: Linear Algebra and Differential Equations (Math 225)  
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf) 
 [[videos]](https://www.dropbox.com/scl/fo/pq8w39t85oo3bevnka79v/h?rlkey=8vhihvbfea1asaz343q894zro&dl=0)    
