@@ -6,43 +6,43 @@ permalink: /teaching
   
 __Georgia Tech__  
 
-* Spring 2024: Statistical Estimation (Math 6262)  
+* Sp24: Statistical Estimation (Math 6262)  
 [[syllabus]](assets/teaching/Syllabus-M6262-S2024.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/365662)  
 [[hw1]](assets/teaching/Homeworks/GaTech/6262/6262-hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/6262/6262-hw2.pdf) 
 [[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf)  
 
-* Fall 2023: Introduction to Linear Algebra (Math 1553)  
+* Fa23: Introduction to Linear Algebra (Math 1553)  
 [[videos]](https://www.dropbox.com/scl/fo/1mr4tk7mmpb9y3ddri0qi/h?rlkey=suhq9nu34w97ixnzs90td1fk9&dl=0) 
 [[canvas]](https://gatech.instructure.com/courses/326018)  
 
 __University of Southern California__  
 
-* Spring 2023: Analysis of Variance and Regression (Math 542)  
+* Sp23: Analysis of Variance and Regression (Math 542)  
 [[syllabus]](assets/teaching/Syllabus-M542-S2023.pdf)  
-* Fall 2022: Invited Lecture on Minimax Problems (for ISyE 8813 MAG)    
+* Fa22: Invited Lecture on Minimax Problems (for ISyE 8813 MAG)    
 [[slides]](assets/slides/slides-minimax-GATech.pdf)  
-* Fall 2022: Introduction to Mathematical Statistics (Math 541b)  
+* Fa22: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2022.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/kj63l3bha5ditcpn74rmz/h?rlkey=3aksu0n1bsb6y54zzptqz60hn&dl=0) 
 [[videos]](https://www.dropbox.com/scl/fo/whfr1h4ukus68dx0twwow/h?rlkey=4nlvo13ecaiiis3ovxdbf6mk8&dl=0)  
-* Summer 2022: Linear Algebra and Differential Equations (Math 225)  
+* Su22: Linear Algebra and Differential Equations (Math 225)  
 [[syllabus]](assets/teaching/Syllabus-M225-Su2022.pdf) 
 [[videos]](https://www.dropbox.com/scl/fo/pq8w39t85oo3bevnka79v/h?rlkey=8vhihvbfea1asaz343q894zro&dl=0)    
-* Spring 2022: Elementary Probability and Statistics (Math 208)  
+* Sp22: Elementary Probability and Statistics (Math 208)  
 [[syllabus]](assets/teaching/Syllabus-M208-S2022.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/tcsvhcmlew4b69vhuulu1/h?rlkey=xxzlv6stoa21w8xt5rd4dk5nd&dl=0) 
 [[videos]](https://www.dropbox.com/scl/fo/zgkrjq4nhqlxjwb3fv8er/h?rlkey=v7m01ngpof0l0uu008vbpvrg7&dl=0)    
-* Fall 2021: Introduction to Mathematical Statistics (Math 541b)  
+* Fa21: Introduction to Mathematical Statistics (Math 541b)  
 [[syllabus]](assets/teaching/Syllabus-M541b-F2021.pdf) 
 [[notes]](https://www.dropbox.com/scl/fo/wu5r72el2yqqt986zk9oj/h?rlkey=7zddzzczsh5izcr61opbl7f42&dl=0)  
 
 __Université Grenoble Alpes__  
 
-* Fall 2016: Mathématiques pour les sciences de l'ingénieur (MAT 102) -- _Cours-TD_  
-* Fall 2015: Méthodes statistiques pour la biologie (STA 230) -- _TP_  
-* Fall 2015: Mathématiques pour les sciences de l'ingénieur (MAT 102) -- _Cours-TD_   
+* Fa16: Mathématiques pour les sciences de l'ingénieur (MAT 102) -- _Cours-TD_  
+* Fa15: Méthodes statistiques pour la biologie (STA 230) -- _TP_  
+* Fa15: Mathématiques pour les sciences de l'ingénieur (MAT 102) -- _Cours-TD_   
   
 
 <p align = "center">
