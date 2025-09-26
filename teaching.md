@@ -8,7 +8,7 @@ __Georgia Tech__
 
 * Sp25: Special Topics in Modern Mathematical Data Science (ISyE 8803)  
 [[syllabus]](assets/teaching/Syllabi/Syllabus-E8803-S2025.pdf) 
-[[lectures]](assets/teaching/Lectures/MDS-Lectures.pdf)
+[[notes]](assets/teaching/Lectures/MDS-Lectures.pdf)
 [[hw1]](assets/teaching/Homeworks/GaTech/8803/hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/8803/hw2.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/451798)  
