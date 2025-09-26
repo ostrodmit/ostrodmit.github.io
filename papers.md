@@ -44,7 +44,7 @@ Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach
 
 __Efficient and Near-Optimal Online Portfolio Selection__  
 Rémi Jézéquel, Dmitrii M. Ostrovskii, Pierre Gaillard  
-_Mathematics of Operations Research_ 2025 (to appear)  
+_Mathematics of Operations Research_, 2025 (to appear)  
 [[paper]](https://pubsonline.informs.org/doi/10.1287/moor.2023.0175)
 [[arXiv]](https://arxiv.org/abs/2209.13932) 
 [[slides]](assets/slides/slides-portfolio.pdf) 
