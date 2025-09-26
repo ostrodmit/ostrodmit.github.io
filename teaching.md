@@ -6,6 +6,12 @@ permalink: /teaching
   
 __Georgia Tech__  
 
+* Fa25: High-Dimensional Statistics (Math 7252)  
+[[syllabus]](assets/teaching/Syllabi/Syllabus-M7252-F2025.pdf) 
+[[notes-p1]](assets/teaching/Lectures/MDS-Lectures.pdf)
+[[hw1]](assets/teaching/Homeworks/GaTech/7252/hw1.pdf) 
+[[canvas]](https://gatech.instructure.com/courses/480610)  
+
 * Sp25: Special Topics in Modern Mathematical Data Science (ISyE 8803)  
 [[syllabus]](assets/teaching/Syllabi/Syllabus-E8803-S2025.pdf) 
 [[notes-p1]](assets/teaching/Lectures/MDS-Lectures.pdf)
