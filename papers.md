@@ -18,13 +18,6 @@ Dmitrii M. Ostrovskii
 [[slides]](assets/slides/slides-optimal-filters.pdf)  
 
 
-__Efficient and Near-Optimal Online Portfolio Selection__  
-Rémi Jézéquel, Dmitrii M. Ostrovskii, Pierre Gaillard    
-[[arXiv]](https://arxiv.org/abs/2209.13932) 
-[[slides]](assets/slides/slides-portfolio.pdf) 
-[[video]](https://www.youtube.com/watch?v=g8PelyJES00)  
-
-
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
 Dmitrii M. Ostrovskii, Babak Barazandeh, Meisam Razaviyayn  
 [[arXiv]](https://arxiv.org/abs/2110.03950) 
@@ -44,6 +37,40 @@ __Efficient Primal-Dual Algorithms for Large-Scale Multiclass Classification__
 Dmitry Babichev, Dmitrii M. Ostrovskii, Francis Bach  
 [[arXiv]](https://arxiv.org/abs/1902.03755)
 [[code]](https://github.com/flykiller/sublinear-svm)
+  
+  
+## Journal papers ##  
+
+
+__Efficient and Near-Optimal Online Portfolio Selection__  
+Rémi Jézéquel, Dmitrii M. Ostrovskii, Pierre Gaillard  
+_Mathematics of Operations Research_ 2025 (to appear)  
+[[paper]](https://pubsonline.informs.org/doi/10.1287/moor.2023.0175)
+[[arXiv]](https://arxiv.org/abs/2209.13932) 
+[[slides]](assets/slides/slides-portfolio.pdf) 
+[[video]](https://www.youtube.com/watch?v=g8PelyJES00)   
+
+__Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
+Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
+_SIAM Journal on Optimization_, 31(4):2508-2538, 2021  
+[[paper]](https://epubs.siam.org/doi/abs/10.1137/20M1337600)
+[[arXiv]](https://arxiv.org/abs/2002.07919)  
+
+__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
+Dmitrii M. Ostrovskii, Francis Bach  
+_Electronic Journal of Statistics_, 15(1): 326-391, 2021  
+[[paper]](https://doi.org/10.1214/20-EJS1780)
+[[arXiv]](https://arxiv.org/abs/1810.06838)
+[[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
+[[code]](https://github.com/ostrodmit/self-concordant)
+[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)  
+
+__Concentration Inequalities for the Exponential Weighting Method__  
+Yuri Golubev, Dmitrii M. Ostrovskii  
+_Mathematical Methods of Statistics_, 23(1):20-37, 2014  
+[[paper]](https://link.springer.com/article/10.3103/S1066530714010025)
+[[eprint]](https://hal.archives-ouvertes.fr/hal-01292413)
+[[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
 ## Book chapter ##  
@@ -54,38 +81,10 @@ Zaid Harchaoui, Anatoli Juditsky, Arkadi Nemirovski, Dmitrii M. Ostrovskii
 _Foundations of Modern Statistics -- Festschrift in Honor of Vladimir Spokoiny_  
 Springer Proceedings in Mathematics & Statistics, 2023  
 [[arXiv]](https://arxiv.org/abs/1806.04028)
-  
-  
-## Journal papers ##  
-  
 
-__Efficient Search of First-Order Nash Equilibria in Nonconvex-Concave Smooth Min-Max Problems__  
-Dmitrii M. Ostrovskii, Andrew Lowy, Meisam Razaviyayn  
-_SIAM Journal on Optimization_, 31(4):2508-2538, 2021  
-[[paper]](https://epubs.siam.org/doi/abs/10.1137/20M1337600)
-[[arXiv]](https://arxiv.org/abs/2002.07919)  
-
-
-__Finite-Sample Analysis of M-Estimators Using Self-Concordance__  
-Dmitrii M. Ostrovskii, Francis Bach  
-_Electronic Journal of Statistics_, 15(1): 326-391, 2021  
-[[paper]](https://doi.org/10.1214/20-EJS1780)
-[[arXiv]](https://arxiv.org/abs/1810.06838)
-[[slides]](/assets/slides/selfconc-CWI-workshop-slides.pdf)
-[[code]](https://github.com/ostrodmit/self-concordant)
-[[blog]](https://ostrodmit.github.io/blog/2018/11/12/self-concordance-part-1/)
-
-
-__Concentration Inequalities for the Exponential Weighting Method__  
-Yuri Golubev, Dmitrii M. Ostrovskii  
-_Mathematical Methods of Statistics_, 23(1):20-37, 2014  
-[[paper]](https://link.springer.com/article/10.3103/S1066530714010025)
-[[eprint]](https://hal.archives-ouvertes.fr/hal-01292413)
-[[slides]](assets/slides/mipt2014-MSc-slides.pdf)
 
 
 ## Conference papers ##  
-
 
 
 __Affine Invariant Covariance Estimation for Heavy-Tailed Distributions__  
