@@ -11,7 +11,6 @@ __Georgia Tech__
 [[lectures]](assets/teaching/Lectures/MDS-Lectures.pdf)
 [[hw1]](assets/teaching/Homeworks/GaTech/8803/hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/8803/hw2.pdf) 
-[[hw3]](assets/teaching/Homeworks/GaTech/8803/hw3.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/451798)  
 
 * Fa24: Differential Equations (Math 2552)  
