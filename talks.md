@@ -5,8 +5,8 @@ permalink: /talks
 ---
   
 __Near-Optimal and Tractable Estimation under Shift-Invariance__  
-09/2025: Georgia Tech, School of ISyE
-07/2025: ICCOPT, Los Angeles
+09/2025: Georgia Tech, School of ISyE  
+07/2025: ICCOPT, Los Angeles  
 01/2025: Georgia Tech, School of Mathematics  
 [[slides]](assets/slides/slides-optimal-filters.pdf)  
   
