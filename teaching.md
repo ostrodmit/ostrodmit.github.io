@@ -6,17 +6,24 @@ permalink: /teaching
   
 __Georgia Tech__  
 
+* Sp25: Special Topics in Modern Mathematical Data Science (ISyE 8803)  
+[[syllabus]](assets/teaching/Syllabus-E8803-S2025.pdf) 
+[[hw1]](assets/teaching/Homeworks/GaTech/6262/6262-hw1.pdf) 
+[[hw2]](assets/teaching/Homeworks/GaTech/6262/6262-hw2.pdf) 
+[[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf) 
+[[canvas]](https://gatech.instructure.com/courses/451798)  
+
 * Fa24: Differential Equations (Math 2552)  
 [[syllabus]](assets/teaching/Syllabus-M2552-F2024.pdf) 
-[[canvas]](https://gatech.instructure.com/courses/395852) 
-[[lectures]](assets/teaching/M2552-ODE-Lectures.pdf)  
+[[lectures]](assets/teaching/M2552-ODE-Lectures.pdf) 
+[[canvas]](https://gatech.instructure.com/courses/395852)  
 
 * Sp24: Statistical Estimation (Math 6262)  
 [[syllabus]](assets/teaching/Syllabus-M6262-S2024.pdf) 
-[[canvas]](https://gatech.instructure.com/courses/365662) 
 [[hw1]](assets/teaching/Homeworks/GaTech/6262/6262-hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/6262/6262-hw2.pdf) 
-[[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf)  
+[[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf) 
+[[canvas]](https://gatech.instructure.com/courses/365662)  
 
 * Fa23: Introduction to Linear Algebra (Math 1553)  
 [[videos]](https://www.dropbox.com/scl/fo/1mr4tk7mmpb9y3ddri0qi/h?rlkey=suhq9nu34w97ixnzs90td1fk9&dl=0) 

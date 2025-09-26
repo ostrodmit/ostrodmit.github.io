@@ -1,0 +1,202 @@
+\documentclass[11pt]{article}
+
+
+\usepackage{fullpage}
+
+\title{ISyE 8803: Special Topics in Modern Mathematical Data Science\\ 
+	   Homework 3}
+\date{
+%{\bf Disclaimer:} problem 1 is an important exercise in theory; problem 2 includes a calculus exercise; finally, problems~$3$ to~$6$ are especially relevant for the final exam.\\
+\vspace{-0.3cm}
+{\bf Extra-credit}\\
+\vspace{0.3cm}
+\underline{Please submit electronically directly to Canvas in a PDF file.}\\
+%\underline{Each ``raw'' point is worth 20 percentage points, so you can get an A by solving 3 problems.}
+}
+
+\author{}
+
+
+\usepackage{fullpage}
+%\usepackage{times}
+% For citations
+\usepackage{natbib}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+%\usepackage{times}
+% For citations
+%\usepackage{natbib}
+%\usepackage{fullpage}
+%\usepackage{cmap}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{
+    linkcolor=red,
+    citecolor=magenta,
+    filecolor=black,
+    urlcolor=black,
+}
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\usepackage{xfrac}
+\usepackage{enumitem}
+\def\Argmin{\mathop{\hbox{\rm Argmin}}}
+\def\Argmax{\mathop{\hbox{\rm Argmax}}}
+%\usepackage{cmap}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\newtheorem{definition}{Definition}%[section]
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{lemma}{Lemma}%[section]
+
+\newcommand{\proofstep}[1]{$\boldsymbol{{#1}^o}$}
+\newcommand{\odima}[1]{{\color{red} #1}}
+\newcommand{\extra}[1]{{\color{magenta} #1}}
+\newcommand{\draft}[1]{{\color{gray} #1}}
+
+\newcommand{\R}{\mathds{R}}
+\newcommand{\Z}{\mathds{Z}}
+\newcommand{\E}{\mathds{E}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\Prob}{\mathds{P}}
+\newcommand{\Var}{\textup{Var}}
+\newcommand{\Cov}{\textup{Cov}}
+\newcommand{\Col}{\textup{Col}}
+\newcommand{\Risk}{\textup{Risk}}
+\newcommand{\Sphere}{\mathds{S}}
+
+\newcommand{\diag}{\textup{diag}}
+
+\newcommand{\cX}{\mathcal{X}}
+
+\newcommand{\veps}{\varepsilon}
+
+\newcommand{\bSigma}{\boldsymbol{\Sigma}}
+\newcommand{\bId}{\boldsymbol{I}}
+\newcommand{\bX}{\boldsymbol{X}}
+\newcommand{\bPi}{\boldsymbol{\Pi}}
+\newcommand{\bPsi}{\boldsymbol{\Psi}}
+\newcommand{\bLambda}{\boldsymbol{\Lambda}}
+
+\newcommand{\wh}{\widehat}
+\newcommand{\lang}{\left\langle}
+\newcommand{\rang}{\right\rangle}
+\newcommand{\lsim}{\lesssim}
+\newcommand{\rsim}{\gtrsim}
+
+\newcommand{\ind}{\mathds{1}}
+
+\newcommand{\cT}{\mathcal{T}}
+
+\newcommand{\wt}{\widetilde}
+
+\newcommand{\weakto}{\leadsto}
+
+\newcommand{\leqs}{\leqslant}
+\newcommand{\geqs}{\geqslant}
+
+\renewcommand{\le}{\leqs}
+\renewcommand{\ge}{\geqs}
+
+
+\begin{document}
+
+
+\maketitle
+\newcommand{\vsp}{\vspace{0.3cm}}
+
+%\noindent
+%\proofstep{0}: {\bf Warm-up} (not graded) -- {\em expectation and covariance matrix in~$\R^d$.}\\
+%
+%Let~$X \in \R^d$ be a random vector with~$\E[X] = \mu$ and covariance matrix~$\Cov(X) = \bSigma$. Show that:
+%\begin{itemize}
+%\item[$(a)$] For the second-moment matrix of~$X$ is~$\E[\| X \|^2] = \mu \mu^{\top} + \bSigma$.
+%\item[$(b)$] $Z := \bSigma^{-1/2} (X-\mu)$ has zero mean and identity covariance~$\bId_d$.
+%\item[$(c)$] Find the mean, covariance matrix, and the second-moment matrix of~$W := \Sigma^{-1/2} X$.
+%\item[$(d)$] Assuming that~$d > 1$ and~$\mu \ne 0$, find the eigenvalues and eigenvectors of~$\bId_d + \mu \mu^{\top}$.
+%\end{itemize}
+
+
+\newpage
+\noindent 
+
+\section{Local behavior of~$f$-divergences}
+In this exercise, you will show that $f$-divergence with a {strictly convex} potential~$f$ locally behaves as the~$\chi^2$-divergence (which is a specific~$f$-divergence with a particular potential, to be defined later).
+Let~$f: \R_{++} \to \R$, where~$\R_{++}$ is the set of all positive reals, satisfy the following assumptions:
+
+\begin{itemize}
+\item~$f(1) = 0$;
+\item~uniformly bounded third derivative on~$\R_{++}$, that is~$f'''$ exists on~$\R_{++}$ and~$\sup_{r > 0} |f'''(r)| < \infty$; 
+\item~$f$ is strictly convex (and thus by the previous assumption~$f''(r) > 0$ for any~$r > 0$).
+\end{itemize}
+In fact, all common~$f$-divergences, \underline{except} the~TV distance, satisfy these assumptions (including Hellinger, chi-squared, and~Kullback-Leibler).
+Recall that the associated~$f$-divergence between two distributions~$P,Q$ on the same space, with densities~$p,q$ with respest to a dominating measure~$\mu$, is
+%\footnote{Existence of a dominating measure is non-restrictive since one can always take~$\mu = \frac{1}{2} (P + Q)$.} is 
+\[
+\begin{aligned}
+D_f(P||Q) 
+&:= \E_{Q} \left[ f\left( \frac{d P}{d Q} \right) \right] 
+\quad = \int_{\cX} f\left( r(x) \right) q(x) d \mu(x),
+\end{aligned}
+\]
+where~$r(x) := \frac{p(x)}{q(x)}$ is the likelihood ratio and~$\cX$ is the support of~$\mu$.
+Fix~$P$ and~$Q$, and consider the segment in-betweenm, that is the family of mixture distributions~$P_t := (1-t)Q + tP$ for~$t \in [0,1]$. 
+%(in particular,~$P_1 = P$ and~$P_0 = Q$). 
+
+\begin{itemize}
+\item
+\underline{Show that}~as~$t \to 0$,
+\[
+\begin{aligned}
+D_f(P_t||Q) 
+&= (1+o(1)) \frac{f''(1)}{2} \chi^2(P_t||Q)
+\end{aligned}
+\]
+where~$o(1) \to 0$ and~$\chi^2(P||Q)$ is the chi-square divergence, i.e.~$D_{h}(P||Q)$ with~$h(r) = (1-r)^2$.
+\item
+\underline{Check that}~$\chi^2(P_t||Q) = t^2 \chi^2(P||Q)$ and conclude that~$D_f(P_t||Q)$ is locally quadratic in~$t$.
+\end{itemize}
+
+%\begin{turn}{180}
+{\bf Hint:} {\em Consider the 3rd-order Taylor expansion of~$f(r)$ at~$r = 1$. The 1st-order term must vanish.}\\
+%\end{turn}\\
+
+\newpage
+\section{Local behavior of~KL-divergence}
+
+\newpage
+\section{Boosting the confidence in binary testing}
+
+\newpage
+\section{More on quantiles}
+
+\newpage
+\section{Krein-Milman method I: Sharp constant in Hoeffding's lemma}
+
+\newpage
+\section{Krein-Milman method II: Gap between the median and mean}
+
+\newpage
+\section{Sketching a covariance matrix via leverage-scores sampling}
+
+\newpage
+\section{Dikin walk$^*$}
+
+\newpage
+
+
+\newpage
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

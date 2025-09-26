@@ -1,0 +1,455 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+
+\title{ISyE 8803: Special Topics in Modern Mathematical Data Science\\ 
+	   Homework 1}
+\date{
+%{\bf Disclaimer:} problem 1 is an important exercise in theory; problem 2 includes a calculus exercise; finally, problems~$3$ to~$6$ are especially relevant for the final exam.\\
+\vspace{-0.3cm}
+{\bf due on Friday, Feb~7th at 11:59 pm}\\
+\vspace{0.3cm}
+\underline{Please submit electronically directly to Canvas in a PDF file.}
+}
+
+\author{}
+
+
+\usepackage{fullpage}
+%\usepackage{times}
+% For citations
+\usepackage{natbib}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+%\usepackage{times}
+% For citations
+%\usepackage{natbib}
+%\usepackage{fullpage}
+%\usepackage{cmap}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{
+    linkcolor=red,
+    citecolor=magenta,
+    filecolor=black,
+    urlcolor=black,
+}
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\usepackage{xfrac}
+\usepackage{enumitem}
+\def\Argmin{\mathop{\hbox{\rm Argmin}}}
+\def\Argmax{\mathop{\hbox{\rm Argmax}}}
+%\usepackage{cmap}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\newtheorem{definition}{Definition}%[section]
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{lemma}{Lemma}%[section]
+
+\newcommand{\proofstep}[1]{$\boldsymbol{{#1}^o}$}
+
+\newcommand{\R}{\mathds{R}}
+\newcommand{\Z}{\mathds{Z}}
+\newcommand{\E}{\mathds{E}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\Prob}{\mathds{P}}
+\newcommand{\Var}{\textup{Var}}
+\newcommand{\Cov}{\textup{Cov}}
+\newcommand{\Col}{\textup{Col}}
+\newcommand{\Risk}{\textup{Risk}}
+\newcommand{\diag}{\textup{diag}}
+
+\newcommand{\cX}{\mathcal{X}}
+
+\newcommand{\veps}{\varepsilon}
+
+\newcommand{\bSigma}{\boldsymbol{\Sigma}}
+\newcommand{\bId}{\boldsymbol{I}}
+\newcommand{\bX}{\boldsymbol{X}}
+\newcommand{\bPi}{\boldsymbol{\Pi}}
+\newcommand{\bPsi}{\boldsymbol{\Psi}}
+\newcommand{\bLambda}{\boldsymbol{\Lambda}}
+
+\newcommand{\wh}{\widehat}
+\newcommand{\lang}{\left\langle}
+\newcommand{\rang}{\right\rangle}
+
+\newcommand{\ind}{\mathds{1}}
+
+\newcommand{\cT}{\mathcal{T}}
+
+\newcommand{\wt}{\widetilde}
+
+\newcommand{\weakto}{\leadsto}
+
+\newcommand{\leqs}{\leqslant}
+\newcommand{\geqs}{\geqslant}
+
+\renewcommand{\le}{\leqs}
+\renewcommand{\ge}{\geqs}
+
+\begin{document}
+
+
+
+\maketitle
+\newcommand{\vsp}{\vspace{0.3cm}}
+
+%\noindent
+%\proofstep{0}: {\bf Warm-up} (not graded) -- {\em expectation and covariance matrix in~$\R^d$.}\\
+%
+%Let~$X \in \R^d$ be a random vector with~$\E[X] = \mu$ and covariance matrix~$\Cov(X) = \bSigma$. Show that:
+%\begin{itemize}
+%\item[$(a)$] For the second-moment matrix of~$X$ is~$\E[\| X \|^2] = \mu \mu^{\top} + \bSigma$.
+%\item[$(b)$] $Z := \bSigma^{-1/2} (X-\mu)$ has zero mean and identity covariance~$\bId_d$.
+%\item[$(c)$] Find the mean, covariance matrix, and the second-moment matrix of~$W := \Sigma^{-1/2} X$.
+%\item[$(d)$] Assuming that~$d > 1$ and~$\mu \ne 0$, find the eigenvalues and eigenvectors of~$\bId_d + \mu \mu^{\top}$.
+%\end{itemize}
+
+
+\newpage
+\noindent 
+\section{MGF method vs.~moment bounds}
+
+It is natural to compare the best bound on the tails obtained via MGF and by bounding the moments.
+As it turns out, the moment bounds are sharper, even if we only use the integer moments.
+
+\begin{itemize}
+\item[(a)]
+Show that if~$X > 0$ a.s., then for any~$u > 0$,
+\[
+\inf_{\lambda > 0} {M_X(\lambda)}e^{-\lambda u} \ge 
+\inf_{k \in \Z_+} {\E\left[X^k\right]}u^{-k}.
+\]
+\item[(b)]
+%\label{exc:MGF-vs-moments-symmetric}
+Show that if~$X$ is symmetric (i.e.~$X$ and~$-X$ have the same distribution), then for any~$u > 0$,
+\[
+\inf_{\lambda > 0} {M_X(\lambda)}e^{-\lambda u} \ge 
+\frac{1}{2}\inf_{k \in \Z_+} {\E\left[X^{2k}\right]}u^{-2k}.
+\]
+\end{itemize}
+
+
+\newpage
+\noindent
+\section{Convexity of the cumulant-generating function}
+For any distribution~$X$, the logarithm of the MGF
+\[
+K_X(t) = \log\E[e^{tX}]  
+\]
+is called the cumulant-generating function, or the {\em log-partition function} of the distribution.
+
+\begin{itemize}
+\item[(a)]
+Show that~$K_X$ is convex. Use Young's inequality: for~$a, b \in \R^d$ and~$p,q \in [1,\infty]$ with~$\frac{1}{p} + \frac{1}{q} = 1$, 
+\[
+|a^\top b| \le \| a \|_p \|b\|_q.
+\]
+You can assume that~$X$ has a discrete distribution.
+\end{itemize}
+\newpage
+\noindent
+\section{Gaussian tails} 
+
+\subsection{Mills ratio}
+Let~$\phi(\cdot)$ be the p.d.f. of~$\cN(0,1)$, i.e.~$\phi(t) = \frac{1}{\sqrt{2\pi}} e^{-\frac{t^2}{2}}$. For any~$u \ge 0$, let~$\Phi(u) := \int_{t \ge u} \phi(t) dt$.
+\begin{itemize}
+\item[$(a)$]
+Prove the following bounds (holding for all~$u \ge 0$):
+\[
+\left( \frac{1}{u} - \frac{1}{u^3} \right) \phi(u) \le \Phi(u) \le \frac{1}{u} \phi(u).
+\]
+{\em Hint 1:} {\em Try to prove the upper bound first.}
+
+{\em Hint 2:} {\em Integrate by parts -- first to prove the upper bound, then again for the lower bound.}\\
+
+\item[$(b)$] 
+Capitalizing on the trick you have just figured out to get the lower bound from the upper bound, prove a new upper bound:
+\[
+\Phi(u) \le \left( \frac{1}{u} - \frac{1}{u^3} + \frac{3}{u^5} \right) \phi(u).
+\]
+Note that this bound is sharper than the previous one for large enough~$u$. 
+
+\item[$^*(c)$]
+If we continue this approach, we obtain a power series in~$1/u$ for the Mills ratio~$\Phi(u)/\phi(u)$; see Theorem~2.1 from Lecture 2. 
+Get yourself convinced in it (no need to prove).
+\end{itemize}
+
+\subsection{Power series for c.d.f.}
+Show that
+\[
+\frac{1}{2} - \Phi(u) = \frac{1}{\sqrt{2\pi}}\sum_{k=0}^{\infty} \frac{(-1)^k u^{2k+1}}{2^k k!(2k+1)}.
+\]
+{\em Hint: change variable to remove~$u$ from the integration limits; differentiate in~$u$ under the integral.}
+
+\newpage
+\noindent
+
+\section{Paley-Zygmund and friends} 
+
+(i) Prove the Paley-Zygmund inequality (it can be interpreted as a counterpart of Markov: a nonnegative random variable cannot be much {\em smaller} than its expectation):
+%due to Paley and Zygmund 
+\begin{quote}
+{\em 
+\vspace{-0.1cm}
+If~$X$ is a non-negative random variable with~$\E[X^2] < \infty$, then for any~$t \in [0,1]$ one has 
+\begin{equation}
+\label{eq:paley-zygmund}
+\Prob(X \ge (1-t)\E X) \ge t^2 \frac{(\E X)^2}{\E[X^2]}.
+\end{equation}
+}
+\end{quote}
+\begin{itemize}
+\item[(ii)] Under the same assumptions, strengthen~\eqref{eq:paley-zygmund}, to~Cantelli's inequality:
+\[
+\Prob(X \ge (1-t)\E X) \ge t^2 \frac{(\E X)^2}{t^2 (\E X)^2 + \Var[X]}.
+\]
+This new inequality is sharp -- give an example where it is attained. 
+
+%\begin{turn}{180}
+%{\bf Hint:} {\em it is attained on a distribution supported on a constant.}
+%\end{turn}
+\item[(iii)] 
+%Coming back to~\eqref{eq:paley-zygmund}, observe that it can be restated as
+%\[
+%\Prob(X \ge (1-t)\E X) \ge t^2 \frac{(\E X)^2}{\|X\|_2^2}.
+%\]
+%(Here~$\|Z\|_p := (\E |Z|^p)^{\frac{1}{p}}$ is the~$L_p$-norm of a r.v.~$Z$, defined for~$p \ge 1$ whenever~$\E[|Z|^p] < \infty$.) 
+Now: instead of~$\E[X^2] < \infty$, assume that~$\E[|X|^p] < \infty$ for some~$p > 1$, and generalize~\eqref{eq:paley-zygmund} to
+\[
+\Prob(X \ge (1-t)\E X) \ge \left(t^{p} \frac{(\E X)^{p}}{\E[|X|^p]}\right)^{\frac{1}{p-1}}.
+\]
+Note that when~$p > 2$, this gives an improvement over~\eqref{eq:paley-zygmund} for small~$t$, which is important in applications where~$X$ is itself the sample average of i.i.d.~$Y_1,...,Y_n$.
+%= \frac{1}{n} \sum_{i=1}^n Y_i$ for some i.i.d. sample
+
+%\begin{turn}{180}
+\em{{\bf Hint}: use H\"older's inequality:
+given~$p,q \ge 1$ such that~$1/p + 1/q = 1$, and random variables~$U,V$ on the same sample space, one has
+$
+\E[|UV|] \le (\E |U|^p)^{\frac{1}{p}} \cdot (\E |V|^q)^{\frac{1}{q}}.
+$
+%where
+%$\|Z\|_{L_p} := (\E |Z|^p)^{\frac{1}{p}}$.
+}
+%defined for~$p \ge 1$ whenever~$\E[|Z|^p] < \infty$.}
+%\end{turn}
+\end{itemize}
+
+
+\newpage
+\noindent
+\section{Tail bound for~$\chi^2_d$}
+
+Let~$X \sim \chi_{2d}^2$ (chi-squared distribution with~$2d$ degrees of freedom), that is~$X = \|Z\|^2 = Z_1^2 + ... + Z_{2d}^2$ where~$Z \sim \cN(0,\bId_d)$ (equivalently,~$Z_i \sim \cN(0,1)$ are {i.i.d.}).
+Define~$M_{2d}(\cdot)$ as the MGF of~$X \sim \chi_{2d}^2$, 
+\[
+M_{2d}(t) := \E[e^{tX}], \quad t \in \R;
+\] 
+in particular,~$M_2(t) = \E \big[e^{t (Z_1^2 + Z_2^2)} \big]$. 
+Our ultimate goal here is to prove that, with probability~$\ge 1-\delta$,
+\begin{equation}
+\label{eq:chi-squared-upper}
+X - 2d \le \sqrt{Cd\log\left(\frac{1}{\delta} \right)} + c \log \left(\frac{1}{\delta}\right)
+\end{equation}
+for some numerical constants~$C,c > 0$. This bound is, in fact, optimal (see, e.g.,~\cite[Lemma~1]{lama2000}).
+
+
+\begin{itemize}
+\item[$(a)$] Derive the explicit form of~$M_2(t)$:
+\[
+M_2(t) 
+= \frac{1}{1-2t}, \quad t < \frac{1}{2},
+\]
+and~$M_{2} = + \infty$ for~$t \ge \frac{1}{2}$. 
+(To take the integral, pass to polar coordinates~$(z_1,z_2) \mapsto (r,\theta)$ with~$r = \sqrt{z_1^2 + z_2^2}$---and don't forget the Jacobian, which equals~$r$.)
+Claim that, as a corollary, 
+\[
+M_{2d}(t) 
+= \frac{1}{(1-2t)^{d}}, \quad t < \frac{1}{2}.
+\]
+\item[$(b)$]
+Using Chernoff's method, bound the tail function~$\Prob(X > x)$, for any~$x > 2d$, as follows:
+\[
+\begin{aligned}
+\Prob(X > x) = \inf_{t < \frac{1}{2}} \frac{e^{-tx}}{(1-2t)^d} 
+%&= \frac{e^{-\bar tx}}{(1-2 \bar t)^d} \Bigg|_{\bar t = \frac{1}{2} - \frac{d}{x}} \\
+&= \exp \left( d \log\left(\frac{x}{2d}\right) - \frac{x-2d}{2} \right).
+\end{aligned}
+\]
+{\em (Hint: it is convenient to take the logarithm, and use that~$u \mapsto \log(u)$ on~$\R_+$ is increasing.)}
+Note that, in terms of the deviation~$z = x-2d > 0$ above~$2d$, this is equivalent to
+\[
+\Prob(X - 2d > z) = \exp \left( d \log\left(\frac{2d+z}{2d}\right) - \frac{z}{2} \right).
+\]
+
+\item[{$^*(c)$}]
+{\bf Bonus.} {\em Bear with me, this part is a bit delicate -- but we need it to reach the conclusion.}
+
+\begin{itemize}
+\item[$(c.i)$] 
+Show that
+\[
+\Prob(X - 2d > z) 
+\le \left\{
+	\begin{aligned}
+	\exp\left( -\frac{z^2}{16d} \right) \;\; & \text{for} \;\; 0 \le z \le 2d, \\
+	\exp\left( -\frac{z}{8} \right) \;\; & \text{for} \;\; z > 2d.
+	\end{aligned}
+\right.
+\]
+It is OK if you get some worse pair of constants~$C > 16, c > 8$ leading to a weaker bound.
+\em Hint: first show, using calculus, that 
+\[
+\log(1+u) \le u -\tfrac{1}{4} \min\{u,u^2\} \quad \forall u \ge 0
+\]
+%\item[$^*$($iv$)]
+\item[$(c.ii)$] Reformulating the last bound as
+\[
+\Prob(X - 2d > z) \le \exp \left( -\min \left\{\frac{z^2}{16d}, \frac{z}{8} \right\} \right)
+\]
+and letting~$\Prob(X - 2d > z) = \delta$, ``invert'' the last inequality to get~\eqref{eq:chi-squared-upper} with~$C = 16$ and~$c = 8$ (or with some worse constants). {\em Hint:~$\max\{a,b\} \le a+b$ for~$a, b \ge 0$.}
+\end{itemize}
+\end{itemize}
+
+\newpage
+\noindent
+\section{Stein's paradox}
+
+Consider the problem of estimating the mean~$\mu$ in the multivariate Gaussian location family
+\begin{equation}
+\label{eq:normal-location-family}
+\Prob_\mu = \cN(\mu, \bId_d), \quad \mu \in \R^d,
+\end{equation}
+%where the variance parameter~$\sigma^2$ is known, 
+where~$\bId_d$ is the~$d \times d$ identity matrix, from a single observation~$X \sim \Prob_\mu$.
+Note that here,~$X$ itself is the maximum likelihood estimator (MLE) for~$\mu$. Defining for any estimator~$\hat\mu = \hat \mu(X)$ of~$\mu$ the variance
+\[
+\Var_{\mu}[\hat\mu] := \E_{\mu}[\|\hat \mu - \E[\hat\mu]\|^2]
+\] 
+and the quadratic risk
+\[
+\Risk_{\mu}[\hat\mu] := \E_{\mu}[\|\hat \mu - \mu\|^2],
+\] 
+where $\|x\| := (\sum_{i} x_i^2)^{1/2}$ is the Euclidean norm of~$x = (x_1,...,x_d) \in \R^d$, we see that for any~$\mu \in \R^d$,
+\[
+\Risk_{\mu}[X] = \Var_{\mu}[X] = d.
+\]
+%where the first identity relies on~$X$ being unbiased.
+
+Intuitively, one can suspect that no better estimator of~$X$ can be found: really, what can be done with only a single observation of the mean?
+Yet, this turns out to be false: one may improve over the MLE uniformly on the family~\eqref{eq:normal-location-family} when~$d > 2$.
+This celebrated result was established by James and Stein in 1976, and our goal is to reproduce it.
+But first, let us establish the terminology.
+
+\begin{definition}
+{\em 
+An estimator~$\hat\mu$ is {\em dominated} by some other estimator~$\hat \mu'$ if~$\Risk_{\mu}[\hat\mu'] \le \Risk_{\mu}[\hat\mu]$ for any~$\mu$, and there exists a parameter value~$\bar\mu$ such that~$\Risk_{\bar\mu}[\hat\mu'] < \Risk_{\bar\mu}[\hat\mu]$.
+}
+\end{definition}
+
+\begin{definition}
+{\em 
+An estimator~$\hat\mu$ is called {\em admissible} if it is not dominated by any other estimator. Otherwise, it is called {\em inadmissible}.
+}
+\end{definition}
+
+As statisticians, ideally we would like to compare two estimators over the whole family at once, without specifying a value of~$\mu$. %Admissibility  is a partial remedy
+Two admissible estimators cannot be compared this way, but at the very least we can rule out any {\em inadmissible} estimator, as for it there exists a uniformly better one.\\
+
+You will show that the MLE is inadmissible when~$d \ge 3$, by constructing a dominating estimator.
+
+%be improved uniformly improved over by using some estimator~$\hat\mu'$ instead.
+%Clearly, we cannot do this for two admissible estimators: one will be better for one value of~$\mu$, and another one for some other value. However, any {\em inadmissible} estimator has an estimator
+
+
+%more general estimators; in particular, introducing some bias might help
+
+\begin{itemize}
+\item[$(a)$] 
+Consider {\em shrinkage estimators}
+$
+\hat\mu =  sX
+$
+with~$s \in \R$, and compute their risks for any~$s$.
+Show that one can restrict attention to~$s \in [0,1]$ (hence ``shrinkage'') by finding a dominating estimator for~$\hat\mu$ with~$s < 0$ or~$s > 1$. 
+
+%\begin{turn}{180}
+%{\em  Hint:} {\em look for an estimator~$\hat\mu' =  s'X$ with~$s' \in [0,1]$.}
+%\end{turn}
+
+\item[$(b)$] 
+Show that, for given~$\mu$, the best value of~$s$---i.e., the one minimizing the risk---is given by
+\[
+s^* = \frac{\|\mu\|^2}{d + \|\mu\|^2} 
+= 1-\frac{d}{d + \|\mu\|^2}.
+\]
+\item[$(c)$] Unfortunately,~$\hat \mu^* = s^* X$ is not a proper estimator. ({\em Why?}) 
+%it  depends on the unknown parameter~$\mu$, and hence is not observable (and cannot be computed). 
+Instead of it, one may consider
+\[
+\left(1-\frac{d}{\|X\|^2}\right) X,
+\]
+which is an actual estimator. Can you explain the heuristic motivation behind this estimator?
+
+\item[$^*(d)$]
+Assuming that~$d \ge 2$, derive the {\em James-Stein estimator}
+\begin{equation}
+\hat \mu^{JS} = \left(1-\frac{d-2}{\|X\|^2}\right) X
+\end{equation}
+by minimizing over~$\delta \in \R$ the risk of the estimator  
+\[
+\hat \mu^{\delta} = \left(1-\frac{\delta}{\|X\|^2}\right) X
+\]
+for a fixed~$\mu$. 
+In order to show that~$R(\delta) = \Risk_{\mu}[\hat \mu^{\delta}]$ is minimized at~$d-2$, use Stein's lemma: 
+
+\begin{lemma}
+Let~$X \sim \cN(\mu, I)$ and~$g(x)$ be a function on~$\R^d$ differentiable almost everywhere, and such that~$\E_{\mu} \left[ | \frac{\partial}{\partial x_i} g(X) | \right] < \infty$ and~$\E_{\mu}[|(X_i - \mu_i)g(X)|] < \infty$ for any~$i \in [d] := \{1, 2, ..., d\}$. Then
+\[
+\E_{\mu} [(X_i - \mu_i)g(X)] = \E_{\mu} \left[ \frac{\partial}{\partial x_i} g(X) \right], \quad i \in [d].
+\]
+\end{lemma}
+
+When applying Stein's lemma to the right function~$g(X)$, please do check the absolute integrability conditions in its premise, and explain why the argument does not work for~$d = 1$.
+
+Finally, verify that~$R(\delta)$ is strictly convex when~$d \ge 3$ (thus~$\hat \mu^{JS}$ indeed dominates the MLE). 
+\end{itemize} 
+
+\newpage
+\noindent
+\section{Planar Venn diagrams}
+
+A (congruent) {\em Venn diagram} in~$\R^d$ for~$n$ sets is the following object: you choose a ``base'' set~$A \subset \R^d$ and~$n$ locations~$a_1, ..., a_n \in \R^d$ such that the shifted sets~$A_1, A_2, ..., A_n$, where~$A_j := \{a+a_j, a \in A\}$, intersect in all possible combinations: for any subset of indices~$I \subseteq \{1,2,...,n\}$, the set
+$
+A_I := \cap_{i \in I} A_i 
+$
+must be nonempty. Prove the following result:
+
+\begin{quote}
+\em
+One cannot draw a planar ($d = 2$) Venn diagram for~$n \ge 5$ sets by shifting a circle.
+\end{quote}
+
+Use {\bf Euler's formula}: any planar graph with~$V$ vertices,~$E$ edges, and~$F$ faces (subsets in which~$\R^2$ is partitioned by the graph) satisfies
+\[
+V-E+F=2.
+\] 
+For example, in the case of a triangle~$V = E = 3$ and~$F$ = 2.\\
+{\em Hint: estimate~$V_n, E_n,F_n$ in a Venn diagram for~$n$ sets in terms of~$V_{n-1}, E_{n-1},F_{n-1}$ respectively.\footnote{In fact,~$n = 4$ is also impossible, but I am not aware of a purely combinatorial (and elegant) proof.}
+
+\newpage
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

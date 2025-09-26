@@ -1,0 +1,631 @@
+\documentclass[11pt]{article}
+
+
+\usepackage{fullpage}
+
+\title{ISyE 8803: Special Topics in Modern Mathematical Data Science\\ 
+	   Homework 2}
+\date{
+%{\bf Disclaimer:} problem 1 is an important exercise in theory; problem 2 includes a calculus exercise; finally, problems~$3$ to~$6$ are especially relevant for the final exam.\\
+\vspace{-0.3cm}
+{\bf due on \odima{Sunday, 04/27} at 11:59 pm}\\
+\vspace{0.3cm}
+\underline{Please submit electronically directly to Canvas in a PDF file.}\\
+\underline{Each ``raw'' point is worth 20 percentage points, so you can get an A by solving 3 problems.}
+}
+
+\author{}
+
+
+\usepackage{fullpage}
+%\usepackage{times}
+% For citations
+\usepackage{natbib}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+%\usepackage{times}
+% For citations
+%\usepackage{natbib}
+%\usepackage{fullpage}
+%\usepackage{cmap}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{
+    linkcolor=red,
+    citecolor=magenta,
+    filecolor=black,
+    urlcolor=black,
+}
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\usepackage{xfrac}
+\usepackage{enumitem}
+\def\Argmin{\mathop{\hbox{\rm Argmin}}}
+\def\Argmax{\mathop{\hbox{\rm Argmax}}}
+%\usepackage{cmap}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\newtheorem{definition}{Definition}%[section]
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{lemma}{Lemma}%[section]
+
+\newcommand{\proofstep}[1]{$\boldsymbol{{#1}^o}$}
+\newcommand{\odima}[1]{{\color{red} #1}}
+\newcommand{\extra}[1]{{\color{magenta} #1}}
+\newcommand{\draft}[1]{{\color{gray} #1}}
+
+\newcommand{\R}{\mathds{R}}
+\newcommand{\Z}{\mathds{Z}}
+\newcommand{\E}{\mathds{E}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\Prob}{\mathds{P}}
+\newcommand{\Var}{\textup{Var}}
+\newcommand{\Cov}{\textup{Cov}}
+\newcommand{\Col}{\textup{Col}}
+\newcommand{\Risk}{\textup{Risk}}
+\newcommand{\Sphere}{\mathds{S}}
+
+\newcommand{\diag}{\textup{diag}}
+
+\newcommand{\cX}{\mathcal{X}}
+
+\newcommand{\veps}{\varepsilon}
+
+\newcommand{\bSigma}{\boldsymbol{\Sigma}}
+\newcommand{\bId}{\boldsymbol{I}}
+\newcommand{\bX}{\boldsymbol{X}}
+\newcommand{\bPi}{\boldsymbol{\Pi}}
+\newcommand{\bPsi}{\boldsymbol{\Psi}}
+\newcommand{\bLambda}{\boldsymbol{\Lambda}}
+
+\newcommand{\wh}{\widehat}
+\newcommand{\lang}{\left\langle}
+\newcommand{\rang}{\right\rangle}
+\newcommand{\lsim}{\lesssim}
+\newcommand{\rsim}{\gtrsim}
+
+\newcommand{\ind}{\mathds{1}}
+
+\newcommand{\cT}{\mathcal{T}}
+
+\newcommand{\wt}{\widetilde}
+
+\newcommand{\weakto}{\leadsto}
+
+\newcommand{\leqs}{\leqslant}
+\newcommand{\geqs}{\geqslant}
+
+\renewcommand{\le}{\leqs}
+\renewcommand{\ge}{\geqs}
+
+
+\begin{document}
+
+
+\maketitle
+\newcommand{\vsp}{\vspace{0.3cm}}
+
+%\noindent
+%\proofstep{0}: {\bf Warm-up} (not graded) -- {\em expectation and covariance matrix in~$\R^d$.}\\
+%
+%Let~$X \in \R^d$ be a random vector with~$\E[X] = \mu$ and covariance matrix~$\Cov(X) = \bSigma$. Show that:
+%\begin{itemize}
+%\item[$(a)$] For the second-moment matrix of~$X$ is~$\E[\| X \|^2] = \mu \mu^{\top} + \bSigma$.
+%\item[$(b)$] $Z := \bSigma^{-1/2} (X-\mu)$ has zero mean and identity covariance~$\bId_d$.
+%\item[$(c)$] Find the mean, covariance matrix, and the second-moment matrix of~$W := \Sigma^{-1/2} X$.
+%\item[$(d)$] Assuming that~$d > 1$ and~$\mu \ne 0$, find the eigenvalues and eigenvectors of~$\bId_d + \mu \mu^{\top}$.
+%\end{itemize}
+
+
+\newpage
+\noindent 
+
+\section{Univariate exponential families and self-concordance (2pt)}
+By definition, {\em a univariate exponential family} (in canonical parameterization) is the family of p.d.f.'s
+%with density\footnote{
+%We assume that the initial parametrization is already a canonical one, and the factor~$h(x)$ is merged into~$\mu(dx)$.}
+\[
+\left\{ p_{\theta}(x) = e^{ T(x) \theta - \phi(\theta) } \cdot \odima{\mathds{1}_{\cX}(x)} \right\}_{\theta \in \Theta} 
+\]
+where~$\Theta \subseteq \R$; the function~$\phi(\theta)$ is called the {\em log-cumulant} (or {\em log-partition function});~$T(x)$ is {\em the sufficient statistic}. 
+(Note that~$p_{\theta}(x)$ depends on~$x$ only through~$T(x)$.)
+An exponential family is called {\em regular} if the support~$\cX$ of~$p_{\theta}(\cdot)$ is the same for all~$\theta \in \R$. 
+The set~$\Theta^* := \textup{dom}(\phi)$ is the {\em canonical domain} of an exponential family, and the family is called {\em full} if~$\Theta = \Theta^*$.
+%supported on a set~$\cX \subseteq \R$ that does not depend on~$\theta$.
+%with respect to some dominating measure~$\mu(d x)$ supported on~$\cX \subseteq \mathds{R}$. 
+\underline{Prove the following results:}
+
+\begin{enumerate}
+\item The canonical domain is a convex set (i.e.~segment, as~$\Theta^* \subseteq \R$). That is, if~$\theta_0, \theta_1 \in \Theta^*$, then
+\[
+\theta_{\lambda} := (1-\lambda)\theta_0 + \lambda\theta_1 \in \Theta^* \quad \forall \lambda \in [0,1].
+\]
+\item The {log-cumulant} is convex. (Note that it suffices to test convexity on a segment~$[\theta_0, \theta_1] \subseteq \Theta^*$.)
+%\[
+%a(\tfrac{1}{2} (\theta_0 + \theta_1)) \le \tfrac{1}{2} (a(\theta_0) + a(\theta_1)).
+%\]
+%You can either prove this directly, or use that convexity of~$a(\cdot)$ on~$\Theta$ is equivalent to having~$a''(\theta) \ge 0$~$\forall \theta \in \Theta$, assuming~$c(\theta)$ is smooth enough, and differentiate in~$\theta$ under the integral.
+%\odima{The normalization condition
+%\[
+%\int_{\cX} p_{\theta}(x) dx = \int_{\cX} \exp \left( T(x) \theta - \phi(\theta) \right) dx = 1 \quad \forall \theta \in \Theta
+%\]
+%allows to express~$\phi(\theta)$ as
+%\[
+%\phi(\theta) = \log \left(\int_{\cX} \exp \left( T(x) \theta \right) dx \right).
+%\]
+%After that, convexity follows via H\"older's inequality, as in Problem 2 of Homework 1.
+%}
+\item Let~$\E_{\theta}[g(X)]$ be the expectation of~$g = g(X)$ over~$X \sim p_{\theta}$. Show that~$\phi'(\theta) = \E_{\theta}[T(X)]$ and
+\[
+\phi^{(p)}(\theta) = \E_{\theta}[(T(X) - \E_{\theta}[T(X)])^p] \quad \text{for}\;\; p \in \{2,3\}.
+\] 
+({\em Hint:} to simplify calculations, you may focus on the random variable~$T = T(X)$ right away.)
+%\odima{
+%For the first derivative:
+%\[
+%\phi'(\theta) 
+%= \frac{\int_{\cX} T(x) e^{T(x) \theta} dx}{\int_{\cX} e^{T(x) \theta} dx}
+%= \int_{\cX} T(x) \left( \frac{e^{T(x) \theta}}{\int_{\cX} e^{T(y) \theta} dy} \right)  dx
+%= \int_{\cX} T(x) p_{\theta}(x)  dx
+%= \E_{\theta}[T(X)].
+%\]
+%Whence for the second derivative, using the product rule,
+%\[
+%\begin{aligned}
+%\phi''(\theta) 
+%&= \int_{\cX} T(x) \frac{\partial}{\partial\theta} \left( \frac{e^{T(x) \theta}}{\int_{\cX} e^{T(y) \theta} dy} \right) dx \\
+%&= \int_{\cX} T^2(x) \left( \frac{e^{T(x) \theta}}{\int_{\cX} e^{T(y) \theta} dy} \right) dx  
+%  + \int_{\cX} T(x) e^{T(x) \theta} \frac{\partial}{\partial \theta} \left( \frac{1}{\int_{\cX} e^{T(y) \theta} dy} \right) dx \\
+%  &= \int_{\cX} T^2(x) \left( \frac{e^{T(x) \theta}}{\int_{\cX} e^{T(y) \theta} dy} \right) dx  
+%  - \int_{\cX} T(x) \frac{e^{T(x) \theta}}{\left(\int_{\cX} e^{T(y) \theta} dy \right)^2} \left(\int_{\cX} T(z) e^{T(z) \theta} dz \right) dx \\
+%  &= \E_{\theta}[T(X)^2] - \E_{\theta}[T(X)]^2.
+%\end{aligned}
+%\]
+%Note that this gives another proof of convexity. 
+%Calculation for the third derivative is omitted.
+%}
+\item Construct an example showing that, in general,~$\phi^{(4)}(\theta) \ne \E_{\theta}[(T(X) - \E_{\theta}[T(X)])^4]$.\\
+({\em Hint:} think in terms of familiar distributions, and Wikipedia is at your service.)
+
+
+%{\em You can skip item 2 if you do this---why?}\\
+\item Let~$\phi(\theta) = -\log(\theta)$ and~$\mathcal{X} = \R_+$. Derive~$\Theta^*$ and recognize the family ({\em hint:} take~$T(X) = -X$).
+%\odima{Consider the family of exponential distributions~$X \sim \textup{Exp}(\theta)$, with~$\Theta = \R_+$,~$\cX = \R_+$, and
+%%Then, denoting~$I_{\R_+}(x)$ the indicator function on~$\R_+$ (i.e.~$0$ on~$\R_+$ and~$+\infty$ elsewhere), one has
+%\[
+%p_{\theta}(x) 
+%= \theta e^{-\theta x} \mathds{1}_{\R_+}(x)
+%= e^{-\theta x + \log\theta} \mathds{1}_{\R_+}(x)
+%= e^{-\theta x - (- \log\theta)} \mathds{1}_{\R_+}(x).
+%\]
+%So, this is an EF with~$T(X) = -X$ and~$\phi(\theta) = -\log\theta$. 
+%For the previous question, note that
+%\[
+%\phi'(\theta) = -\frac{1}{\theta} = \E_{\theta}[-X], \quad
+%\phi''(\theta) = \frac{1}{\theta^2} = \Var_{\theta}[-X], \quad
+%\phi'''(\theta) = -\frac{2}{\theta^3} = \E_{\theta}\left[ \left(\frac{1}{\theta} - X \right)^3\right];
+%\]
+%here the first two central moments are well-known, and the third one can be computed by the same method as the one employed below.
+%Now,~$\phi''''(\theta) = \frac{6}{\theta^4}$, yet the fourth central moment is
+%\[
+%\E_{\theta}\left[ \left(\frac{1}{\theta} - X \right)^4\right] 
+%= \frac{1}{\theta^4} \E\left[ \left(1 - Z \right)^4\right] 
+%= \frac{1}{\theta^4} \sum_{k = 0}^4 (-1)^k {4 \choose k} \E [Z^k]
+%= \frac{1}{\theta^4} \sum_{k = 0}^4 (-1)^k {4 \choose k} k!
+%= \frac{9}{\theta^4}.
+%\]
+%Here we introduced~$Z \sim \textup{Exp}(1)$ for convenience.
+%%This answers the previous question as well.
+%}
+\begin{itemize}
+\item Note that for any~$\theta_0 > 0$, the segment~$\left\{ \theta \in \R: {(\theta - \theta_0)^2}{\theta_0^{-2}} < 1 \right\}$ is a subset of~$\R_+$. Is that a coincidence? What is the geometric meaning of this segment in terms of function~$\phi$?
+%\odima{Not a conincidence: this set is nothing else but the Dikin ellipsoid~$\Theta_{\theta_0}(1)$ of radius~$1$ for the cumulant~$\phi(\theta)$, which is a standard self-concordant function, i.e.~satisfies
+%\[
+%|\phi'''(\theta)| \le 2\phi''(\theta)^{3/2}. 
+%\]
+%As mentioned in the class,~$\Theta_{\theta_0}(1) \subset \textup{dom}(\phi)$ for any~$\theta_0 \in \textup{dom}(\phi)$; see~\cite[Thm.~4.1.5]{nesterov2013introductory}.
+%}
+\end{itemize}
+\item Now let~$\phi(\theta) = \log(1 + e^{\theta})$ and~$\cX = \{0,1\}$ (the distribution is discrete, so p.d.f.~is now p.m.f.) 
+
+\begin{itemize}
+\item Derive~$\Theta^*$ and recognize the family as a reparameterized Bernoulli family. 
+\item {\em Without computing~$\phi''$ and~$\phi'''$ directly,} show that
+$
+|\phi'''(\theta)| \le \phi''(\theta).
+$\\
+({\em Hint:} use the result of~$3$ and compute the third moment of~$X \sim \textup{Bernoulli}(p).$)\\
+%and the moments of~$X \sim \textup{Bernoulli}(p)$. 
+%\odima{
+%Note that~$\textup{dom}(\phi) = \R$.
+%Let~$X \sim \textup{Ber}(q)$, then
+%\[
+%\begin{aligned}
+%p_{\theta}(x) 
+%= q^x (1-q)^{1-x} \mathds{1}_{\cX}(x) 
+%&= \exp \left( x \log(q) + (1-x) \log(1-q) \right) \mathds{1}_{\cX}(x) \\
+%&= \exp \left( x \underbrace{\log \left( \frac{q}{1-q} \right)}_{\theta} + \log\left({1-q}\right) \right) \mathds{1}_{\cX}(x) \\
+%&= \exp \left( x \theta + \log\left(1-\underbrace{\frac{e^{\theta}}{1+e^{\theta}}}_{q}\right) \right) \mathds{1}_{\cX}(x) \\
+%&= \exp \left( x \theta - \log (1 + e^\theta) \right) \mathds{1}_{\cX}(x).
+%\end{aligned}
+%\]
+%Here~$T(X) = X \sim \textup{Ber}(q_\theta)$ with~$q_{\theta} = \frac{e^{\theta}}{1 + e^\theta} \in [0,1]$.
+%Computing the moments we get
+%\[
+%\begin{aligned}
+%\phi''(\theta) = \Var_{\theta}(X) 
+%&= q_\theta(1 - q_\theta), \\
+%\phi'''(\theta) = \E_{\theta}[(X - q_\theta)^3] 
+% = q_\theta (1 - q_\theta)^3 - (1-q_\theta) q_\theta^3 
+% &= q_\theta (1 - q_\theta) \left[ (1 - q_\theta)^2 - q_\theta^2 \right] \\
+% &= \phi''(\theta) \left[ (1 - q_\theta)^2 - q_\theta^2 \right],
+%\end{aligned}
+%\]
+%and it only remains to observe that~$(1 - q)^2 - q^2 = 1 - 2q \in [-1,1]$ for~$q \in [0,1]$.
+%}
+
+
+\end{itemize}
+
+\end{enumerate}
+
+
+
+\newpage
+\section{Fenchel duality and generalized self-concordance (2pt)}
+Let~$f: \R^d \to \R \cup \{+\infty\}$. 
+Recall that the {\em Fenchel dual} or {\em convex conjugate} of~$f$ is~$f_*: \R^d \to \R \cup \{+\infty\}$,
+\begin{equation}
+\label{def:Fenchel-dual}
+f_*(u) := \sup_{x \in \R^d} \lang u, x \rang - f(x).
+\end{equation}
+In what follows, we assume that~$f$ is \odima{strictly} convex \odima{and~$C^1$ (continuously differentiable)}, and use the {\em involution property}:~$(f_*)_* = f$. 
+\underline{Also, you may assume $d = 1$.}\footnote{The results can be generalized to~$\R^d$ by fixing a segment~$[x_0, x_1]$ and restricting~$f$ to~$[x_0, x_1]$, i.e.~defining the function
+$
+\phi(t) = f(x_t)
+$
+on~$[0,1]$, where~$x_t = (1-t)x_0 + t x_1.$ See Nesterov~\cite{nesterov2013introductory} for a demonstration of this technique.}
+
+\noindent
+\proofstep{1}: {\em Maximization property.}
+\begin{itemize}
+\item[a.] Show that~$f_*$ is differentiable at any~$u$ for which the supremum in~\eqref{def:Fenchel-dual} is attained, and one has
+\[
+f_*'(u) = \arg\sup_{x \in \R^d} \lang u, x \rang - f(x).
+\]
+Use the subgradient rule for pointwise maxima of (differentiable) convex functions: ``the subdifferential of the maximum is the convex combination of the gradients of active components.''\\
+\item[b.]
+Using the involution property, observe that this works in either direction, and the mappings~$f'$ and~$\odima{f_*'}$ are mutually inverse (and thus bijective); in other words,
+\[
+f'(\odima{f_*'}(u)) \equiv u, \quad \odima{f_*'}(f'(x)) \equiv x.
+\]
+As such, it is convenient to define~$u(x) = f'(x)$ and~$x(u) = f_*'(u)$, and consider pairings~$(( x,u ))$ with~$u = u(x)$ and~$x = x(u)$.
+
+
+\end{itemize}
+
+\noindent
+\proofstep{2}: {\em Curvature property.}
+Show that, in the notation defined in~\proofstep{1}.b, one has
+\[
+g''(u(x))  \equiv \frac{1}{f''(x)}, \quad f''(x(u))  \equiv \frac{1}{g''(u)}.
+\]
+
+
+\noindent
+\proofstep{3}: {\em Generalized self-concordance.}
+
+\begin{itemize}
+\item[a.]
+Assume that~$f$ is~$C^3$-smooth and convex.
+Recall the definition of generalized self-concordance (GSC) with exponent~$r \ge [1,2]$:~$f$ is~$r$-GSC if there exists a nonnegative constant~$c$ such that
+\[
+|f'''(x)| \le c f''(x)^r \quad \forall x \in \R^d.
+\]
+For example, the ``vanilla'' SC function~$-\log(x)$ is~$\frac{3}{2}$-GSC, with~$c = 2$. 
+Prove the following: 
+\begin{quote}
+{\em For~$r \in [1,2]$, $f$ is~$r$-GSC if and only if~$f_*$ is~$s$-GSC with~$s = 3-r$ and the same~$c$.}
+\end{quote}
+{\em Hint:} use the result of~\proofstep{2}.
+
+\item[b.]
+Compute the dual for~$g(x) = -\log(x)$ on~$\R_+$ and~$h(x) = x\ln(x) + (1-x)\ln(1-x)$ on~$(0,1)$.
+The last result is very important, we will revisit (and generalize) it in class, as {\em Gibbs' duality:}
+
+\begin{quote}
+\em 
+Informally: entropy and log-partition function are mutual convex conjugates.
+\em
+\end{quote}
+
+\end{itemize}
+
+
+\newpage
+\section{Hypercontraction of the norm of a random vector (1pt)}
+Let~$\|\xi\|_{L_p} = (\E[|\xi|^p])^{1/p}$. Prove that if~$X \in \R^d$ is \odima{mean-zero} and~$\varkappa$-hypercontractive, i.e.~one has
+\[
+\| u^\top X \|_{L_4} \le \varkappa \| u^\top X \|_{L_2} \quad \forall u \in \mathbb{S}^{d-1},
+\]
+then the random variable~$\xi = \| X \|_2$ is~$\varkappa$-hypercontractive as well, i.e.~one has~$\| \xi \|_{L_4} \le \varkappa \| \xi \|_{L_2}$.\\
+{\em Hint:} start by writing~$\|X\|_{2}^4$ as the squared sum of the squared entries of~$X$.
+
+
+\newpage
+\section{Improved union bound for the maximum of Gaussians (2pt)}
+
+Solve Exercise 3.1 from Lecture 6. You will find the definitions and context therein.\\
+\odima{NB: updated on 04/13.}
+
+
+
+
+\newpage
+\section{Orlicz norms I (1pt)}
+Solve Exercises 2.1--2.2 from Lecture 4. You will find the definitions and context therein.
+
+
+\newpage
+\section{Orlicz norms II (2pt)}
+Solve Exercises 3.1--3.2 from Lecture 4. You will find the definitions and context therein.
+
+\newpage
+\section{Concentration of sample moment tensors (3pt)} 
+%Assume that~$X \sim \cN(0,\Sigma)$ in~$\R^d$ with~$\Sigma \succ 0$. 
+\newcommand{\bT}{\boldsymbol{T}}
+\newcommand{\bQ}{\boldsymbol{Q}}
+\newcommand{\bA}{\boldsymbol{A}}
+%Let~$Z$ be an isotropic random vector in~$\R^d$, i.e.~$\E[Z] = 0$ and~$\E[Z Z^\top] = \boldsymbol{I}_d$. 
+Here we extend the sample covariance matrix estimation result (Theorem~2.1 from Lecture~7) to higher-order moments, namely the tensor~$\bQ$ of 4th-order moments of~$Z \in \R^d$.
+In fact, this approach is applicable to all moments; we avoid this generalization here for simplicity.
+
+Some definitions: a quartic tensor~$\bA \in \R^{d \times d \times d \times d}$ is simply a 4-dimensional array; it is called {\em symmetric} if~$\bA_{ijkl} = \bA_{\pi(i)\pi(j)\pi(k)\pi(l)}$ for any permutation~$\pi$ of the multi-index. Clearly, the 4th-order moment tensor of~$Z$, as given by
+\[
+\bQ_{ijkl} = \E\big[Z^{(i)} Z^{(j)} Z^{(k)} Z^{(l)} \big]
+\]
+where~$Z^{(i)} := \langle Z, e_i \rangle$ is the~$i$th entry of~$Z$, is symmetric. $\bA$ is {\em rank-one} if~$\bA_{ijkl} = x_i y_j z_k w_l$ for some vectors~$x,y,z,w \in \R^d$; in this case, one also writes~$\bA = x \otimes y \otimes z \otimes w$. 
+A {\em symmetric} rank-one quartic tensor writes
+$
+\bA = x \otimes x \otimes x \otimes x = x^{\otimes 4} 
+$
+for some~$x \in \R^d$, and~$\bQ$ can be estimated from i.i.d.~sample~$Z_1, \dots, Z_n$ with 
+%its empirical counterpart
+\[
+\hat \bQ_n = \frac{1}{n} \sum_{i \in [n]} Z_i^{ \otimes 4}.
+\]
+Note that a covariance matrix is the tensor of 2nd-order moments:~$\E[Z Z^\top] = \E[Z \otimes Z]$. 
+Similarly to the case of covariance matrices, one can associate~$\bQ$  with a symmetric {quadrilinear form} that acts on a quadruple~$x,y,z,w \in \R^d$ as follows:
+\[
+\bQ[x,y,z,w] = \sum_{i,j,k,l \in [d]}  \bQ_{ijkl} \, x^{(i)} y^{(j)} z^{(k)} w^{(l)}
+\]
+where~$x^{(i)} = \langle x, e_i \rangle$; in particular,~$\bQ[u,u,u,u]$ is a quartic form (i.e., a~symmetric homogeneous polynomial of degree~$4$ in the entries of~$u$).
+The {\em operator norm} of a symmetric quartic tensor~$\bA$ is
+\[
+\| \bA \| = \sup_{u \in \Sphere^{d-1}} |\bA[u,u,u,u]|.
+\]
+One may show that following result for the deviations of~$\hat \bQ_n$ from~$\bQ$ in operator norm.
+ \begin{theorem}
+\label{th:tensor-concentration}
+Assume that~$Z_i \in \R^d$ are \odima{zero-mean} and~$K$-subgaussian. \odima{For~$\delta \le \frac{1}{n}$,} with prob.~$\ge 1-\delta$,
+\[
+\| \hat \bQ_n - \bQ \| \lsim K^4 \odima{\Bigg(} \frac{(d + \log(\delta^{-1}))^{2}}{n} + \sqrt{\frac{d + \log(\delta^{-1})}{n}} \odima{\Bigg)}.
+%\quad\text{with}\quad \veps = \frac{(d + \log(\delta^{-1}))^{1/2}}{n^{1/3}}.
+\]
+In particular, the sample complexity of estimating~$\bQ$ up to a constant relative error in the norm is 
+\[
+O\left( \frac{K^4}{\|\bQ\|}( d + \log(\delta^{-1}))^{2} \right).
+\]
+%As such, the sample complexity ~$\| \hat \bQ_n - \bQ \| \lsim 1$ w.p.~$\ge 1-\delta$ as long as~$n \rsim K^9 (d + \log(\delta^{-1}))^{3/2}$. 
+\end{theorem}
+
+%\begin{remark}
+%\end{remark}
+%\paragraph{Remark.} The second part follows from the main claim since~$\|\bQ\| \le K^4$ (convince youself in this).
+
+\odima{Note that~$\delta \lsim \frac{1}{n}$ is hardly a restrictive condition: it can be thought of as increasing~$d$ by~$\log n$.}
+
+We will prove a suboptimal version of the theorem, with~$(d + \log(\delta^{-1})^3$ instead of~$(d + \log(\delta^{-1})^2$. 
+To do it, it is suggested---but not required---to follow the plan below. 
+%\odima{(Feel free to take another!)}
+%(Its steps can be implemented in any order, just like in our in-class proof of the sample covariance matrix result.)
+
+\begin{enumerate}
+\item {\em Approximation.} 
+Emulating our in-class proof, show that for any symmetric quartic tensor~$\bA$, 
+\[
+\| \bA \| \le \frac{1}{1-4\veps} \sup_{u \in \odima{\cN_\veps(\Sphere^{d-1})}} |\bA[u,u,u,u]|
+\]
+\odima{where~$\cN_{\veps}(\Sphere^{d-1})$ is an~$\veps$-net of the sphere.
+It is OK if you get a larger universal constant than~$4$.}
+
+\item {\em Bernstein's inequality.}
+Take note of the following result (no need to prove it): if~$W_1, \dots, W_n$ are independent random variables with~$|W_i| \le R$ a.s., 
+then with probability~$\ge 1-\delta$ one has
+\[
+\left| \textstyle\sum_{i} W_i - \E[W_i] \right|
+\lsim R\log(2\delta^{-1}) + \sqrt{\log(2\delta^{-1}) \textstyle\sum_{i} \Var(W_i)}.
+\]
+This result is proved via the MGF method; the proof mimics that of the ``vanilla"~$\chi^2$-bound.
+%\odima{Note that I ended up re-proving Bernstein's inequality in class (no need to repeat that proof).}
+
+\item {\em Truncation.} 
+%Fix~$u \in \Sphere^{d-1}$, and~
+Show that if~$\xi_i$ are independent with~$\E[\xi_i] = 0$,~$\Var[\xi_i] = 1$ and~$\|\xi_i\|_{\psi_2} \le K$, then
+\begin{equation}
+\label{eq:quartic-sum-deviations}
+\left| \textstyle\sum_{i \in [n]} \xi_i^4 - \E[\xi_i^4] \right| 
+\lsim 
+K^4 \log^3(2n\delta^{-1}) + \sqrt{n\log(2\delta^{-1})}
+\end{equation}
+with probability~$\ge 1-\delta$.
+%In fact, this is loose:~$\log(2n\delta^{-1})^{3}$ can be improved to~$\log(2n\delta^{-1})^{2}$. 
+To prove this result, run the truncation method as explained below.
+\begin{itemize}
+\item Define~$W_i = \xi_i^4 \mathds{1}(|\xi_i| \le R^{\odima{1/4}})$ and
+%\[
+%\sum_{i} \xi_i^4 - \E[\xi_i^4] = \sum_i (W_i - \E[W_i]) + [...].
+%\]
+\odima{
+consider the decomposition
+\[
+\sum_{i} \xi_i^4 - \E[\xi_i^4] 
+= \sum_i (W_i - \E[W_i]) + \sum_i (\xi_i^4 - W_i^{\vphantom 4}) + \sum_i \E [W_i^{\vphantom 4} - \xi_i^4].
+\]
+}
+
+\item
+Using the results of Exercises 3.1--3.2 from Lecture 4 (no need to prove them), show that if one selects~$R \rsim \log^2(2n\delta^{-1})$, \odima{the right-hand side is at most~$\sum_i W_i - \E[W_i]$} w.p.~$\ge 1-\delta$.  
+
+\item 
+Use Bernstein's inequality (2.) to control the sum~$\sum_i W_i - \E[W_i]$ of truncated variables.
+
+\item
+Control the negative deviations analogously \odima{but with some tweaks; you may assume~$\delta \le \frac{1}{n}$.}
+
+\end{itemize}
+%Note that, by the result of Exercises 3.1--3.2 from Lecture 4, with prob.~$\ge 1-\delta$
+%\[
+%\max_{i \in [n]} |\|Z_i\|_2^2  - d | \le K^2\sqrt{n\log(n \delta^{-1})} + K^2 \log(n \delta^{-1}). 
+%%+ \max_{i \in [n]} \E[\|Z_i\|_2^{2}]
+%\]
+%\[
+%W_i = \langle Z_i, u \rangle \mathds{1}(E_i)
+%\]
+%\item {\em ``$\chi^3$ bound.''} 
+%Show that if random variables~$\xi_1, \dots, \xi_n$ are indendent and~$|\xi_i| \le R$ a.s., then 
+%\[
+%\left| \sum_{i \in [n]} \xi_i^3 - \E[\xi_i^3] \right|^{2/3}
+%\lsim \sqrt{n \log(2\delta^{-1})} + \log(2\delta^{-1}).
+%\]
+%with probability~$\ge 1-\delta$. 
+\item {\em Union bound and suboptimal result.} 
+Combine the results of (3.) and~(1.) to show a slackened version of Theorem~\ref{th:tensor-concentration} with~$(d+ \log(\delta^{-1}))^3$ instead of~$(d+ \log(\delta^{-1}))^2$.
+
+%\odima{
+%This part is the same as in the quadratic case:~$d$ appears as the covering number of the sphere.
+%}
+\end{enumerate}
+
+\paragraph{Remark.}
+%\begin{comment}
+%\item {\em {Bonus (2pt):} improvement via dyadic decomposition.}
+Theorem~\ref{th:tensor-concentration} would follow if in~\eqref{eq:quartic-sum-deviations} we manage to replace~$\log^3(2n\delta^{-1})$ with~$\log^2(2n\delta^{-1})$. 
+In general, for the sum of~$p$-powers under the assumptions of~$(3.)$, with any~$p \ge 2$, one may prove that with probability~$\ge 1-\delta$,
+\begin{equation}
+\label{eq:power-sum-deviations}
+\left| \textstyle\sum_{i \in [n]} |\xi_i|^p - \E[|\xi_i|^p] \right| 
+\lsim 
+K^p \log^{p/2}(2\delta^{-1}) + \sqrt{n\log(2\delta^{-1})}.
+\end{equation}
+In particular, for~$p = 2$ we recover the vanilla~$\chi^2$ bound, for~$p = 3$ the first term is~$K^3 \log^{3/2}$, etc.;
+meanwhile, the truncation method, when generalized to this setting, gives~$K^p\log^{\frac{p+2}{2}}(2n\delta^{-1})$, which results in~$(d+\log(\delta^{-1}))^{\frac{p+2}{2}}$ for tensors.
+A (long) proof can be found~e.g.~in~\cite[Thm.~3.1]{hao2019bootstrapping}. 
+%I am not aware of a more elementary one.
+
+%In order to get the correct result, one has to do something smarter than truncation. 
+%replace truncation with the dyadic decomposition, writing~$U_i = \xi_i^4 - \E[\xi_i^4]$ as
+%\[
+%\begin{aligned}
+%\xi_i^4 &= W_{i,0} + \sum_{k \in \mathds{N}} W_{i,k} \\
+%\text{where}\;\; W_{i,0} &= \xi_i^4 \mathds{1}(|\xi_i| \le K) \;\; \text{and} \;\; W_{i,k} := \xi_i^4 \mathds{1}(2^{k-1} K < |\xi_i| \le  2^{k} K) \;\;\text{for}\;\; k \ge 1.
+%\end{aligned}
+%\]
+%If you want to earn some impressive cred, try running this calculation.
+%I am not aware how to do this in a simple way.
+%%You might use the argument in Terry Tao's notes, Proposition 6  \url{https://terrytao.wordpress.com/2010/01/03/254a-notes-1-concentration-of-measure/#chern-improve} where I borrowed this idea from, to cut yourselves some slack. 
+
+%However, this is not the end of the story: the issue is that, while~$\E[U_i] = 0$, the expectations of~$U_{i,k}$ are nonzero -- unless $U$ has a symmetric distribution, which is not the case even when~$\xi_i \sim \cN(0,1)$. 
+%To circumvent this issue, one might want to use the {\em symmetrization} idea: replace~$U_i$ with~$\tilde U_i = \veps_i U_i$, where~$\veps_1, \veps_2, \dots$ is an independent from~$U_1, U_2, \dots$ sequence of i.i.d.~Rademacher random variables ($\veps_i = \pm 1$ with prob.~$1/2$), and argue that 
+%\end{comment}
+
+
+
+
+\iffalse
+will derive a deviation bound for the operator norm of the sample covariance tensor
+\[
+T_n := \frac{1}{n} \sum_{i=1}^n Z_i \otimes Z_i \otimes Z_i,
+\] 
+where $Z_i \in \R^d$ are independent random vectors with~$\|Z_i\|_{\psi_2} \le K$, from its mean~$T = \E[Z \otimes Z \otimes Z]$. 
+Equivalently, our goal is to control the supremum of the random process on the unit sphere~$\Sphere^{d-1}$:
+\begin{equation}
+\label{eq:sup-tensor}
+\sup_{u \in \Sphere^{d-1}} \left| T_n[u,u,u] - T[u,u,u] \right| = \sup_{u \in \Sphere^{d-1}} \left| \frac{1}{n} \sum_{i=1}^n \lang Z_i, u \rang^3 - \E \lang Z,u \rang^3 \right|.
+\end{equation}
+%Namely, we will prove that as long as~$n \gsim K^3 d$, up to logairthmic factors in~$n,d,$ and~$\delta$, 
+This will be achieved by combining a simple $\veps$-net argument with a deviation bound for the sum of the cubes of subgaussian random variables. 
+The latter bound can be proved using the machinery of the generalized Bernstein-Orlicz norms; for details, see, e.g.,~\cite[Section 3]{kuchibhotla2018moving}.
+%To prove the latter bound, we will exploit a technique similar to the one used in~\cite{anandkumar2014sample} for the sum of the fourth powers of subgaussians. 
+%Note that we are not interested here in relative deviations from the mean: absolute deviations are already sufficient for our purposes. We start with the following result, cf.~\cite[Claim~4]{anandkumar2014sample}.
+\begin{lemma}
+\label{lem:cubes-of-subgaussians}
+Let~$\xi_i$ be independent random variables satisfying~$\|\xi_i\|_{\psi_2} \le K$, then with probability at least~$1-\delta$,
+\[
+\left|\frac{1}{n}\sum_{i=1}^n \left( \xi_i^3 - \E[\xi_i^3] \right) \right| \lsim K^3 \left(\frac{(\log(e/\delta))^{3/2}}{n} + \sqrt{\frac{\log(e/\delta)}{n}}\right).
+\]
+\end{lemma}
+\begin{proof}
+The claim directly follows from~\cite[Theorem~3.1]{kuchibhotla2018moving} by putting $\alpha = 2/3$, and noting that $\|\xi_i^3 - \E[\xi_i^3]\|_{\psi_{2/3}} \le 2\|\xi_i^3\|_{\psi_{2/3}} \lsim K^3$ where~$\|\cdot\|_{\psi_{\alpha}}$ is the Orlicz norm with respect to the (non-convex) Young function~$\psi_{2/3}(t) = \exp(t^{2/3})-1$, see~\cite[Section~2]{kuchibhotla2018moving} for details.
+\end{proof}
+The following theorem provides the control of~\eqref{eq:sup-tensor}.
+\fi
+
+\iffalse
+\newpage
+\section{Local behavior of~$f$-divergences}
+In this exercise, you will show that $f$-divergence with a {\em strictly convex} function~$f$ locally behaves as the~$\chi^2$-divergence (which is an~$f$-divergence with a specific potential function, to be defined later).
+Let~$f: \R_{++} \to \R$, where~$\R_{++}$ is the set of all positive reals, satisfy the following assumptions:
+
+\begin{itemize}
+\item~$f(1) = 0$;
+\item~uniformly bounded third derivative on~$\R_{++}$, that is~$f'''$ exists on~$\R_{++}$ and~$\sup_{r > 0} |f'''(r)| < \infty$; 
+\item~$f$ is strictly convex (and thus by the previous assumption~$f''(r) > 0$ for any~$r > 0$).
+\end{itemize}
+In fact, all common~$f$-divergences, \underline{except} the~TV distance, satisfy these assumptions (including Hellinger, chi-squared, and~Kullback-Leibler).
+Recall that the associated~$f$-divergence between two distributions~$P,Q$ on the same space, with densities~$p,q$ with respest to a dominating measure~$\mu$, is
+%\footnote{Existence of a dominating measure is non-restrictive since one can always take~$\mu = \frac{1}{2} (P + Q)$.} is 
+\[
+\begin{aligned}
+D_f(P||Q) 
+&:= \E_{Q} \left[ f\left( \frac{d P}{d Q} \right) \right] 
+\quad = \int_{\cX} f\left( r(x) \right) q(x) d \mu(x),
+\end{aligned}
+\]
+where~$r(x) := \frac{p(x)}{q(x)}$ is the likelihood ratio and~$\cX$ is the support of~$\mu$.
+Fix~$P$ and~$Q$, and consider the ``segment'' between them, that is, the family of mixture distributions~$P_t := (1-t)Q + tP$ for~$t \in [0,1]$ (in particular,~$P_1 = P$ and~$P_0 = Q$). 
+
+\begin{itemize}
+\item
+\underline{Show that}~as~$t \to 0$,
+\[
+\begin{aligned}
+D_f(P_t||Q) 
+&= (1+o(1)) \frac{f''(1)}{2} \chi^2(P_t||Q)
+\end{aligned}
+\]
+where~$o(1) \to 0$ and~$\chi^2(P||Q)$ is the chi-square divergence, i.e.~$D_{h}(P||Q)$ with~$h(r) = (1-r)^2$.
+\item
+\underline{Check that}~$\chi^2(P_t||Q) = t^2 \chi^2(P||Q)$ and conclude that~$D_f(P_t||Q)$ is locally quadratic in~$t$.
+\end{itemize}
+
+%\begin{turn}{180}
+{\bf Hint:} {\em Consider the 3rd-order Taylor expansion of~$f(r)$ at~$r = 1$. The 1st-order term must vanish.}\\
+%\end{turn}\\
+\fi
+
+\newpage
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\end{document}

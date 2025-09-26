@@ -1,0 +1,800 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+
+\title{Math 6262: Statistical Estimation (Spring 2024)\\ 
+	   Solutions to Homework 2}
+\date{}
+
+\author{}
+
+\usepackage{fullpage}
+%\usepackage{times}
+% For citations
+\usepackage{natbib}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+%\usepackage{times}
+% For citations
+%\usepackage{natbib}
+%\usepackage{fullpage}
+%\usepackage{cmap}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{
+    linkcolor=red,
+    citecolor=magenta,
+    filecolor=black,
+    urlcolor=black,
+}
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{xfrac}
+\usepackage{enumitem}
+\def\Argmin{\mathop{\hbox{\rm Argmin}}}
+\def\Argmax{\mathop{\hbox{\rm Argmax}}}
+%\usepackage{cmap}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\newtheorem{definition}{Definition}%[section]
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{lemma}{Lemma}%[section]
+
+\newcommand{\proofstep}[1]{$\boldsymbol{{#1}^o}$}
+
+\newcommand{\R}{\mathds{R}}
+\newcommand{\Z}{\mathds{Z}}
+\newcommand{\E}{\mathds{E}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\Prob}{\mathds{P}}
+\newcommand{\Var}{\textup{Var}}
+\newcommand{\Cov}{\textup{Cov}}
+\newcommand{\Risk}{\textup{Risk}}
+
+
+\newcommand{\cX}{\mathcal{X}}
+
+\newcommand{\ind}{\mathds{1}}
+
+\newcommand{\cT}{\mathcal{T}}
+
+\newcommand{\wh}{\widehat}
+\newcommand{\wt}{\widetilde}
+
+\newcommand{\weakto}{\leadsto}
+
+\newcommand{\Exp}{\textup{\textsf{Exp}}}
+\newcommand{\Unif}{\textup{\textsf{Unif}}}
+\newcommand{\sGamma}{\textup{\textsf{Gamma}}}
+
+\newcommand{\Med}{\textup{Med}}
+
+\newcommand{\sG}{\textsf{G}}
+%\newcommand{\sF}{\textsf{F}}
+%\newcommand{\sf}{\textsf{f}}
+\newcommand{\N}{\mathds{N}}
+
+\newcommand{\leqs}{\leqslant}
+\newcommand{\geqs}{\geqslant}
+
+\renewcommand{\le}{\leqs}
+\renewcommand{\ge}{\geqs}
+
+\newcommand{\vsp}{\vspace{0.3cm}}
+
+\newcommand{\odima}[1]{{\color{red} #1}}
+
+\begin{document}
+
+\maketitle
+
+\iffalse
+
+\proofstep{1}: {\em Estimating the support of~$\Unif([0,\theta])$.}
+
+Let~$X_1, X_2, ..., X_n$ be an i.i.d.~sample from the uniform density~$f(x|\theta) = \frac{1}{\theta} \mathds{1}\{x \in [0,\theta]\}$ with~$\theta > 0$. 
+The Cram\'er-Rao theorem would seem to imply that the variance of any unbiased estimator of~$\theta$ is lower-bounded with~$\frac{\theta^2}{n}$. Why cannot we apply it here?
+
+\odima{We cannot apply it here because the support of~$f(\cdot|\theta)$ depends on the parameter. (Indeed, the proof of CRB uses the second Bartlett identity, which relies on  differentiating an expectation in~$\theta$.)}
+
+\begin{itemize}
+%\item[(4.a)]
+%\item[(4.b)]
+%\begin{quote}
+\item
+Construct an unbiased estimator that ``violates'' the Cram\'er-Rao bound. 
+To this end, start with the MLE, compute its bias, and ``correct'' it, so that the resulting estimator is unbiased.
+
+\odima{The density of the sample is given by
+\[
+f_n(\theta) = \frac{1}{\theta^n} \mathds{1}\{\theta \ge \max\{X_1, ..., X_n \}\}
+\]
+for~$\theta \ge 0$, and~$f_n(\theta) = 0$ otherwise. Therefore, it is maximized at~$\wh\theta_n = Y_n := \max\{X_1,..,X_n\}$. 
+(Note that~$u \mapsto u^n$ is an increasing function on~$\R_+$.) Now, to compute the bias of~$\wh\theta_n$ note that
+\[
+F_{Y_n}(x) = \Prob\{ Y_n \le x \} = (\Prob \{X_1 \le x \})^n = \left(\frac{[x]_{\theta}}{\theta} \right)^n
+\]
+where~$[x]_{\theta} := \max\{0, \min\{x,\theta\}\}$, i.e.~$[x]_{\theta} = x$ for~$x \in [0,\theta]$, and it truncates~$x$ at~$0$ or~$\theta$ otherwise.
+Since~$Y_n \ge 0$ almost surely, we can compute its expectation by integrating the tail:
+\[
+\E[Y_n] 
+= \int_{0}^{\infty} (1-F_{Y_n}(x)) dx 
+= \int_{0}^{\theta} \left(1 - \left(\frac{x}{\theta} \right)^n \right) dx 
+= \theta\int_{0}^{1} \left(1 - u^n \right) du 
+=  \frac{n}{n+1}\theta.
+\]
+Thus,~$\bar\theta_n := \frac{n+1}{n} Y_n$ is an unbiased estimate of~$\theta$. 
+}
+\item
+Show that the Cram\'er-Rao bound is ``violated'' by computing the variance of this estimator.
+
+\odima{
+We have~$\Var[\bar\theta_n] = (\frac{n+1}{n})^2 \Var[Y_n] = (\frac{n+1}{n})^2 \E[Y_n^2] - \theta^2$. Moreover, since the p.d.f.~of~$Y_n$ is~$f_{Y_n}(x) = \frac{n x^{n-1}}{\theta^n} \mathds{1}\{0 \le x \le \theta\}$, we find
+\[
+\E[Y_n^2] 
+= \int_0^{\theta} \frac{n x^{n+1}}{\theta^n} dx 
+= \theta^2 \int_0^{1} n u^{n+1} du 
+= \frac{n}{n+2}\theta^2,
+\]
+and therefore~$\Var[\bar\theta_n] = \frac{\theta^2}{n(n+2)} \ll \frac{\theta^2}{n}$.
+}
+\end{itemize}
+
+\vsp
+
+\newpage
+
+\proofstep{2}: {\em Estimating the median in a location family.}
+
+For any~$\mu \in \R$, let~$\Prob_{\mu}$ be the distribution of~$\mu^* + Z$, where~$Z$ has the median~$0$ and some ({known}) p.d.f.~$f$ such that~$f(0) > 0$. 
+We estimate~$\mu^*$ from i.i.d.~sample~$X_{1:n} = (X_1, ..., X_n) \sim \Prob_{\mu^*}^{\otimes n}$ with odd~$n$,
+by the {\em sample median} of~$X_{1:n}$, defined as
+\[
+\wh\Med_n := X_{(\frac{n+1}{2})}
+\]
+where~$X_{(k)}$ is the~$k$-th order statistic, i.e.~$k^{\textup{th}}$ largest among~$X_{1:n}$. 
+\\
+(Note that we do not have to care about possible ties, since all~$X_i$'s are different with probability 1).
+
+
+\begin{itemize}
+\item[(a)] Show that~$\wh\Med_n$ is unbiased when~$f$ is symmetric, i.e. when~$f(-x) = f(x)$ for all~$x \in \R$.
+
+{\bf\em Hint.} {\em Use the tower rule:~$\E[\wh\Med_n] = \E[\E[\wh\Med_n|Y]]$ for any random variable~$Y$. Try to find the right random variable~$Y$---supported on~$\{1,...n\}$---for which~$\E[\wh\Med_n|Y] = 0$ a.s.}
+
+\odima{Define r.v.~$Y \in [n] := \{1,...,n\}$ to be the index of the observation that happened to be the sample median, i.e.~$X_Y = \wh\Med_n$. Then~$\E\wh\Med_n] = \E[\E \wh\Med_n|Y]]$ by the tower rule; hence, it suffices to prove that~$\E[\wh \Med_n|Y=k] = \mu^*$ for any~$k \in [n]$. But, fixing any~$k \in [n]$, one has 
+\[
+\E[\wh \Med_n|Y=k] = \E[\wh \Med_n|\wh \Med_n = X_k] = \E[X_k| X_k = \wh\Med_n].
+\]
+Finally, observe that~$\E[X_k| X_k = \wh\Med_n] = \mu^* + \E[Z_k| Z_k = Z_{(\frac{n+1}{2})}]$ where we used shift equivariance of the sample median. Clearly, the conditional distribution~of~$Z_k$ under the event~$\{Z_k = Z_{(\frac{n+1}{2})}\}$ is symmetric:
+\[
+\begin{aligned}
+\Prob \left[Z_k \ge u \middle|Z_k = Z_{(\frac{n+1}{2})} \right] 
+\stackrel{(i)}{=} \Prob \left[Z_k \ge u\middle| -Z_k = -Z_{(\frac{n+1}{2})} \right] 
+&= \Prob \left[-Z_k \le -u\middle| -Z_k = -Z_{(\frac{n+1}{2})} \right] \\
+&\stackrel{(ii)}{=} \Prob \left[Z_k \le -u\middle| Z_k = Z_{(\frac{n+1}{2})} \right].
+\end{aligned}
+\]
+Here~$(i)$ uses that the sample median is equivariant w.r.t.~negation;~$(ii)$ uses that the vector~$(-Z_1,...,-Z_n)$ has the same distribution as~$(Z_1, ..., Z_n)$. 
+} 
+\item[(b)] Show that~$\wh \Med_n$ is the MLE when~$Z$ has the standard Laplace distribution:~$f(u) = \frac{1}{2} e^{-|u|}.$
+{\bf\em Hint:} {\em what is the derivative of~$\ell(u) := \log f(u)$? Does it matter that~$\ell'(0)$ is not defined?}
+
+\odima{Since the density of~$\mu + Z$ is given by~$f(\cdot-\mu)$, the empirical log-likelihood is 
+\[
+L_n(\mu) := \frac{1}{n}\sum_{i \in [n]} \ell(X_i - \mu)
+\]
+where~$\ell(x-\mu) = -|x-\mu|$. 
+Note that~$\frac{d}{d\mu}\ell(x-\mu) = \textup{sign}(x-\mu)$~for~$\mu \ne x$, and~$\frac{d}{dx}\ell(x-\mu)$ is undefined at~$x = \mu$, yet all tangents to the plot of~$\ell(x-\cdot)$ at~$\mu = x$ have slopes in~$[-1,1]$. Hence, the slope of~$L_n(\mu)$ decreases as we move~$\mu$ left to right, from~$n$ (when~$\mu < \min \{ X_1, ..., X_n \}$) to~$-n$ (when~$\mu > \max \{ X_1, ..., X_n \}$), in steps of magnitude~$2$ each time when we pass over a data point. In particular, the slope changes from~$1$ to~$-1$ as~$\mu$ passes over~$\wh \Med_n$, so this is the only point where the plot of~$L_n(\cdot)$ has a horizontal tangent.\footnote{This argument is clumsy because I'm avoiding the notion of subgradients here, as convex optimization is not a prerequisite of this course (alas).}
+This shows that~$\wh \Med_n$ is a unique maximizer of~$L_n(\mu)$.
+}
+
+\item[(c$'$)] Compute the variance of~$\wh \Med_n$ in this situation (i.e.~Laplace distribution) in the cases~$n = 1$ and~$n = 3$. Compare with the Cram\'er-Rao bound.
+
+{\bf\em Hint.} {\em Use the following fact: if~$X_{1:n}$ is an i.i.d.~sample from a law with c.d.f.~$F_{X}(x)$, then the c.d.f. of its~$k^{\textup{th}}$ order statistic is
+\[
+F_{X_{(k)}}(x) = \sum_{j=0}^{k-1} {n\choose j} F_{X}(x)^{n-j} (1-F_X(x))^{j}
+\]
+Another useful fact is that~$\wh \Med_n$ is {\em shift-equivariant}: if we shift the distribution by a constant~$a \in \R$, then the distribution of~$\wh \Med_n$ will simply be shifted in the same way. This allows to assume~w.l.o.g.~that~$\mu_* = 0$ in your calculations.
+}
+
+\odima{
+First, the Cram\'er-Rao bound is easy:$|\frac{d}{d\mu} \ell (x-\mu)| = |\textup{sign}(x-\mu)| = 1$ when~$x \ne \mu$, whence the Fisher information is given by
+\[
+\mathds{I}(\mu^*) := \E_{X \sim \Prob_{\mu^*}} \left[ \left( \frac{d}{d\mu} \ell (X-\mu) \middle|_{\vphantom{{{P^P}^P}^P}\mu = \mu^*} \right)^2\right] = 1.
+\]
+Hence, by the product rule the variance of any unbiased estimator of~$\mu^*$ cannot be less than~$\frac{1}{n}$. 
+
+On the other hand, for~$n = 1$ we have that~$\wh\Med_1 = X_1$ has a shifted Laplace distribution, so~$\Var[\wh\Med_1] = 2$. For~$n = 3$ we can calculate the variance of~$\wh\Med_3 = X_{(2)}$ explicitly. Indeed,
+\[
+\begin{aligned}
+F_{X_{(2)}}(x) 
+&= F_X(x)^3 + 3 F_X(x)^2 (1-F_X(x)) \\
+&= 3 F_X(x)^2 - 2 F_X(x)^3,
+\end{aligned}
+\]
+whence~$f_{Z_{(2)}}(z) = 6F(z)[1 - F(z)]f(z)$ and
+\[
+\begin{aligned}
+\Var[X_{(2)}] = \Var[Z_{(2)}] 
+&= 6\int_{-\infty}^{+\infty} z^2 F(z)[1 - F(z)]f(z) dz \\
+&= 12\int_{0}^{+\infty} z^2 F(z)[1 - F(z)]f(z) dz.
+\end{aligned}
+\]
+Plugging in~$F(z) = 1-\frac{1}{2} e^{-z}$ and~$f(z) = \frac{1}{2} e^{-z}$ for~$z \ge 0$, we arrive at
+\[
+\Var[X_{(2)}] = 3\int_{0}^{+\infty} z^2 \left( e^{-2z} - \frac{1}{2} e^{-3z}\right) dz = \frac{2}{3} - \frac{1}{36}.
+\]
+We conclude that~$\wh\Med_n$ does not attain~CRB for~$n \in \{1,3\}$: its variance is twice larger than~CRB when~$n=1$, and slightly less than twice larger than~CRB when~$n = 3$. 
+}
+
+\item[(d)] Find the {\em asymptotic variance} of~$\wh\Med_n$ in the general situation, i.e.~only assuming that~$f(0) > 0$. 
+
+{\bf\em Hint.} {\em Use the so-called ``delta-method:" if~$\wh \theta_n$ estimates~$\theta \in \R$ in such a way that
+\[
+\sqrt{n} (\wh \theta_n - \theta) \underset{n \to \infty}{\weakto} \cN(0,\sigma^2),
+\]
+and~$g(\cdot)$ is differentiable at~$\theta$, then~$\sqrt{n} [g(\wh \theta_n) - g(\theta)] \underset{n \to \infty}{\weakto} \cN(0,\sigma_g^2)$ with~$\sigma_ g^2 = \sigma^2 (g'(\theta))^2$.
+}
+What you can say about this in the light of the previous example (with the Laplacian density)?
+
+\textcolor{magenta}{
+Mea culpa, delta-method does not suffices to prove this.
+I decided to not penalize you if you did not solve this problem. Below I first give a heuristic argument that analyzes a ``pseudo-estimator'' which we expect to have a similar statistical behavior to~$\wh \Med_n$; delta-method suffices there. 
+After that, I give a rigorous proof (in magenta); please read it if you are curious.
+}
+\vspace{-0.5cm}
+\odima{
+\paragraph{Heuristic argument.}
+%As before, we can w.l.o.g.~assume that~$\mu = 0$. 
+Let~$g(\cdot) = F^{-1}_X(\cdot)$, i.e.~the inverse c.d.f.~of~$X$.
+Then~$g(\theta^*) = \mu^*$ for~$\theta^* = \frac{1}{2}$. 
+Now, define
+\[
+\wt\theta_n := \frac{1}{n} \sum_{i \in [n]} \mathds{1} \left\{ X_i \le \mu^* \right\}.
+\]
+and consider
+\[
+\wt \mu_n := g(\wt \theta_n).
+\]
+Intuitively, we expect this ``estimator'' to have similar statistical behavior as~$\wh \Med_n$. (Think why we may expect this.)
+Of course,~$\wt \mu_n$ is not an actual estimator, as~$\mu^*$ is not observed, but this does not prevent us from applying the delta-method. 
+To this end, observe that~$\wt\theta_n$ is the empirical average of~$n$ i.i.d. Bernoulli's, each with variance~$\sigma^2 = \frac{1}{4}$. 
+(Recall that~Bernoulli$(p)$ has variance~$p(1-p)$.) Moreover, by the composition rule~$g'(\frac{1}{2}) = \frac{1}{F_X'(F_X^{-1}(\frac{1}{2}))} = \frac{1}{F_X'(\mu^*)} = \frac{1}{f(0)}$; as a result, 
+\[
+\sqrt{n} (\wt \mu_n - \mu^*) \weakto \cN\left(0,\frac{1}{4f(0)^2}\right)
+\]
+by the delta-method. 
+In particular,~$\Var[\wt \mu_n] = \frac{1+o(1)}{4nf(0)^2}$, and we see that for the Laplace distribution~$\wt \mu_n$ is asymptotically efficient (as~$f(0) = \frac{1}{2}$). 
+}
+
+%It remains to show that~$\sqrt{n}(\wh \Med_n - \mu^*)$ has the same asymptotic distribution as~$\sqrt{n}(\wt \mu_n - \mu^*)$. ({\bf If you did not do this, but noticed the point itself, I shall not penalize you.}) 
+%Clearly, it suffices to prove that
+%$\sqrt{n} |\wh \Med_n - \wt\mu_n| \stackrel{\Prob_{\mu^*}}{\to} 0.$
+%Noting that~$\wt\mu_n = g(\wt \theta_n)$ and~$\wh \Med_n = g_n(\frac{1}{2})$
+
+\vspace{-0.5cm}
+\textcolor{magenta}{
+\paragraph{Rigorous proof.}
+For~$\alpha \in (0,1)$, let~$q_{\alpha}$ be the~$\alpha$-percentile of~$\cN(0,1)$. We are to prove that
+\[
+\Prob \left[ \sqrt{n} (\wh\Med_n - \mu^*) \le \frac{q_{\alpha}}{2f(0)} \right] \to \alpha
+\]
+as~$n \to \infty$.  To this end, denoting~$F_n = \frac{1}{n} \sum_{i = 1}^n \mathds{1} \{X_i \le u\}$ the empirical c.d.f., observe that
+\begin{equation}
+\label{eq:median-via-cdf}
+\Prob \left[ \sqrt{n} (\wh\Med_n - \mu^*) \le \frac{q_{\alpha}}{2f(0)} \right] 
+= \Prob \left[ \wh\Med_n \le \mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}}\right] 
+= \Prob \left[F_n \left(\mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}} \right) \ge \frac{1}{2} \right].
+\end{equation}
+Indeed,~$\wh\Med_n \le x$ if and only if at least half of the sample is at most~$x$. 
+Now, the difficulty in analyzing the latter probability is that~$n F_n \left(\mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}} \right)$ has binomial distribution with success probability depending on~$n$, so we cannot apply CLT directly. 
+Instead, define
+\[
+\begin{aligned}
+E_{n} := \sqrt{n} \left[ F_n \left(\mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}} \right) - F_n \left(\mu^*\right) \right],
+\end{aligned}
+\]
+so that~$F_n \left(\mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}} \right) = F_n \left(\mu^*\right) + \frac{1}{\sqrt{n}} E_n$. 
+Assuming w.l.o.g.~that~$\alpha \ge \frac{1}{2}$, so that~$q_{\alpha} \ge 0$ (the remaining case is analogous and left as an exercise), we have that
+\[
+E_n = \frac{1}{\sqrt{n}} \sum_{i \in [n]} \mathds{1} \left\{\mu^* \le X_i \le \mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}} \right\},
+\]
+so~$\sqrt{n}E_n$ is $\textup{Binomial}(n,p_n)$ with
+\[
+p_n 
+= F\left(\mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}}\right)  - F(\mu^*) 
+= (1+o(1)) F'(\mu^*) \frac{q_{\alpha}}{2f(0)\sqrt{n}} 
+= (1+o(1)) \frac{q_{\alpha}}{2\sqrt{n}}.
+\]
+Thus,~$\E[E_n] = \sqrt{n} p_n = (1+o(1)) \frac{q_{\alpha}}{2}$ and~$\Var[E_n] = o(1)$, and therefore~$E_n - \frac{q_\alpha}{2} \stackrel{\Prob}\to 0$, that is
+\[
+\Prob \left[ \left| E_n - \frac{q_n}{2} \right| \ge \varepsilon \right] \to 0,
+\]
+for any~$\varepsilon$, as~$n \to \infty$. Returning to~\eqref{eq:median-via-cdf} this gives:
+\footnote{Below we use the result that if~$U_n \weakto U$ and~$V_n \stackrel{\Prob}{\to} 0$, then~$U_n + V_n \weakto U$. Its proof can be found, for example, here:~\url{https://en.wikipedia.org/wiki/Proofs_of_convergence_of_random_variables\#propB3}.}
+\[
+\begin{aligned}
+\Prob \left[F_n \left(\mu^* + \frac{q_{\alpha}}{2f(0)\sqrt{n}} \right) \ge \frac{1}{2} \right] 
+&= \Prob \left[\sqrt{n} F_n(\mu^*) + E_n \ge \frac{\sqrt{n}}{2} \right]  \\
+&= \Prob \left[\sqrt{n} F_n(\mu^*) + \frac{q_{\alpha}}{2} \ge \frac{\sqrt{n}}{2} \right] + o(1).
+\end{aligned}
+\]
+On the other hand, for the probability in the right-hand side we get, via CLT, that
+\[
+\Prob \left[\sqrt{n} F_n(\mu^*) + \frac{q_{\alpha}}{2} \ge \frac{\sqrt{n}}{2} \right] 
+= \Prob \left[2\sqrt{n} \left( F_n(\mu^*) - \frac{1}{2} \right) \ge -q_{\alpha} \right]
+\to \alpha.
+\]
+We are done.\qed
+}
+
+
+\item[(e)] Give another example of a symmetric~$f(u)$ such that~$\wh\Med_n$ does {not} attain the Cram\'er-Rao bound in the corresponding family.
+
+\odima{One can consider, for example, estimating the normal shift, i.e.~$X_1, ..., X_n \sim \cN(\mu,1)$ i.i.d. Then~$\bar X_n$, the sample average, is MLE, and attains the Cr\'amer-Rao bound (this is an elementary case of the Gauss-Markov theorem, but it can easily be verified explicitly), and is a unique such estimator. Since~$\wh \Med_n \ne \bar X_n$ with non-zero probability,~$\wh \Med_n$ cannot reach CRB.}
+\end{itemize}
+
+\vsp
+
+\newpage 
+
+\proofstep{3}: {\em MLE for the ratio of two independent exponential distributions.}\\
+%
+Let~$X \sim \Exp(\lambda)$ and~$Y \sim \Exp(\mu)$ be independent, where~$\Exp(\lambda)$ is the distribution with p.d.f.
+\[
+\lambda e^{-\lambda x}, \quad x > 0.
+\]
+Let~$Z = X/Y$, and consider an i.i.d.~sample~$(Z_1, ..., Z_n)$ with each~$Z_i$ being distributed as~$Z$.
+
+\begin{itemize}
+\item[(a)] 
+Without deriving the distribution of~$Z$ explicitly, argue that it depends only on
+$
+\theta := {\mu}/{\lambda},
+$
+not on~$\lambda,\mu$ separately.
+
+{\bf\em Hint:} for~$\alpha > 0$, what is the distribution of~$\alpha X$?
+%\item[(b)]
+%Now, show that the c.d.f.~of~$Z$ is
+%\[
+%F(z; \rho) = \frac{1}{1+ \frac{1}{\rho z}}, \quad z > 0.
+%\]
+
+\odima{
+Note that~$\alpha X \sim \Exp(\lambda/\alpha)$, $\alpha Y \sim \Exp(\mu/\alpha)$, and~$Z = \frac{\alpha X}{\alpha Y}$. Thus, scaling~$\lambda$ and~$\mu$ simultaneously by the same (positive) constant does not change the distribution of their ratio. 
+}
+
+\item[(b)]
+Show that the p.d.f.~of~$Z$ is
+\[
+%f(z | \rho) = \frac{\rho}{(1+\rho z)^2}, \quad z > 0.
+f(z | \theta) = \frac{\theta}{(z + \theta)^2}, \quad z > 0.
+\]
+Does this distribution have an expectation?
+
+{\bf\em Hint:} {\em you might want to start with the~c.d.f.}
+
+\odima{
+Let us compute the c.d.f. of~$Z$:
+\[
+\begin{aligned}
+F(z|\theta) 
+= \Prob\left[ X \le Yz \right] 
+= \int_{0}^\infty F_X(yz) f_Y(y) dy 
+&= \int_{0}^\infty (1-e^{-\lambda yz}) \mu e^{-\mu y} dy \\
+&= \int_{0}^\infty (1-e^{-\frac{uz}{\theta}}) e^{-u} du 
+= 1 - \frac{\theta}{\theta+z}.
+\end{aligned}
+\]
+The expression for p.d.f.~follows.
+Expectation does not exist as the integral~$\int_{0}^{\infty} \frac{\theta}{\theta+z} dz$ diverges.
+}
+
+\item[(c)]
+Show that~$\wh \theta_n$, the MLE of~$\theta$ from~$Z_1, ..., Z_n$, satisfies the following equation:
+\[
+\sum_{i = 1}^n F(Z_i | \wh\theta_n) = \frac{n}{2}
+\]
+where~$F(z|\theta)$ is the~c.d.f.~of~$Z$. Argue that the solution always exists and is unique. 
+%Using the general properties of~c.d.f. for continuous distributions, 
+
+\odima{
+Observe that
+\[
+\frac{\partial}{\partial \theta} \log \left( \frac{\theta}{(z + \theta)^2} \right) = \frac{1}{\theta} - \frac{2}{z + \theta}, 
+\]
+whence for~$\wh\theta_n$ we obtain the equation
+\[
+\frac{\partial}{\partial \theta} L_n(\wh\theta_n) = \frac{1}{\wh\theta_n} - \frac{2}{n} \sum_{i \in [n]} \frac{1}{z_i+\wh\theta_n} = 0,
+\]
+By multiplying with~$\wh \theta_n$, this becomes 
+\[
+\frac{1}{n} \sum_{i \in [n]} [1-F(Z_i|\wh\theta_n)]= \frac{1}{2},
+\]
+which is equivalent to the desired equation. It has a unique solution since, for any~$z > 0$,~$F(z;\cdot)$ strictly (and continuously) increases from~$0$ to~$1$, so the left-hand side passes over~$[0,1]$ once.
+}
+
+\item[(d)]
+Comment on the above equation, explaining why the right-hand side has the factor~$\frac{1}{2}$. 
+To this end, show that for \underline{any continuous distribution}~$\Prob_{\theta}$ with c.d.f.~$H(t; \theta)$, it holds that
+\[
+\E_{T \sim \Prob_{\theta}} [H(T; \theta)] = \frac{1}{2}.
+\]
+Then explain the MLE equation in this context. 
+
+{\bf\em  Hint:} {\em You may draw an analogy with the method of moments.}
+%{\em think what ``role'' parameter~$\rho$ plays in the distribution of~$Z$.}
+
+\odima{
+Let~$\Prob_{\theta}$ have c.d.f.~$H(\cdot; \theta)$. Denoting~$h(\cdot; \theta)$ the corresponding p.d.f., we get:
+\[
+\E_{\theta}[H(T; \theta)] = \int_{\R} H(t; \theta) h(t;\theta) dt = \int_{\R} H(t; \theta) \frac{d H(t;\theta)}{dt} dt = \int_{0}^{1} H d H = \frac{H^2}{2} \bigg\vert_{0}^1 = \frac{1}{2}, 
+\]
+as required.  
+Assuming~that~$\E_{\theta^*} [H(T; \theta')] \ne \frac{1}{2}$ for any~$\theta' \ne \theta^*$,\footnote{This assumption holds, e.g., when~$H(t,\theta)$ is monotone in~$\theta$ with fixed~$z$ (why?), which is the case for~$F(Z|\theta)$.}   this equation uniquely identifies~$\theta^*$. 
+The MLE equation replaces expectation with empirical average. This mimics the method of moments, but makes sense even when no moments exist, as is the case for~$Z$.
+}
+
+\item[(e)] 
+Show that for the distribution whose p.d.f.~you found in (b),~$\theta$ also happens to be the median. 
+
+\odima{
+Observe that
+\[
+\Prob[Z > \theta] 
+= \int_{\theta}^{+\infty} \frac{\theta}{(z+\theta)^2} dz = -\frac{\theta}{z+\theta} \bigg|_{\theta}^{+\infty} = \frac{1}{2}.
+\]
+}
+
+\end{itemize}
+
+
+\vsp 
+
+\newpage 
+
+\fi 
+
+\proofstep{1}: {\em Tail bounds for the Gaussian distribution}. 
+
+Let~$\phi(\cdot)$ be the p.d.f. of~$\cN(0,1)$, i.e.~$\phi(t) = \frac{1}{\sqrt{2\pi}} e^{-\frac{t^2}{2}}$. For any~$u \ge 0$, let~$\Phi(u) := \int_{t \ge u} \phi(t) dt$.
+\begin{itemize}
+\item[(a)]
+Prove the following bounds (holding for all~$u \ge 0$):
+\[
+\left( \frac{1}{u} - \frac{1}{u^3} \right) \phi(u) \le \Phi(u) \le \frac{1}{u} \phi(u).
+\]
+{\bf\em Hint 1:} {\em Try to prove the upper bound first.}
+
+{\bf\em Hint 2:} {\em Integration by parts is the way here; use it first to prove the upper bound, and then for the lower bound.}\\
+
+\odima{For the upper bound, note that
+\[
+\sqrt{2\pi} \Phi(u) = \int_{u}^{\infty} e^{-\frac{t^2}{2}} dt 
+\le \frac{1}{u} \int_{u}^{\infty} t e^{-\frac{t^2}{2}} dt 
+= \frac{1}{u} \int_{\frac{u^2}{2}}^{\infty} e^{-v} dv
+= \frac{1}{u} e^{-\frac{u^2}{2}}.
+\]
+and we are done. However, it is not clear how to get the lower bound from this (as we applied an estimate from above already in the first step.) 
+So, let us try a slightly different route: 
+\[
+\sqrt{2\pi} \Phi(u) = 
+\int_{u}^{\infty} e^{-\frac{t^2}{2}} dt 
+= \int_{u}^{\infty} \underbrace{\frac{1}{t}}_{f_0(t)} \underbrace{t e^{-\frac{t^2}{2}} dt}_{d g(t)}
+\]
+where~$g(t) = -e^{-\frac{t^2}{2}}$. Integrating by parts we get
+\[
+\sqrt{2\pi} \Phi(u) 
+= -\frac{1}{t} e^{-\frac{t^2}{2}} \bigg|_{u}^{\infty} - \int_{u}^\infty \frac{1}{t^2} e^{-\frac{t^2}{2}} dt 
+= \frac{1}{u} e^{-\frac{u^2}{2}} - \int_{u}^\infty \frac{1}{t^2} e^{-\frac{t^2}{2}} dt.
+\]
+Now the upper bound follows by observing that the integral is non-negative. 
+On the other hand, for the lower bound we have to {\em upper-bound} this integral, i.e.~upper-bound
+\[
+I_1(u) := \int_{u}^\infty \frac{1}{t^2} e^{-\frac{t^2}{2}} dt.
+\]
+This can be done by the same trick as before when dealing with~$I_0(u) := \int_{u}^\infty e^{-\frac{t^2}{2}} dt$, namely:
+\[
+I_1(u) = \int_{u}^\infty \underbrace{\frac{1}{t^3}}_{f_1(t)} \underbrace{t e^{-\frac{t^2}{2}} dt}_{dg(t)} = 
+\frac{1}{u^3} e^{-\frac{u^2}{2}} - \int_{u}^\infty \frac{3}{t^4} e^{-\frac{t^2}{2}} dt. 
+\]
+We recognize the lower bound by noting that the subtracted integral is non-negative.
+}
+\item[(b)] 
+Capitalizing on the trick you have just figured out to get the lower bound from the upper bound, prove a new upper bound:
+\[
+\Phi(u) \le \left( \frac{1}{u} - \frac{1}{u^3} + \frac{3}{u^5} \right) \phi(u).
+\]
+Note that this bound is sharper than the previous one for large enough~$u$. 
+
+\odima{The new upper bound follows by estimating the integral~$I_2(u) = \int_{u}^\infty \frac{1}{t^4} e^{-\frac{t^2}{2}} dt$ 
+via the same method, i.e. by~writing it as~$I_2(u) = \int_{u}^\infty f_5(t) dg(t)$ with~$f_2(t) = \frac{1}{t^5}$ and integrating by parts.}
+
+\item[(c)$^*$]
+%{\bf (Bonus.)} 
+If we continue applying this approach iteratively, what bounds shall we get after~$k$ such ``iterations?''
+
+\odima{We have the following pattern. For any nonnegative integer~$k$, define
+\[
+I_{k}(u) := \int_{u}^\infty t^{-2k} e^{-\frac{t^2}{2}} dt 
+\quad \text{and} \quad
+f_{k}(t) := t^{-(2k+1)}.
+\]
+Then, in order to bound~$I_{0}(u) = \sqrt{2 \pi} \Phi(u)$, we observe that, through the same trick as before,
+\[
+\begin{aligned}
+I_{k}(u) 
+= \int_{u}^\infty f_{k}(t) dg(t)  
+&= f_{k}(t) g(t) \bigg|_{u}^{\infty} - (2k+1) I_{k+1}(u) \\
+&= \frac{1}{u^{2k+1}} e^{-\frac{u^2}{2}} - (2k+1) I_{k+1}(u).
+\end{aligned}
+\]
+From this it is easy to see that 
+\[
+e^{\frac{u^2}{2}} I_{0}(u) 
+= \frac{1}{u} - \frac{1}{u^3} + \frac{1 \cdot 3}{u^5} - \frac{1 \cdot 3 \cdot 5}{u^{7}} + ...
+= \sum_{k = 0}^{\infty} (-1)^{k} \frac{(2k-1)!!}{u^{2k+1}},
+\]
+and that we get an upper (resp.~lower) bound if we stop at any positive (resp.~negative) term.
+
+See also~``Bounding Standard Gaussian Tail Probabilities'' by L. Duembgen (2010).
+}
+
+\end{itemize}
+
+
+\vsp
+
+\newpage
+
+\proofstep{2}: {\em Stein's paradox}.
+Consider the problem of estimating the mean~$\mu$ in the multivariate Gaussian location family
+\begin{equation}
+\label{eq:normal-location-family}
+\Prob_\mu = \cN(\mu, I), \;\; \text{for} \;\; \mu \in \R^d,
+\end{equation}
+%where the variance parameter~$\sigma^2$ is known, 
+from a single observation~$X \sim \Prob_\mu$.
+Note that here,~$X$ itself is the maximum likelihood estimator (MLE) for~$\mu$. Defining for any estimator~$\hat\mu = \hat \mu(X)$ of~$\mu$ the variance
+\[
+\Var_{\mu}[\hat\mu] := \E_{\mu}[\|\hat \mu - \E[\hat\mu]\|^2]
+\] 
+and the quadratic risk
+\[
+\Risk_{\mu}[\hat\mu] := \E_{\mu}[\|\hat \mu - \mu\|^2],
+\] 
+where $\|x\| := (\sum_{i} x_i^2)^{1/2}$ is the Euclidean norm of~$x = (x_1,...,x_d) \in \R^d$, we see that for any~$\mu \in \R^d$,
+\[
+\Risk_{\mu}[X] = \Var_{\mu}[X] = d.
+\]
+%where the first identity relies on~$X$ being unbiased.
+
+Intuitively, it is hard to suspect that one can find a more reasonable estimator of~$\mu$ than~$X$.
+Yet, this turns out to be the case: one may improve over the MLE uniformly on the family~\eqref{eq:normal-location-family} when~$d > 2$. 
+This celebrated result was established by James and Stein in 1976, and our goal is to reproduce it.
+
+But first, let us establish the terminology.
+
+\begin{definition}
+An estimator~$\hat\mu$ is {\em dominated} by some other estimator~$\hat \mu'$ if~$\Risk_{\mu}[\hat\mu'] \le \Risk_{\mu}[\hat\mu]$ for any~$\mu$, and there exists a parameter value~$\bar\mu$ such that~$\Risk_{\bar\mu}[\hat\mu'] < \Risk_{\bar\mu}[\hat\mu]$.
+\end{definition}
+
+\begin{definition}
+An estimator~$\hat\mu$ is called {\em admissible} if it is not dominated by any other estimator. Otherwise, it is called {\em inadmissible}.
+\end{definition}
+
+As statisticians, ideally we would like to compare two estimators over the whole family at once, without specifying~$\mu$. %Admissibility  is a partial remedy
+Two admissible estimators cannot be compared this way, but at the very least we can rule out any {\em inadmissible} estimator, as for it there exists a uniformly better one.\\
+
+You will show that the MLE is inadmissible when~$d \ge 3$, by constructing a dominating estimator.
+
+%be improved uniformly improved over by using some estimator~$\hat\mu'$ instead.
+%Clearly, we cannot do this for two admissible estimators: one will be better for one value of~$\mu$, and another one for some other value. However, any {\em inadmissible} estimator has an estimator
+
+
+%more general estimators; in particular, introducing some bias might help
+
+\begin{itemize}
+
+\item[(i)] 
+Consider {\em shrinkage estimators}
+$
+\hat\mu =  sX
+$
+with~$s \in \R$, and compute their risks for any~$s$.
+Show that one can restrict attention to~$s \in [0,1]$ (hence ``shrinkage'') by finding a dominating estimator for~$\hat\mu$ with~$s < 0$ or~$s > 1$. 
+\begin{turn}{180}
+({\em {\bf Hint:} look for an estimator~$\hat\mu' =  s'X$ with~$s' \in [0,1]$.})
+\end{turn}
+
+
+\item[(ii)] 
+Show that, for given~$\mu$, the best value of~$s$---i.e., the one minimizing the risk---is given by
+\[
+s^* = \frac{\|\mu\|^2}{d + \|\mu\|^2} 
+= 1-\frac{d}{d + \|\mu\|^2}.
+\]
+
+\textcolor{red}{
+Define~$L_\mu(s):=\text{Risk}_{\mu}[sX]$ for any (fixed)~$s \in \R$, then (denoting~$\|\cdot\|$ the~$\ell_2$-norm on~$\R^d$):
+\[
+\begin{aligned}
+L_{\mu}(s) = \E[\| sX-\mu \|^2 ] 
+&= \E[\| (1-s)\mu + s(X-\mu) \|^2 ]  \\
+&= (1-s)^2 \|\mu\|^2 + s^2\E[\|X-\mu\|^2] \\
+&= (1-s)^2 \|\mu\|^2 + s^2 d.
+\end{aligned}
+\]
+Clearly, $L_{\mu}(s) > L_{\mu}(0)$ for any~$s < 0$ and~$\mu \in \R^d$);  thus,~$\hat \mu = sX$ with such~$s$ is dominated by the trivial estimator~$\hat\mu\equiv 0$. Similarly,~$\hat \mu = sX$ with~$s > 1$ is dominated by~$\hat\mu = X$. As for~(ii), it is clear that~$s^*$ is indeed the unique minimizer of~$L_{\mu}(\cdot)$: by examining the first two derivatives we see that~$L_{\mu}(\cdot)$ is strongly convex on~$\R^d$.
+}
+
+\item[(iii)] Unfortunately,~$\hat \mu^* = s^* X$ is not a proper estimator. (Why?) 
+%it  depends on the unknown parameter~$\mu$, and hence is not observable (and cannot be computed). 
+Instead of it, one may consider
+\[
+\left(1-\frac{d}{\|X\|^2}\right) X,
+\]
+which is an actual estimator. Can you explain the heuristic motivation behind this estimator?
+
+\textcolor{red}{
+The ``ideal'' estimator, as given by~$s^* X$, is unavailable because~$s^*$ depends on the unknown quantity~$\|\mu\|$ in the denominator. In such situations, a natural idea is to replace the unknown quantity by its unbiased estimator---that is, if we are lucky enough, and such an estimate can be inferred from observations at hand. 
+This is the case here:~$\E[\|X\|^2] = \|\mu\|^2 - d$, so we have an unbiased estimate of~$\|\mu\|^2$ as given by~$\| X \|^2 - d$. This is what motivates the proposed estimator.
+}\\
+
+\textcolor{red}{
+\textbf{Explanation (not required in the solution):}
+However, this estimator does {\em not} dominate MLE (at least I am not aware of any proof). In order to transform it to a dominating estimator, we have to slightly modify it as suggested in~(iv). Indeed, unbiased estimation of~$\|\mu\|^2$, as suggested here, is simply a heuristic idea, and the suggested estimator does not have to be optimal. Moreover, it is not hard to guess---intuitively---why it will not be so: while~$\|X\|^2$ is an unbiased estimate of~$\|\mu\|^2 + d$, clearly~$d/\|X\|^2$ is a {\em biased} estimate of the quantity~$\frac{d}{\|\mu\|^2 + d}$. 
+In particular, one may verify that if~$z \sim \chi_d^2$,~then~$\E[\frac{1}{z}] = \frac{1}{d-2}$ for~$d > 2$ and~$\E[\frac{1}{z}] = \infty$ for~$d \le 2$. (Try it!)
+%\textcolor{red}{
+%In fact, this hunch can be pushed even further by  the following observation: when~$\mu = 0$,~$\|X\|^2 \sim \chi_d^2$ satisfies
+%\[
+%\E[1/\|X\|^2] = \frac{1}{d-2}. 
+%\]
+%}
+The final step of the problem can be understood as a way of eliminating this bias.
+}
+
+\item[(iv$^*$)]
+{\bf Here is the most difficult step.} 
+Assuming that~$d \ge 2$, derive the {\em James-Stein estimator}
+\begin{equation}
+\hat \mu^{JS} = \left(1-\frac{d-2}{\|X\|^2}\right) X
+\end{equation}
+by minimizing over~$\delta \in \R$ the risk of the estimator  
+\[
+\hat \mu^{\delta} = \left(1-\frac{\delta}{\|X\|^2}\right) X
+\]
+for a fixed~$\mu$. 
+In order to show that~$R(\delta) = \Risk_{\mu}[\hat \mu^{\delta}]$ is minimized at~$d-2$, use Stein's lemma: 
+
+\begin{lemma}
+Let~$X \sim \cN(\mu, I)$ and~$g(x)$ be a function on~$\R^d$ differentiable almost everywhere, and such that~$\E_{\mu} \left[ | \frac{\partial}{\partial x_i} g(X) | \right] < \infty$ and~$\E_{\mu}[|(X_i - \mu_i)g(X)|] < \infty$ for any~$i \in [d] := \{1, 2, ..., d\}$. Then
+\[
+\E_{\mu} [(X_i - \mu_i)g(X)] = \E_{\mu} \left[ \frac{\partial}{\partial x_i} g(X) \right], \quad i \in [d].
+\]
+\end{lemma}
+
+When applying Stein's lemma to the right function~$g(X)$, please do check the absolute integrability conditions in its premise, and explain why the argument does not work for~$d = 1$.
+
+Finally, verify that~$R(\delta)$ is strictly convex when~$d \ge 3$ (thus~$\hat \mu^{JS}$ indeed dominates the MLE). 
+
+\textcolor{red}{
+Let~$R(\delta) = \Risk_{\mu}[\hat \mu^{\delta}]$. Observe that (writing~$\E$ instead of~$\E_{\mu}$ for brevity):
+\[
+\begin{aligned}
+R(\delta) = \E \left[\left\|X - \mu - \frac{\delta}{\|X\|^2} X \right\|^2 \right] 
+&= \E[\|X - \mu\|^2] - 2\delta \E \left[ \langle X-\mu, \frac{1}{\|X\|^2} X \rangle \right]  + \delta^2 \E \left[\frac{1}{\|X\|^2}\right].
+%&= d - 2\delta\E \left[ \langle X-\mu, \frac{1}{\|X\|^2} X \rangle \right]  + \delta^2 \E \left[\frac{1}{\|X\|^2}\right] \\
+\end{aligned}
+\]
+Clearly,~$\E[\|X - \mu\|^2] = d$. However, the last two terms are not easily computed explicitly, and this is where Stein's lemma will help us. 
+However, even before we proceed with it, observe that~$R(\delta)$ is a strictly convex quadratic, and thus has a (unique) minimizer.\vspace{0.2cm}\\
+Now, our plan is to apply Stein's lemma with functions~$g_i(x) = \frac{x_i}{\|x\|^2}$, for each~$i \in [d]$, in the role of~$g(x)$. 
+Note that differentiable everywhere on~$\R^d$ except the origin, and we compute
+\[
+\frac{\partial}{\partial x_i} g_i(x) = \frac{\|x\|^2 - 2x_i^2}{\|x\|^4} = \frac{1}{\|x\|^2} - \frac{2x_i^2}{\|x\|^4}. 
+\] 
+We'll check the conditions of the lemma later on; for now let's see what it implies. 
+By writing~$\langle X- \mu, \frac{1}{\| X \|^2} X \rangle$ as~$\sum_{i \in [d]} (X_i-\mu_i) g_i(X)$ and combining Stein's lemma with the previous result, we get
+\[
+\E\left[\langle X- \mu, \frac{1}{\| X \|^2} X \rangle \right] = (d-2) \E \left[\frac{1}{\|X\|^2} \right].
+\]
+(The~``$-2$'' comes from summing the~$-\frac{2x_i^2}{\|x\|^4}$ terms.) As a result,
+\[
+R(\delta) = d + \E \left[\frac{1}{\|X\|^2} \right] (\delta^2 - 2\delta(d-2)),
+\]
+and we find the minimizer~$\delta^* = d-2$ without computing~$\E \left[\frac{1}{\|X\|^2} \right]$. Strict convexity is clear by noting that~$\E \left[\frac{1}{\|X\|^2} \right] > 0$.
+It remains to verify that the premise of the lemma indeed holds. (Note that we also used that~$\E \left[\frac{1}{\|X\|^2} \right] < \infty$, but we shall prove it as well.) Note that
+\[
+\E\left[\left|\frac{\partial}{\partial x_i} g_i(X) \right|\right] \le 3 \E \left[\frac{1}{\|X\|^2} \right] 
+\]
+and
+\[
+\begin{aligned}
+\sum_{i \in [d]} \E [|(X_i - \mu_i)g_i(X)|] 
+\le 
+\E \left [ \sum_{i \in [d]} \frac{X_i^2}{\|X\|^2} + \frac{|\mu_i x_i|}{\|X\|^2} \right] 
+&\le 1 + \E \left [ \sum_{i \in [d]} \frac{|\mu_i x_i|}{\|X\|^2} \right] \\
+&\le 1 + \frac{1}{2} \E \left [ \sum_{i \in [d]}\frac{\mu_i^2 + x_i^2}{\|X\|^2} \right] \\
+&= \frac{3}{2} + \frac{\|\mu\|^2}{2} \E \left[\frac{1}{\|X\|^2} \right]. 
+\end{aligned}
+\]
+Thus, for~$d > 2$ it suffices to verify that~$\E \left[\frac{1}{\|X\|^2} \right] < \infty$. 
+Let~$Z = X - \mu \sim \cN(0,I_d)$, then
+\[
+\begin{aligned}
+\E \left[\frac{1}{\|X\|^2} \right] 
+=  \E \left[\frac{1}{\|Z + \mu\|^2} \right].
+\end{aligned}
+\]
+By rotational invariance of the Euclidean norm and the distribution of~$Z$, we can w.l.o.g. assume that~$\mu = a e_1$, where~$a = \|\mu\|$ and~$e_1$ is the first canonical basis vector; this results in
+\[
+\E \left[\frac{1}{\|X\|^2} \right] = \E \left[\frac{1}{(Z_1 - a)^2 + \sum_{i \in [d-1]}  Z_i^2} \right].
+\]
+It remains to bound the right-hand side. 
+First, there is a partial solution working when~$d > 3$, but {\em not} for~$d = 3$: to neglect the term depending on~$\mu$ and note that
+\[
+\E \left[\frac{1}{\|X\|^2} \right] 
+\le \E \left[\frac{1}{\sum_{i \in [d-1]}  Z_i^2} \right].
+\] 
+Since~$\sum_{i \in [d-1]}  Z_i^2 \sim \chi_{d-1}^2$, and the expectation of the inverse of~$\chi_d^2$ is~$1/(d-2)$ for~$d > 2$ (as we shall check in a moment), this would result in
+\[
+\E \left[\frac{1}{\|X\|^2} \right] \le \frac{1}{d-3},
+\]
+which is finite for~$d > 3$. 
+For the full solution, we show that the case~$a = 0$ is the hardest, namely
+\[
+\E \left[\frac{1}{(Z_1 - a)^2 + \sum_{i \in [d-1]}  Z_i^2} \right] 
+\le \E \left[\frac{1}{\|Z\|^2} \right] + c
+\]
+for some~$c < \infty$. (This is a crude bound, but it would suffice for our purposes.)
+Indeed, taking~$d = 2$ w.l.o.g. (the case~$d \ge 3$ is analogous, and is not needed anyway in view of the partial solution) we have
+\[
+\E \left[\frac{1}{(Z_1 - a)^2 + Z_2^2} \right] 
+= \E \left[\E \left[\frac{1}{(Z_1 - a)^2 + Z_2^2} \middle| Z_2 \right] \right],
+\]
+and it suffices to show that
+\[
+\E \left[\frac{1}{(Z_1 - a)^2 + b^2}\right] \le \E \left[\frac{1}{Z_1^2 + b^2} + c\right]
+\]
+for any~$a, b \ge 0$. To this end, observe that 
+\[
+\begin{aligned}
+\E \left[\frac{1}{(Z_1 - a)^2 + b^2}\right] 
+\propto \int_{- \infty}^{+\infty} \frac{e^{-\frac{z^2}{2}}}{(z - a)^2 + b^2} dz
+&= e^{-\frac{a^2}{2}}\int_{- \infty}^{+\infty} \frac{e^{-\frac{u^2}{2}} e^{-au}}{u^2 + b^2} du  \\
+&= e^{-\frac{a^2}{2}} \left( \int_{0}^{+\infty} \frac{e^{-\frac{u^2}{2}} e^{-au}}{u^2 + b^2} du + \int_{- \infty}^{0} \frac{e^{-\frac{u^2}{2}} e^{-au}}{u^2 + b^2} du \right) \\
+&\le e^{-\frac{a^2}{2}} \left( \int_{0}^{+\infty} \frac{e^{-\frac{u^2}{2}}}{u^2 + b^2} du + \int_{- \infty}^{0} \frac{e^{-\frac{u^2}{2}} e^{-au}}{u^2 + b^2} du \right) \\
+&\le \frac{1}{2} \E \left[\frac{1}{Z_1^2 + b^2}\right] + e^{-\frac{a^2}{2}} \int_{- \infty}^{0} \frac{e^{-\frac{u^2}{2}} e^{-au}}{u^2 + b^2} du, 
+\end{aligned}
+\]
+and the last term is finite:~$|au| \le \frac{1}{2} a^2 + \frac{1}{2}u^2$ implies
+$
+e^{-\frac{a^2}{2}} \int_{- \infty}^{0} \frac{e^{-\frac{u^2}{2}} e^{-au}du}{u^2 + b^2}  
+\le \int_{- \infty}^{0} \frac{du}{u^2 + b^2}  < \infty.
+$
+In order to validate our application of Stein's lemma, it only remains to verify that~$\E[\frac{1}{\|Z\|^2}] < \infty$ if~$Z \sim \cN(0,I_d)$ with~$d \ge 3$. We shall use the spherical coordinates: recall that the Jacobian determinant is~$r^{d-1}$ and denoting~$A_{d-1}$ the surface area of the sphere~$\{z \in \R^d: \|z\| = 1\}$, then
+\[
+\E \left[\frac{1}{\|Z\|^2} \right] = \frac{A_{d-1}}{(2\pi)^{d/2}} \int_0^{\infty} 
+r^{d-3} e^{-r^2/2} dr.
+\]
+It is easy to see that the integral is finite for any~$d \ge 3$: this is the case for~$d = 3$, and for~$d > 3$ we can split the integral into~$\int_0^1$ and on~$\int_1^{\infty}$ and estimate them separately.
+Finally, for~$d \le 2$---in particular, for~$d=1$---the proposed argument does not work as the integral clearly diverges.
+\hfill $\blacksquare$
+}
+\end{itemize}
+
+\end{document}
