@@ -8,6 +8,8 @@ permalink: /research
 <b>Research Interests</b>
 </p>
 
+I co-organize the Stochastics Seminar at Georgia Tech (Thursday 3:30pm, Skiles 006).  
+I'm also active at the Probability Working Seminar (Tuesday 3:30pm, Skiles 006).  
 
 <p align = "center">
 <img src="irises-downsized.jpg" alt="Irises" width="40%" align="center" hspace="20">  
