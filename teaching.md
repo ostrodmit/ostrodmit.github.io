@@ -6,6 +6,11 @@ permalink: /teaching
   
 __Georgia Tech__  
 
+* Fa24: Differential Equations (Math 2552)  
+[[syllabus]](assets/teaching/Syllabus-M2552-F2024.pdf) 
+[[canvas]](https://gatech.instructure.com/courses/395852) 
+[[lectures]](assets/teaching/M2552-ODE-Lectures.pdf)  
+
 * Sp24: Statistical Estimation (Math 6262)  
 [[syllabus]](assets/teaching/Syllabus-M6262-S2024.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/365662) 
