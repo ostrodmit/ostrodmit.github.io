@@ -8,9 +8,9 @@ __Georgia Tech__
 
 * Sp25: Special Topics in Modern Mathematical Data Science (ISyE 8803)  
 [[syllabus]](assets/teaching/Syllabus-E8803-S2025.pdf) 
-[[hw1]](assets/teaching/Homeworks/GaTech/6262/6262-hw1.pdf) 
-[[hw2]](assets/teaching/Homeworks/GaTech/6262/6262-hw2.pdf) 
-[[hw3]](assets/teaching/Homeworks/GaTech/6262/6262-hw3.pdf) 
+[[hw1]](assets/teaching/Homeworks/GaTech/8803/hw1.pdf) 
+[[hw2]](assets/teaching/Homeworks/GaTech/8803/hw2.pdf) 
+[[hw3]](assets/teaching/Homeworks/GaTech/8803/hw3.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/451798)  
 
 * Fa24: Differential Equations (Math 2552)  
