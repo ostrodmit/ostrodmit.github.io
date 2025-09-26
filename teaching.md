@@ -8,13 +8,13 @@ __Georgia Tech__
 
 * Fa25: High-Dimensional Statistics (Math 7252)  
 [[syllabus]](assets/teaching/Syllabi/Syllabus-M7252-F2025.pdf) 
-[[notes-p1]](assets/teaching/Lectures/MDS-Lectures.pdf)
+[[lectures-p1]](assets/teaching/Lectures/MDS-Lectures.pdf)
 [[hw1]](assets/teaching/Homeworks/GaTech/7252/hw1.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/480610)  
 
 * Sp25: Special Topics in Modern Mathematical Data Science (ISyE 8803)  
 [[syllabus]](assets/teaching/Syllabi/Syllabus-E8803-S2025.pdf) 
-[[notes-p1]](assets/teaching/Lectures/MDS-Lectures.pdf)
+[[lectures-p1]](assets/teaching/Lectures/MDS-Lectures.pdf)
 [[hw1]](assets/teaching/Homeworks/GaTech/8803/hw1.pdf) 
 [[hw2]](assets/teaching/Homeworks/GaTech/8803/hw2.pdf) 
 [[canvas]](https://gatech.instructure.com/courses/451798)  
@@ -22,7 +22,8 @@ __Georgia Tech__
 * Fa24: Differential Equations (Math 2552)  
 [[syllabus]](assets/teaching/Syllabi/Syllabus-M2552-F2024.pdf) 
 [[lectures]](assets/teaching/Lectures/ODE-Lectures.pdf) 
-[[canvas]](https://gatech.instructure.com/courses/395852)  
+[[canvas]](https://gatech.instructure.com/courses/395852) 
+[[piazza]](https://piazza.com/class/m0bftxhe9yp75r#)  
 
 * Sp24: Statistical Estimation (Math 6262)  
 [[syllabus]](assets/teaching/Syllabi/Syllabus-M6262-S2024.pdf) 
