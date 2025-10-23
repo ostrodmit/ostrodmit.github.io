@@ -5,6 +5,7 @@ permalink: /talks
 ---
   
 __Near-Optimal and Tractable Estimation under Shift-Invariance__  
+10/2025: Auburn University, SDS Seminar  
 09/2025: Georgia Tech, School of ISyE  
 07/2025: ICCOPT 2025, Los Angeles  
 01/2025: Georgia Tech, School of Mathematics  
@@ -15,7 +16,7 @@ __Efficient and Near-Optimal Online Portfolio Selection__
 04/2023: Georgia Tech, School of ISyE  
 03/2023: Toulouse School of Economics  
 02/2023: Georgia Tech, School of Mathematics  
-01/2023: Optimization and Statistical Learning (OSL 2023), Les Houches  
+01/2023: Optimization and Statistical Learning, Les Houches  
 10/2022: Georgia Tech, Stochastics Seminar  
 04/2022: University of Southern California, Mathematical Finance Colloquium   
 [[slides]](assets/slides/slides-portfolio.pdf) 
@@ -23,8 +24,8 @@ __Efficient and Near-Optimal Online Portfolio Selection__
 
 
 __Nonconvex-Nonconcave Min-Max Optimization with a Small Maximization Domain__  
-05/2023: SIAM Conference on Optimization (OP23), Seattle  
-03/2022: INFORMS Optimization Society Conference (IOS 2022), Greenville  
+05/2023: SIAM Conference on Optimization, Seattle  
+03/2022: INFORMS Optimization Society Conference, Greenville  
 11/2021: University of Washington, IFDS seminar  
 10/2021: Johns Hopkins University, AMS seminar  
 [[slides]](assets/slides/slides-small-domain.pdf) 
