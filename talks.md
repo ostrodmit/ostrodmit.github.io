@@ -9,7 +9,8 @@ __Near-Optimal and Tractable Estimation under Shift-Invariance__
 09/2025: Georgia Tech, School of ISyE  
 07/2025: ICCOPT 2025, Los Angeles  
 01/2025: Georgia Tech, School of Mathematics  
-[[slides]](assets/slides/slides-optimal-filters.pdf)  
+[[slides]](assets/slides/slides-optimal-filters.pdf) 
+[[video]](https://www.youtube.com/watch?v=YBRdGSuKDNg)  
   
   
 __Efficient and Near-Optimal Online Portfolio Selection__  
