@@ -4,11 +4,16 @@ title: Talks
 permalink: /talks
 ---
   
+__Near-Optimal and Tractable Estimation of Recurrent Sequences__  
+11/2025: Georgia Tech -- Research Horizons Seminar  
+[[slides]](slides-optimal-filters-v2.pdf)  
+
+
 __Near-Optimal and Tractable Estimation under Shift-Invariance__  
 10/2025: Auburn University, SDS Seminar  
 09/2025: Georgia Tech, School of ISyE  
 07/2025: ICCOPT 2025, Los Angeles  
-01/2025: Georgia Tech, School of Mathematics  
+01/2025: Georgia Tech, Stochastics Seminar  
 [[slides]](assets/slides/slides-optimal-filters.pdf) 
 [[video]](https://www.youtube.com/watch?v=YBRdGSuKDNg)  
   
