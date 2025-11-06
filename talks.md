@@ -6,7 +6,7 @@ permalink: /talks
   
 __Near-Optimal and Tractable Estimation of Recurrent Sequences__  
 11/2025: Georgia Tech -- Research Horizons Seminar  
-[[slides]](slides-optimal-filters-v2.pdf)  
+[[slides]](assets/slides/slides-optimal-filters-v2.pdf)  
 
 
 __Near-Optimal and Tractable Estimation under Shift-Invariance__  
