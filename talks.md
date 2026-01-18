@@ -4,6 +4,11 @@ title: Talks
 permalink: /talks
 ---
   
+__Maximization of Recurrent Sequences, Schur Positivity, and Some Conjectures on Polynomial Interpolation__  
+01/2026: Georgia Tech -- Analysis Seminar  
+[[slides]](assets/slides/slides-peak.pdf)  
+
+
 __Near-Optimal and Tractable Estimation of Recurrent Sequences__  
 11/2025: Georgia Tech -- Research Horizons Seminar  
 [[slides]](assets/slides/slides-optimal-filters-v2.pdf)  
