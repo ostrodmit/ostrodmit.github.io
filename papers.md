@@ -9,7 +9,8 @@ permalink: /papers
   
 __Amplitude Maximization in Stable Systems, Schur Positivity, and Some Conjectures on Polynomial Interpolation__  
 Dmitrii M. Ostrovskii, Pavel S. Shcherbakov    
-[[arXiv]](https://arxiv.org/abs/2508.13554)  
+[[arXiv]](https://arxiv.org/abs/2508.13554) 
+[[slides]](assets/slides/slides-peak.pdf)  
 
 
 __Near-Optimal and Tractable Estimation under Shift-Invariance__  
