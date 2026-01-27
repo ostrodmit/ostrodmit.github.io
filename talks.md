@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks
 ---
   
-__Maximization of Recurrent Sequences, Schur Positivity, and Some Conjectures on Polynomial Interpolation__  
+__Maximization of Recurrent Sequences, Schur Positivity, and Derivative Bounds in Lagrange Interpolation__  
 01/2026: Georgia Tech -- Analysis Seminar  
 [[slides]](assets/slides/slides-peak.pdf)  
 
